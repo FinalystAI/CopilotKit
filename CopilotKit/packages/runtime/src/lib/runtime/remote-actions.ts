@@ -19,11 +19,12 @@ import { AbstractAgent } from "@ag-ui/client";
 import { constructAGUIRemoteAction, RemoteAgentAction } from "./agui-action";
 import { CopilotContextInput } from "../../graphql/inputs/copilot-context.input";
 
-export type EndpointDefinition = CopilotKitEndpoint | LangGraphPlatformEndpoint;
+export type EndpointDefinition = CopilotKitEndpoint | LangGraphPlatformEndpoint | AGUIEndpoint;
 
 export enum EndpointType {
   CopilotKit = "copilotKit",
   LangGraphPlatform = "langgraph-platform",
+  AGUI = "agui",
 }
 
 export interface BaseEndpointDefinition<TActionType extends EndpointType> {
@@ -43,8 +44,16 @@ export interface LangGraphPlatformAgent {
   assistantId?: string;
 }
 
+export interface AGUIEndpoint extends BaseEndpointDefinition<EndpointType.AGUI> {
+  agentName: string;
+  url: string;
+  onBeforeRequest?: ({ ctx }: { ctx: GraphQLContext }) => {
+    headers?: Record<string, string> | undefined;
+  };
+}
+
 export interface LangGraphPlatformEndpoint
-  extends BaseEndpointDefinition<EndpointType.LangGraphPlatform> {
+    extends BaseEndpointDefinition<EndpointType.LangGraphPlatform> {
   deploymentUrl: string;
   langsmithApiKey?: string | null;
   agents: LangGraphPlatformAgent[];

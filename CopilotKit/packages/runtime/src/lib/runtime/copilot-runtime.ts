@@ -42,6 +42,7 @@ import { RuntimeEventSource, RuntimeEventTypes } from "../../service-adapters/ev
 import { convertGqlInputToMessages } from "../../service-adapters/conversion";
 import { Message } from "../../graphql/types/converted";
 import { ForwardedParametersInput } from "../../graphql/inputs/forwarded-parameters.input";
+import { AguiClient } from './agui/agui-client';
 
 import {
   isRemoteAgentAction,
@@ -151,6 +152,7 @@ interface OnStopGenerationOptions {
   agentName?: string;
   lastMessage: MessageInput;
 }
+
 type OnStopGenerationHandler = (options: OnStopGenerationOptions) => void | Promise<void>;
 
 interface Middleware {
@@ -831,6 +833,19 @@ please use an LLM adapter instead.`,
     const agents: Promise<AgentWithEndpoint[]> = this.remoteEndpointDefinitions.reduce(
       async (acc: Promise<Agent[]>, endpoint) => {
         const agents = await acc;
+
+        if (endpoint.type === EndpointType.AGUI) {
+          return [
+            ...agents,
+            {
+              name: endpoint.agentName,
+              description: "",
+              id: randomId(),
+              endpoint,
+            },
+          ];
+        }
+
         if (endpoint.type === EndpointType.LangGraphPlatform) {
           const propertyHeaders = graphqlContext.properties.authorization
             ? { authorization: `Bearer ${graphqlContext.properties.authorization}` }
@@ -930,6 +945,24 @@ please use an LLM adapter instead.`,
     const agent = agents.find((agent) => agent.name === agentName);
     if (!agent) {
       throw new Error("Agent not found");
+    }
+
+    if ("endpoint" in agent && (agent.endpoint.type === EndpointType.AGUI)) {
+      try {
+        const client = new AguiClient(agent.endpoint.url);
+        const messages = await client.fetchMessagesByThreadId(threadId);
+        return {
+          threadId: threadId,
+          threadExists: true,
+          state: JSON.stringify({}),
+          messages: JSON.stringify(messages),
+        };
+      } catch (error) {
+        if (error instanceof CopilotKitError) {
+          throw error;
+        }
+        throw new CopilotKitLowLevelError({ error, url: agent.endpoint.url });
+      }
     }
 
     if (
