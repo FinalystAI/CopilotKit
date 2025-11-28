@@ -20,7 +20,7 @@ creating a true interactive loop.
 ### Simple Confirmation Example
 
 ```tsx
-import { useHumanInTheLoop } from "@copilotkit/react-core";
+import { useHumanInTheLoop } from "@finalyst/react-core";
 import { z } from "zod";
 
 useHumanInTheLoop({
@@ -36,13 +36,13 @@ useHumanInTheLoop({
         <div className="p-4 border rounded">
           <p>Are you sure you want to delete {args.itemCount} {args.itemName}(s)?</p>
           <div className="flex gap-2 mt-4">
-            <button 
+            <button
               onClick={() => respond({ confirmed: true })}
               className="bg-red-500 text-white px-4 py-2 rounded"
             >
               Delete
             </button>
-            <button 
+            <button
               onClick={() => respond({ confirmed: false })}
               className="bg-gray-300 px-4 py-2 rounded"
             >
@@ -52,7 +52,7 @@ useHumanInTheLoop({
         </div>
       );
     }
-    
+
     if (status === "complete" && result) {
       return (
         <div className="p-2 text-sm text-gray-600">
@@ -60,7 +60,7 @@ useHumanInTheLoop({
         </div>
       );
     }
-    
+
     return null;
   },
 });
@@ -69,7 +69,7 @@ useHumanInTheLoop({
 ### Complex Input Collection Example
 
 ```tsx
-import { useHumanInTheLoop } from "@copilotkit/react-core";
+import { useHumanInTheLoop } from "@finalyst/react-core";
 import { z } from "zod";
 import { useState } from "react";
 
@@ -98,7 +98,7 @@ useHumanInTheLoop({
             {args.requiredFields.includes("theme") && (
               <div className="mb-4">
                 <label className="block mb-2">Theme:</label>
-                <select 
+                <select
                   value={preferences.theme}
                   onChange={(e) => setPreferences({...preferences, theme: e.target.value})}
                   className="w-full p-2 border rounded"
@@ -109,11 +109,11 @@ useHumanInTheLoop({
                 </select>
               </div>
             )}
-            
+
             {args.requiredFields.includes("notifications") && (
               <div className="mb-4">
                 <label className="flex items-center">
-                  <input 
+                  <input
                     type="checkbox"
                     checked={preferences.notifications}
                     onChange={(e) => setPreferences({...preferences, notifications: e.target.checked})}
@@ -123,8 +123,8 @@ useHumanInTheLoop({
                 </label>
               </div>
             )}
-            
-            <button 
+
+            <button
               type="submit"
               className="bg-blue-500 text-white px-4 py-2 rounded"
             >
@@ -134,7 +134,7 @@ useHumanInTheLoop({
         </div>
       );
     }
-    
+
     return null;
   },
 });
@@ -160,7 +160,7 @@ useHumanInTheLoop({
 
     <PropertyReference name="render" type="React.ComponentType<RenderProps>" required>
       A React component that renders the interactive UI. The component receives props with:
-      
+
       <div className="ml-8">
         <PropertyReference name="status" type="'inProgress' | 'executing' | 'complete'">
           - `"inProgress"`: arguments are being streamed, UI can show loading state.
@@ -217,7 +217,7 @@ useCopilotAction({
   ],
   renderAndWaitForResponse: ({ args, respond, status }) => {
     return (
-      <ConfirmDialog 
+      <ConfirmDialog
         message={args.message}
         onConfirm={() => respond(true)}
         onCancel={() => respond(false)}
@@ -236,7 +236,7 @@ useHumanInTheLoop({
   render: ({ args, respond, status }) => {
     if (status === "executing" && respond) {
       return (
-        <ConfirmDialog 
+        <ConfirmDialog
           message={args.message}
           onConfirm={() => respond(true)}
           onCancel={() => respond(false)}

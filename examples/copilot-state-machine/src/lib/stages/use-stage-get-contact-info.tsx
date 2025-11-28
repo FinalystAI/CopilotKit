@@ -1,6 +1,6 @@
 import { ContactInfo } from "@/components/generative-ui/contact-info";
 import { useGlobalState } from "@/lib/stages";
-import { useCopilotAction, useCopilotAdditionalInstructions } from "@copilotkit/react-core";
+import { useCopilotAction, useCopilotAdditionalInstructions } from "@finalyst/react-core";
 
 export interface UseGetContactInfoStateOptions {
   enabled: boolean;

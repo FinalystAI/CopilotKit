@@ -9,15 +9,15 @@ import { ImageZoom } from 'fumadocs-ui/components/image-zoom';
 
 Now that we have both our application and agent running, let's connect them using CopilotKit. The necessary dependencies are already installed in the `frontend` directory:
 
-- `@copilotkit/react-core`: Core CopilotKit functionality and hooks
-- `@copilotkit/react-ui`: Pre-built UI components for chat interfaces
+- `@finalyst/react-core`: Core CopilotKit functionality and hooks
+- `@finalyst/react-ui`: Pre-built UI components for chat interfaces
 
 <Accordions>
 <Accordion title="Install command (optional)">
   **The package versions in this tutorial are pinned, so updating the dependencies could break the tutorial.**
 
   ```package-install
-  @copilotkit/react-core @copilotkit/react-ui
+  @finalyst/react-core @finalyst/react-ui
   ```
 </Accordion>
 </Accordions>
@@ -64,8 +64,8 @@ Wrap your application with the CopilotKit provider:
 "use client";
 
 // ...
-import { CopilotKit } from "@copilotkit/react-core"; // [!code ++]
-import "@copilotkit/react-ui/styles.css"; // [!code ++]
+import { CopilotKit } from "@finalyst/react-core"; // [!code ++]
+import "@finalyst/react-ui/styles.css"; // [!code ++]
 // ...
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -105,7 +105,7 @@ In this tutorial, we'll use the `<CopilotChat/>` component as we want to aim for
 ```tsx title="frontend/src/components/Chat.tsx"
 "use client"
 
-import { CopilotChat } from "@copilotkit/react-ui";
+import { CopilotChat } from "@finalyst/react-ui";
 import { INITIAL_MESSAGE, MAIN_CHAT_INSTRUCTIONS, MAIN_CHAT_TITLE } from "@/lib/consts";
 
 export default function Chat({ onSubmitMessage }: { onSubmitMessage: () => void }) {
@@ -139,7 +139,7 @@ And we're done! Here's what we did:
 - We configured the CopilotKit provider in our application to use our API key.
 - We added the CopilotSidebar to our application.
 
-Now, head back to the app and you'll find a chat interface on the left side of the page. At this point, you can start interacting with your copilot! 🎉 
+Now, head back to the app and you'll find a chat interface on the left side of the page. At this point, you can start interacting with your copilot! 🎉
 
 <Frame>
   <ImageZoom src="https://cdn.copilotkit.ai/docs/copilotkit/images/coagents/tutorials/research-ana/fe-step-3-finish.png" alt="step-3-finish" height={1000} width={1000} />

@@ -4,7 +4,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { CatchAllActionRenderProps } from "@copilotkit/react-core";
+import { CatchAllActionRenderProps } from "@finalyst/react-core";
 
 export function ToolCall(toolCallProps: CatchAllActionRenderProps) {
   const triggerStyles = "inline-flex rounded-xl items-center gap-2 p-2 rounded bg-indigo-500/60 text-white cursor-pointer m-1";
@@ -21,8 +21,8 @@ export function ToolCall(toolCallProps: CatchAllActionRenderProps) {
           </div>
         </TooltipTrigger>
         <TooltipContent
-          side="right" 
-          align="center" 
+          side="right"
+          align="center"
           className={contentStyles}
         >
           <ToolCallInformation {...toolCallProps} />
@@ -46,7 +46,7 @@ const ToolCallInformation = (toolCallProps: CatchAllActionRenderProps) => {
         <strong>Name:</strong> {name}
       </div>
       <div className={contentStyles}>
-        <strong>Arguments:</strong> 
+        <strong>Arguments:</strong>
         <pre className={preStyles}>
           {JSON.stringify(args, null, 2)}
         </pre>
@@ -55,7 +55,7 @@ const ToolCallInformation = (toolCallProps: CatchAllActionRenderProps) => {
         <strong>Status:</strong> {status}
       </div>
       <div className={contentStyles}>
-        <strong>Result:</strong> 
+        <strong>Result:</strong>
         <pre className={preStyles}>
           {JSON.stringify(result, null, 2)}
         </pre>

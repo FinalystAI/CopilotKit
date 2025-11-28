@@ -5,7 +5,7 @@ import { MongoClient } from 'mongodb';
 import {posts} from "@/app/lib/data/data";
 
 
-import { CopilotRuntime, OpenAIAdapter, copilotRuntimeNextJSAppRouterEndpoint } from "@copilotkit/runtime";
+import { CopilotRuntime, OpenAIAdapter, copilotRuntimeNextJSAppRouterEndpoint } from "@finalyst/runtime";
 import { NextRequest } from 'next/server';
 
 
@@ -46,7 +46,7 @@ const createVectorIndex = async () => {
 
     const result = await collection.createSearchIndex(index);
     console.log(`Vector index created: ${result}`);
-    
+
     interface SearchIndex {
       name: string;
       queryable: boolean;

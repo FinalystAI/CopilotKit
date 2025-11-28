@@ -9,7 +9,7 @@ import { RunnableConfig } from "@langchain/core/runnables";
 import {
   copilotkitCustomizeConfig,
   copilotkitExit,
-} from "@copilotkit/sdk-js/langgraph";
+} from "@finalyst/sdk-js/langgraph";
 import { AIMessage, HumanMessage } from "@langchain/core/messages";
 import { getModel } from "./model";
 import { END, StateGraph } from "@langchain/langgraph";

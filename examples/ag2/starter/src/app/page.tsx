@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import "@copilotkit/react-ui/styles.css";
+import "@finalyst/react-ui/styles.css";
 import "./globals.css";
-import { CopilotKit, useCopilotAction } from "@copilotkit/react-core";
-import { CopilotChat } from "@copilotkit/react-ui";
+import { CopilotKit, useCopilotAction } from "@finalyst/react-core";
+import { CopilotChat } from "@finalyst/react-ui";
 const AG2Chat: React.FC = () => {
   return (
     <CopilotKit

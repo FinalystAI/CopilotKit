@@ -40,7 +40,7 @@ is interrupted and then resumes execution from where it left off, unaware of the
         ### Run and connect your agent
         <RunAndConnectAgentSnippet />
     </Step>
-    
+
     <Step>
       ### Install the CopilotKit SDK
       <InstallSDKSnippet components={props.components}/>
@@ -51,13 +51,13 @@ is interrupted and then resumes execution from where it left off, unaware of the
         First, we'll create a component that renders the agent's essay draft and waits for user approval.
 
         ```tsx title="ui/app/page.tsx"
-        import { useHumanInTheLoop } from "@copilotkit/react-core"
-        import { Markdown } from "@copilotkit/react-ui"
+        import { useHumanInTheLoop } from "@finalyst/react-core"
+        import { Markdown } from "@finalyst/react-ui"
 
         function YourMainContent() {
           // ...
 
-          useHumanInTheLoop({ 
+          useHumanInTheLoop({
             name: "writeEssay",
             description: "Writes an essay and takes the draft as an argument.",
             parameters: [
@@ -68,9 +68,9 @@ is interrupted and then resumes execution from where it left off, unaware of the
               return (
                 <div>
                   <Markdown content={args.draft || 'Preparing your draft...'} />
-                  
+
                   <div className={`flex gap-4 pt-4 ${status !== "executing" ? "hidden" : ""}`}>
-                    <button 
+                    <button
                       onClick={() => respond?.("CANCEL")}
                       disabled={status !== "executing"}
                       className="border p-2 rounded-xl w-full"
@@ -79,7 +79,7 @@ is interrupted and then resumes execution from where it left off, unaware of the
                     </button>
                     <button
                       onClick={() => respond?.("SEND")}
-                      disabled={status !== "executing"} 
+                      disabled={status !== "executing"}
                       className="bg-blue-500 text-white p-2 rounded-xl w-full"
                     >
                       Approve Draft
@@ -159,7 +159,7 @@ is interrupted and then resumes execution from where it left off, unaware of the
         #    where CopilotKit's renderAndWaitForResponse provide the user's response.
         def user_feedback_node(state: AgentState, config: RunnableConfig) -> Command[Literal["chat_node"]]:
             # [!code highlight:3]
-            # 3.1 Get the last message from the state, this will be 
+            # 3.1 Get the last message from the state, this will be
             #     what is returned by respond() in the frontend
             last_message = state["messages"][-1]
 
@@ -199,8 +199,8 @@ is interrupted and then resumes execution from where it left off, unaware of the
         import { ChatOpenAI } from "@langchain/openai";
 
         // // 1. Import necessary helpers for CopilotKit tools
-        import { convertActionsToDynamicStructuredTools } from "@copilotkit/sdk-js/langgraph";
-        import { CopilotKitStateAnnotation } from "@copilotkit/sdk-js/langgraph";
+        import { convertActionsToDynamicStructuredTools } from "@finalyst/sdk-js/langgraph";
+        import { CopilotKitStateAnnotation } from "@finalyst/sdk-js/langgraph";
 
         // 2. Define graph state, inherit from CopilotKitState to bring in CopilotKit tools
         //    and messages.
@@ -238,7 +238,7 @@ is interrupted and then resumes execution from where it left off, unaware of the
             // 3.5.1 If the tool call is "writeEssay", we need to get feedback from the user
             //       by going to the getFeedback node which will be interrupted after
             //       execution, giving CopilotKit a chance to get feedback from the user.
-            //       
+            //
             //       The "writeEssay" tool is a CopilotKit tool and is binded in step 3.2.
             if (toolCall.name === "writeEssay") {
               return new Command({
@@ -272,8 +272,8 @@ is interrupted and then resumes execution from where it left off, unaware of the
           const userResponse = state.messages[state.messages.length - 1].content
 
           // 5.2 Process a informative message for the AI based on the user response
-          const informativeMessage = userResponse === "SEND" ? 
-            "The user accepted the essay, please ask them how you can help now." : 
+          const informativeMessage = userResponse === "SEND" ?
+            "The user accepted the essay, please ask them how you can help now." :
             "The user declined the essay, please ask them how to improve it.";
 
           // 5.3 Return the new state with the informative message as a system message

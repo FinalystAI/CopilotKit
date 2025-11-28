@@ -24,7 +24,7 @@ import {
   CopilotRuntimeChatCompletionResponse,
 } from "../../service-adapter";
 import { Ollama } from "@langchain/community/llms/ollama";
-import { randomId, randomUUID } from "@copilotkit/shared";
+import { randomId, randomUUID } from "@finalyst/shared";
 
 const DEFAULT_MODEL = "llama3:latest";
 

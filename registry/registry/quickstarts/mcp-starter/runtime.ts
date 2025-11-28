@@ -2,7 +2,7 @@ import {
   CopilotRuntime,
   OpenAIAdapter,
   copilotRuntimeNextJSAppRouterEndpoint,
-} from "@copilotkit/runtime";
+} from "@finalyst/runtime";
 import { NextRequest } from "next/server";
 import { HttpStreamClient } from "@/registry/quickstarts/mcp-starter/utils/http-stream-client";
 

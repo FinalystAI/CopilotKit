@@ -3,7 +3,7 @@ import {
   OpenAIAdapter,
   copilotRuntimeNextJSAppRouterEndpoint,
   LangGraphAgent
-} from "@copilotkit/runtime";
+} from "@finalyst/runtime";
 
 import { NextRequest } from "next/server";
 

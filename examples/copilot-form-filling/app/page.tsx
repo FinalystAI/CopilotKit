@@ -1,9 +1,9 @@
 "use client";
 
-import { CopilotPopup } from "@copilotkit/react-ui";
+import { CopilotPopup } from "@finalyst/react-ui";
 import { IncidentReportForm } from "@/components/IncidentReportForm";
 import { prompt } from "@/lib/prompt";
-import { useCopilotReadable } from "@copilotkit/react-core";
+import { useCopilotReadable } from "@finalyst/react-core";
 import { retrieveUserInfo } from "@/lib/user-info";
 
 export default function Home() {
@@ -29,11 +29,11 @@ export default function Home() {
           <h1 className="text-3xl font-bold mb-2">Security Incident Report</h1>
           <p className="text-muted-foreground">Please fill out the form below to report an incident</p>
         </header>
-        
+
         <main>
           <IncidentReportForm />
         </main>
-        
+
         <footer className="mt-16 text-center text-sm text-muted-foreground">
           <p>🪁 Powered by CopilotKit</p>
         </footer>

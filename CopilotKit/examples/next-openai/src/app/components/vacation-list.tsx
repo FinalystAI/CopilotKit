@@ -4,12 +4,12 @@ import {
   useCopilotAction,
   useCopilotChat,
   useMakeCopilotDocumentReadable,
-} from "@copilotkit/react-core";
-import { useCopilotChatSuggestions } from "@copilotkit/react-ui";
+} from "@finalyst/react-core";
+import { useCopilotChatSuggestions } from "@finalyst/react-ui";
 import { useEffect, useState } from "react";
 import { DestinationTable } from "./destination-table";
 import { VacationNotes } from "./vacation-notes";
-import { MessageRole, TextMessage } from "@copilotkit/runtime-client-gql";
+import { MessageRole, TextMessage } from "@finalyst/runtime-client-gql";
 
 export type Destination = {
   name: string;

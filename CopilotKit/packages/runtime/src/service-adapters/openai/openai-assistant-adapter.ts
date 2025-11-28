@@ -4,7 +4,7 @@
  * ## Example
  *
  * ```ts
- * import { CopilotRuntime, OpenAIAssistantAdapter } from "@copilotkit/runtime";
+ * import { CopilotRuntime, OpenAIAssistantAdapter } from "@finalyst/runtime";
  * import OpenAI from "openai";
  *
  * const copilotKit = new CopilotRuntime();

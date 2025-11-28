@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import { CopilotKit } from "@copilotkit/react-core";
-import { CopilotKitCSSProperties, CopilotSidebar } from "@copilotkit/react-ui";
+import { CopilotKit } from "@finalyst/react-core";
+import { CopilotKitCSSProperties, CopilotSidebar } from "@finalyst/react-ui";
 
 const inter = Inter({ subsets: ["latin"] });
 

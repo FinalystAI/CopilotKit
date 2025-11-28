@@ -11,7 +11,7 @@ importers:
 
   .:
     dependencies:
-      '@copilotkit/sdk-js':
+      '@finalyst/sdk-js':
         specifier: ^1.10.2
         version: 1.10.2(@langchain/anthropic@0.3.26(@langchain/core@0.3.72(openai@5.12.2(zod@3.25.67))))(@langchain/google-genai@0.2.16(@langchain/core@0.3.72(openai@5.12.2(zod@3.25.67))))(openai@5.12.2(zod@3.25.67))(zod-to-json-schema@3.24.5(zod@3.25.67))
       '@langchain/anthropic':
@@ -55,10 +55,10 @@ packages:
   '@cfworker/json-schema@4.1.1':
     resolution: {integrity: sha512-gAmrUZSGtKc3AiBL71iNWxDsyUC5uMaKKGdvzYsBoTW/xi42JQHl7eKV2OYzCUqvc+D2RCcf7EXY2iCyFIk6og==}
 
-  '@copilotkit/sdk-js@1.10.2':
+  '@finalyst/sdk-js@1.10.2':
     resolution: {integrity: sha512-Z52zVOW5ngh7gtOvTMIIV8GqKF44Y9aCoAspHZojFClhfKZxzn5zWp0PUhVOPLG8HMagNUY3KIHCU213Xo2QcA==}
 
-  '@copilotkit/shared@1.10.2':
+  '@finalyst/shared@1.10.2':
     resolution: {integrity: sha512-hUtdoqbFQLq3NFAlNPOGrSjvC5fuwpYFp1zzSN/yPuNXYqxS/QL5RG9pnA/pxq1ax+8Fgb9RFOI0aif+uIF7/A==}
 
   '@google/generative-ai@0.24.0':
@@ -895,9 +895,9 @@ snapshots:
 
   '@cfworker/json-schema@4.1.1': {}
 
-  '@copilotkit/sdk-js@1.10.2(@langchain/anthropic@0.3.26(@langchain/core@0.3.72(openai@5.12.2(zod@3.25.67))))(@langchain/google-genai@0.2.16(@langchain/core@0.3.72(openai@5.12.2(zod@3.25.67))))(openai@5.12.2(zod@3.25.67))(zod-to-json-schema@3.24.5(zod@3.25.67))':
+  '@finalyst/sdk-js@1.10.2(@langchain/anthropic@0.3.26(@langchain/core@0.3.72(openai@5.12.2(zod@3.25.67))))(@langchain/google-genai@0.2.16(@langchain/core@0.3.72(openai@5.12.2(zod@3.25.67))))(openai@5.12.2(zod@3.25.67))(zod-to-json-schema@3.24.5(zod@3.25.67))':
     dependencies:
-      '@copilotkit/shared': 1.10.2
+      '@finalyst/shared': 1.10.2
       '@langchain/community': 0.0.53(openai@5.12.2(zod@3.25.67))
       '@langchain/core': 0.3.72(openai@5.12.2(zod@3.25.67))
       '@langchain/langgraph': 0.4.5(@langchain/core@0.3.72(openai@5.12.2(zod@3.25.67)))(zod-to-json-schema@3.24.5(zod@3.25.67))
@@ -1021,7 +1021,7 @@ snapshots:
       - ws
       - zod-to-json-schema
 
-  '@copilotkit/shared@1.10.2':
+  '@finalyst/shared@1.10.2':
     dependencies:
       '@ag-ui/core': 0.0.30
       '@segment/analytics-node': 2.3.0

@@ -20,7 +20,7 @@ import { getModel } from "./model";
 import {
   copilotkitCustomizeConfig,
   copilotkitEmitState,
-} from "@copilotkit/sdk-js/langgraph";
+} from "@finalyst/sdk-js/langgraph";
 
 const ResourceInput = z.object({
   url: z.string().describe("The URL of the resource"),

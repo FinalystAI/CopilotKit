@@ -15,7 +15,7 @@ option to render your custom component through the `render` property.
 
   <Tab value="Render a component">
     [`useRenderToolCall`](/reference/hooks/useRenderToolCall) can be used with a `render` function to display information or UI elements within the chat.
-    
+
     Here's an example to render a calendar meeting.
 
     <Frame>
@@ -28,7 +28,7 @@ option to render your custom component through the `render` property.
 
     ```tsx
     "use client" // only necessary if you are using Next.js with the App Router. // [!code highlight]
-    import { useRenderToolCall } from "@copilotkit/react-core"; // [!code highlight]
+    import { useRenderToolCall } from "@finalyst/react-core"; // [!code highlight]
 
     export function YourComponent() {
       useRenderToolCall({ // [!code highlight]
@@ -92,7 +92,7 @@ option to render your custom component through the `render` property.
 
     ```tsx
     "use client" // only necessary if you are using Next.js with the App Router. // [!code highlight]
-    import { useFrontendTool } from "@copilotkit/react-core"; // [!code highlight]
+    import { useFrontendTool } from "@finalyst/react-core"; // [!code highlight]
 
     useFrontendTool({ // [!code highlight]
       name: "showLastMeetingOfDay",
@@ -135,7 +135,7 @@ option to render your custom component through the `render` property.
 
     ```tsx
     "use client" // only necessary if you are using Next.js with the App Router. // [!code highlight]
-    import { useHumanInTheLoop } from "@copilotkit/react-core"; // [!code highlight]
+    import { useHumanInTheLoop } from "@finalyst/react-core"; // [!code highlight]
 
     useHumanInTheLoop({ // [!code highlight]
       name: "handleMeeting",
@@ -187,7 +187,7 @@ option to render your custom component through the `render` property.
 
     ```tsx
     "use client" // only necessary if you are using Next.js with the App Router. // [!code highlight]
-    import { useFrontendTool } from "@copilotkit/react-core"; // [!code highlight]
+    import { useFrontendTool } from "@finalyst/react-core"; // [!code highlight]
 
     useFrontendTool({ // [!code highlight]
       name: "simpleTool",
@@ -217,7 +217,7 @@ option to render your custom component through the `render` property.
     In this case, the render method will receive an additional `name` parameter. This is particularly useful when working with agents that may call arbitrary tools - see more in our [Tool-based Generative UI](/crewai-crews/generative-ui/tool-based) guide.
 
     ```tsx
-    import { useDefaultTool, CatchAllToolRenderProps } from "@copilotkit/react-core";
+    import { useDefaultTool, CatchAllToolRenderProps } from "@finalyst/react-core";
 
     useDefaultTool({
       render: ({ name, args, status, result }: CatchAllActionRenderProps<[]>) => {

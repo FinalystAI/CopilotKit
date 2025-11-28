@@ -1,8 +1,8 @@
 "use client";
 
-import { CopilotKit } from "@copilotkit/react-core";
+import { CopilotKit } from "@finalyst/react-core";
 import { Translator } from "./Translator";
-import "@copilotkit/react-ui/styles.css";
+import "@finalyst/react-ui/styles.css";
 
 export default function Home() {
   return (

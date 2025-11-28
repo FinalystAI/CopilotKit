@@ -4,8 +4,8 @@ import { ModelSelector } from "@/components/ModelSelector";
 import { ResearchWrapper } from "@/components/ResearchWrapper";
 import { ModelSelectorProvider, useModelSelectorContext } from "@/lib/model-selector-provider";
 import { ResearchProvider } from "@/lib/research-provider";
-import { CopilotKit } from "@copilotkit/react-core";
-import "@copilotkit/react-ui/styles.css";
+import { CopilotKit } from "@finalyst/react-core";
+import "@finalyst/react-ui/styles.css";
 
 export default function ModelSelectorWrapper() {
   return (

@@ -1,5 +1,5 @@
 {
-  "name": "@copilotkit/sdk-js",
+  "name": "@finalyst/sdk-js",
   "private": false,
   "homepage": "https://github.com/CopilotKit/CopilotKit",
   "repository": {
@@ -9,7 +9,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.10.6-next.6",
+  "version": "1.10.6",
   "sideEffects": false,
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -60,7 +60,7 @@
     "zod-to-json-schema": "^3.23.5"
   },
   "dependencies": {
-    "@copilotkit/shared": "workspace:*"
+    "@finalyst/shared": "workspace:*"
   },
   "peerDependencies": {
     "@langchain/community": "^0.0.53",

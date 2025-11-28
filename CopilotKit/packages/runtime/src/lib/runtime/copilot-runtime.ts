@@ -6,7 +6,7 @@
  * ## Usage
  *
  * ```tsx
- * import { CopilotRuntime } from "@copilotkit/runtime";
+ * import { CopilotRuntime } from "@finalyst/runtime";
  *
  * const copilotKit = new CopilotRuntime();
  * ```
@@ -28,7 +28,7 @@ import {
   CopilotErrorEvent,
   CopilotRequestContext,
   ensureStructuredError,
-} from "@copilotkit/shared";
+} from "@finalyst/shared";
 import {
   CopilotServiceAdapter,
   EmptyAdapter,
@@ -270,7 +270,7 @@ export interface CopilotRuntimeConstructorParams<T extends Parameter[] | [] = []
   /**
    * A function that creates an MCP client instance for a given endpoint configuration.
    * This function is responsible for using the appropriate MCP client library
-   * (e.g., `@copilotkit/runtime`, `ai`) to establish a connection.
+   * (e.g., `@finalyst/runtime`, `ai`) to establish a connection.
    * Required if `mcpServers` is provided.
    *
    * ```typescript
@@ -368,7 +368,7 @@ export class CopilotRuntime<const T extends Parameter[] | [] = []> {
     //     return agent instanceof AguiLangGraphAgent && !(agent instanceof LangGraphAgent);
     //   })
     // ) {
-    //   console.warn('LangGraph Agent class should be imported from @copilotkit/runtime. ')
+    //   console.warn('LangGraph Agent class should be imported from @finalyst/runtime. ')
     // }
 
     this.actions = params?.actions || [];
@@ -909,7 +909,7 @@ please use an LLM adapter instead.`,
           const data: InfoResponse = await response.json();
           const endpointAgents = (data?.agents ?? []).map((agent) => ({
             name: agent.name,
-            description: agent.description ?? "" ?? "",
+            description: agent.description ?? "",
             id: randomId(), // Required by Agent type
             endpoint,
           }));

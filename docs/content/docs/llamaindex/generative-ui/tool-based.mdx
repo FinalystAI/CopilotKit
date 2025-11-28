@@ -77,11 +77,11 @@ if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
 ```
-    
+
 </Step>
 <Step>
 ### Render the tool call in your frontend
-At this point, your agent will be able to call the `get_weather` tool. Now 
+At this point, your agent will be able to call the `get_weather` tool. Now
 we just need to add a `useCopilotAction` hook to render the tool call in
 the UI.
 
@@ -91,7 +91,7 @@ the UI.
 </Callout>
 
 ```tsx title="app/page.tsx"
-import { useCopilotAction } from "@copilotkit/react-core"; // [!code highlight]
+import { useCopilotAction } from "@finalyst/react-core"; // [!code highlight]
 // ...
 
 const YourMainContent = () => {
@@ -125,4 +125,4 @@ render the tool call and display the arguments that were passed to the tool.
 
 ### Setup the LlamaIndex Agent
 On the agent side, we are already done! LlamaIndex natively supports the AG-UI protocol and will automatically
-pass control back to the frontend when the `get_weather` action is found in the model's response. 
+pass control back to the frontend when the `get_weather` action is found in the model's response.

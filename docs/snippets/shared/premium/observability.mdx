@@ -20,8 +20,8 @@ Monitor CopilotKit with first‑class observability hooks that emit structured s
 Track user interactions and chat events with comprehensive observability hooks:
 
 ```tsx
-import { CopilotChat } from "@copilotkit/react-ui";
-import { CopilotKit } from "@copilotkit/react-core";
+import { CopilotChat } from "@finalyst/react-ui";
+import { CopilotKit } from "@finalyst/react-core";
 
 export default function App() {
   return (
@@ -68,7 +68,7 @@ export default function App() {
 Monitor system errors and performance with error observability hooks:
 
 ```tsx
-import { CopilotKit } from "@copilotkit/react-core";
+import { CopilotKit } from "@finalyst/react-core";
 
 export default function App() {
   return (
@@ -105,7 +105,7 @@ export default function App() {
 Track user interactions, chat behavior and errors with comprehensive observability hooks (requires a `publicLicenseKey` if self-hosted or `publicAPIkey` if using CopilotCloud):
 
 ```tsx
-import { CopilotChat } from "@copilotkit/react-ui";
+import { CopilotChat } from "@finalyst/react-ui";
 
 <CopilotChat
   observabilityHooks={{
@@ -455,7 +455,7 @@ To use observability hooks (event hooks and error observability), you'll need a 
    ```
 4. **Use it in your CopilotKit provider**:
    ```tsx
-   <CopilotKit 
+   <CopilotKit
       publicLicenseKey={process.env.NEXT_PUBLIC_COPILOTKIT_LICENSE_KEY}
       // OR
       publicApiKey={process.env.NEXT_PUBLIC_COPILOTKIT_API_KEY}

@@ -1,6 +1,6 @@
 import { describe, test, expect, vi } from "vitest";
 import * as gql from "../client";
-import agui from "@copilotkit/shared";
+import agui from "@finalyst/shared";
 import { aguiToGQL } from "./agui-to-gql";
 import { gqlToAGUI } from "./gql-to-agui";
 

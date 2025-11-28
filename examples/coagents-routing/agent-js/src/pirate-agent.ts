@@ -7,7 +7,7 @@ import { SystemMessage } from "@langchain/core/messages";
 import {
   copilotkitExit,
   CopilotKitStateAnnotation,
-} from "@copilotkit/sdk-js/langgraph";
+} from "@finalyst/sdk-js/langgraph";
 import { getModel } from "./model";
 import { END, MemorySaver, StateGraph, Annotation } from "@langchain/langgraph";
 

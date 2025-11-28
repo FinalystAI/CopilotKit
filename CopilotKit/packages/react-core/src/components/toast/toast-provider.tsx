@@ -1,6 +1,6 @@
-import { GraphQLError } from "@copilotkit/runtime-client-gql";
+import { GraphQLError } from "@finalyst/runtime-client-gql";
 import React, { createContext, useContext, useState, useCallback } from "react";
-import { PartialBy, CopilotKitError, Severity } from "@copilotkit/shared";
+import { PartialBy, CopilotKitError, Severity } from "@finalyst/shared";
 
 interface Toast {
   id: string;

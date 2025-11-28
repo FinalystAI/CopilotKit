@@ -9,16 +9,16 @@
  *
  * ## Install Dependencies
  *
- * This component is part of the [@copilotkit/react-ui](https://npmjs.com/package/@copilotkit/react-ui) package.
+ * This component is part of the [@finalyst/react-ui](https://npmjs.com/package/@finalyst/react-ui) package.
  *
- * ```shell npm2yarn \"@copilotkit/react-ui"\
- * npm install @copilotkit/react-core @copilotkit/react-ui
+ * ```shell npm2yarn \"@finalyst/react-ui"\
+ * npm install @finalyst/react-core @finalyst/react-ui
  * ```
  * ## Usage
  *
  * ```tsx
- * import { CopilotPopup } from "@copilotkit/react-ui";
- * import "@copilotkit/react-ui/styles.css";
+ * import { CopilotPopup } from "@finalyst/react-ui";
+ * import "@finalyst/react-ui/styles.css";
  *
  * <CopilotPopup
  *   labels={{
@@ -53,7 +53,7 @@
  * By default, CopilotKit components do not have any styles. You can import CopilotKit's stylesheet at the root of your project:
  * ```tsx title="YourRootComponent.tsx"
  * ...
- * import "@copilotkit/react-ui/styles.css"; // [!code highlight]
+ * import "@finalyst/react-ui/styles.css"; // [!code highlight]
  *
  * export function YourRootComponent() {
  *   return (

@@ -53,7 +53,7 @@ Add a new tool definition:
 ```ts title="src/mastra/tools/weatherInfo.ts"
 import { createTool } from "@mastra/core/tools";
 import { z } from "zod";
- 
+
 export const weatherInfo = createTool({
   id: "weatherInfo",
   inputSchema: z.object({
@@ -74,7 +74,7 @@ Then, pass the tool to the agent:
 import { Agent } from "@mastra/core/agent";
 import { openai } from "@ai-sdk/openai";
 import { weatherInfo } from "../tools/weatherInfo";
- 
+
 export const weatherAgent = new Agent({
   name: "Weather Agent",
   instructions:
@@ -85,11 +85,11 @@ export const weatherAgent = new Agent({
   },
 });
 ```
-    
+
 </Step>
 <Step>
 ### Render the tool call in your frontend
-At this point, your agent will be able to call the `weatherInfo` tool. Now 
+At this point, your agent will be able to call the `weatherInfo` tool. Now
 we just need to add a `useCopilotAction` hook to render the tool call in
 the UI.
 
@@ -99,7 +99,7 @@ the UI.
 </Callout>
 
 ```tsx title="app/page.tsx"
-import { useCopilotAction } from "@copilotkit/react-core"; // [!code highlight]
+import { useCopilotAction } from "@finalyst/react-core"; // [!code highlight]
 // ...
 
 const YourMainContent = () => {
@@ -130,4 +130,4 @@ Try asking the agent to get the weather for a location. You should see the custo
 render the tool call and display the arguments that were passed to the tool.
 
 </Step>
-</Steps> 
+</Steps>

@@ -1,6 +1,6 @@
 import { RunnableConfig } from "@langchain/core/runnables";
 import { dispatchCustomEvent } from "@langchain/core/callbacks/dispatch";
-import { convertJsonSchemaToZodSchema, randomId, CopilotKitMisuseError } from "@copilotkit/shared";
+import { convertJsonSchemaToZodSchema, randomId, CopilotKitMisuseError } from "@finalyst/shared";
 import { Annotation, MessagesAnnotation, interrupt } from "@langchain/langgraph";
 import { DynamicStructuredTool } from "@langchain/core/tools";
 import { AIMessage } from "@langchain/core/messages";
@@ -37,7 +37,7 @@ export type CopilotKitProperties = typeof CopilotKitPropertiesAnnotation.State;
  * To the CopilotKit SDK, run:
  *
  * ```bash
- * npm install @copilotkit/sdk-js
+ * npm install @finalyst/sdk-js
  * ```
  *
  * ### Examples
@@ -45,7 +45,7 @@ export type CopilotKitProperties = typeof CopilotKitPropertiesAnnotation.State;
  * Disable emitting messages and tool calls:
  *
  * ```typescript
- * import { copilotkitCustomizeConfig } from "@copilotkit/sdk-js";
+ * import { copilotkitCustomizeConfig } from "@finalyst/sdk-js";
  *
  * config = copilotkitCustomizeConfig(
  *   config,
@@ -59,7 +59,7 @@ export type CopilotKitProperties = typeof CopilotKitPropertiesAnnotation.State;
  * all arguments are emitted under the state key.)
  *
  * ```typescript
- * import { copilotkitCustomizeConfig } from "@copilotkit/sdk-js";
+ * import { copilotkitCustomizeConfig } from "@finalyst/sdk-js";
  *
  * config = copilotkitCustomizeConfig(
  *   config,
@@ -183,7 +183,7 @@ export function copilotkitCustomizeConfig(
  * ### Examples
  *
  * ```typescript
- * import { copilotkitExit } from "@copilotkit/sdk-js";
+ * import { copilotkitExit } from "@finalyst/sdk-js";
  *
  * async function myNode(state: Any):
  *   await copilotkitExit(config)
@@ -217,7 +217,7 @@ export async function copilotkitExit(
  * ### Examples
  *
  * ```typescript
- * import { copilotkitEmitState } from "@copilotkit/sdk-js";
+ * import { copilotkitEmitState } from "@finalyst/sdk-js";
  *
  * for (let i = 0; i < 10; i++) {
  *   await someLongRunningOperation(i);
@@ -262,7 +262,7 @@ export async function copilotkitEmitState(
  * ### Examples
  *
  * ```typescript
- * import { copilotkitEmitMessage } from "@copilotkit/sdk-js";
+ * import { copilotkitEmitMessage } from "@finalyst/sdk-js";
  *
  * const message = "Step 1 of 10 complete";
  * await copilotkitEmitMessage(config, message);
@@ -313,7 +313,7 @@ export async function copilotkitEmitMessage(
  * ### Examples
  *
  * ```typescript
- * import { copilotkitEmitToolCall } from "@copilotkit/sdk-js";
+ * import { copilotkitEmitToolCall } from "@finalyst/sdk-js";
  *
  * await copilotkitEmitToolCall(config, name="SearchTool", args={"steps": 10})
  * ```
@@ -414,7 +414,7 @@ export function convertActionToDynamicStructuredTool(actionInput: any): DynamicS
  * ### Examples
  *
  * ```typescript
- * import { convertActionsToDynamicStructuredTools } from "@copilotkit/sdk-js";
+ * import { convertActionsToDynamicStructuredTools } from "@finalyst/sdk-js";
  *
  * const tools = convertActionsToDynamicStructuredTools(state.copilotkit.actions);
  * ```

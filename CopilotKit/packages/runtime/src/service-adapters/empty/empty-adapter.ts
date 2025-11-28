@@ -8,7 +8,7 @@
  * ## Example
  *
  * ```ts
- * import { CopilotRuntime, EmptyAdapter } from "@copilotkit/runtime";
+ * import { CopilotRuntime, EmptyAdapter } from "@finalyst/runtime";
  *
  * const copilotKit = new CopilotRuntime();
  *
@@ -20,7 +20,7 @@ import {
   CopilotRuntimeChatCompletionRequest,
   CopilotRuntimeChatCompletionResponse,
 } from "../service-adapter";
-import { randomUUID } from "@copilotkit/shared";
+import { randomUUID } from "@finalyst/shared";
 
 export class EmptyAdapter implements CopilotServiceAdapter {
   async process(

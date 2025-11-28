@@ -1,8 +1,8 @@
 "use client";
-import "@copilotkit/react-ui/styles.css";
+import "@finalyst/react-ui/styles.css";
 import React from "react";
-import { CopilotChat } from "@copilotkit/react-ui";
-import { CopilotKit } from "@copilotkit/react-core";
+import { CopilotChat } from "@finalyst/react-ui";
+import { CopilotKit } from "@finalyst/react-core";
 
 // Read environment variables for copilot configuration
 const apiKey = process.env.NEXT_PUBLIC_COPILOT_API_KEY || "";
@@ -10,11 +10,11 @@ const agentName = process.env.NEXT_PUBLIC_COPILOTKIT_AGENT_NAME || "DefaultAgent
 
 /**
  * Layout component for the CopilotKit interface
- * 
+ *
  * This component creates a two-column layout:
  * 1. Left column (60%): Chat interface for user interaction
  * 2. Right column (40%): Results panel to display crew output
- * 
+ *
  * It configures CopilotKit with environment variables for API key and agent name
  * and provides optimized styling for both light and dark modes.
  */

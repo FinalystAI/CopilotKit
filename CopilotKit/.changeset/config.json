@@ -4,7 +4,7 @@
   "commit": false,
   "access": "public",
   "baseBranch": "origin/main",
-  "fixed": [["@copilotkit/*"]],
+  "fixed": [["@finalyst/*"]],
   "ignore": ["*"],
   "linked": [],
   "updateInternalDependencies": "patch"

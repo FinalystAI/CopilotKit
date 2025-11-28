@@ -22,8 +22,8 @@
  * ### Basic Setup
  *
  * ```tsx
- * import { CopilotKit } from "@copilotkit/react-core";
- * import { useCopilotChatHeadless_c } from "@copilotkit/react-core";
+ * import { CopilotKit } from "@finalyst/react-core";
+ * import { useCopilotChatHeadless_c } from "@finalyst/react-core";
  *
  * export function App() {
  *   return (
@@ -58,7 +58,7 @@
  * ### Working with Suggestions
  *
  * ```tsx
- * import { useCopilotChatHeadless_c, useCopilotChatSuggestions } from "@copilotkit/react-core";
+ * import { useCopilotChatHeadless_c, useCopilotChatSuggestions } from "@finalyst/react-core";
  *
  * export function SuggestionExample() {
  *   const {
@@ -174,7 +174,7 @@ import {
   CopilotKitError,
   CopilotKitErrorCode,
   styledConsole,
-} from "@copilotkit/shared";
+} from "@finalyst/shared";
 
 // Non-functional fallback implementation
 const createNonFunctionalReturn = (): UseCopilotChatReturn_c => ({

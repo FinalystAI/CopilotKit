@@ -18,7 +18,7 @@
  * ## Usage
  *
  * ```tsx
- * import { TextMessage, MessageRole } from "@copilotkit/runtime-client-gql";
+ * import { TextMessage, MessageRole } from "@finalyst/runtime-client-gql";
  *
  * const { appendMessage } = useCopilotChat();
  *

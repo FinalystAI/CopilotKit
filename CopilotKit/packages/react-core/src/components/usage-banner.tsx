@@ -3,7 +3,7 @@ import {
   CopilotKitError,
   ErrorVisibility,
   CopilotKitErrorCode,
-} from "@copilotkit/shared";
+} from "@finalyst/shared";
 import React from "react";
 
 interface UsageBannerProps {

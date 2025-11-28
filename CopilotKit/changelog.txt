@@ -1,128 +1,128 @@
-# @copilotkit/react-core
+# @finalyst/react-core
 
 ## 1.8.2
 
 ### Patch Changes
 
-- @copilotkit/runtime-client-gql@1.8.2
-- @copilotkit/shared@1.8.2
+- @finalyst/runtime-client-gql@1.8.2
+- @finalyst/shared@1.8.2
 
 
-# @copilotkit/react-ui
-
-## 1.8.2
-
-### Patch Changes
-
-- @copilotkit/runtime-client-gql@1.8.2
-- @copilotkit/react-core@1.8.2
-- @copilotkit/shared@1.8.2
-
-
-# @copilotkit/sdk-js
+# @finalyst/react-ui
 
 ## 1.8.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.2
+- @finalyst/runtime-client-gql@1.8.2
+- @finalyst/react-core@1.8.2
+- @finalyst/shared@1.8.2
 
 
-# @copilotkit/react-textarea
-
-## 1.8.2
-
-### Patch Changes
-
-- @copilotkit/runtime-client-gql@1.8.2
-- @copilotkit/react-core@1.8.2
-- @copilotkit/shared@1.8.2
-
-
-# @copilotkit/runtime
+# @finalyst/sdk-js
 
 ## 1.8.2
 
 ### Patch Changes
 
-- 4eedf97: - fix: handle failure to fetch langgraph schema
-  - @copilotkit/shared@1.8.2
+- @finalyst/shared@1.8.2
 
 
-# @copilotkit/runtime-client-gql
-
-## 1.8.2
-
-### Patch Changes
-
-- @copilotkit/shared@1.8.2
-
-
-# @copilotkit/shared
-
-## 1.8.2
-
-# @copilotkit/react-core
+# @finalyst/react-textarea
 
 ## 1.8.2
 
 ### Patch Changes
 
-- @copilotkit/runtime-client-gql@1.8.2
-- @copilotkit/shared@1.8.2
+- @finalyst/runtime-client-gql@1.8.2
+- @finalyst/react-core@1.8.2
+- @finalyst/shared@1.8.2
 
 
-# @copilotkit/react-ui
-
-## 1.8.2
-
-### Patch Changes
-
-- @copilotkit/runtime-client-gql@1.8.2
-- @copilotkit/react-core@1.8.2
-- @copilotkit/shared@1.8.2
-
-
-# @copilotkit/sdk-js
-
-## 1.8.2
-
-### Patch Changes
-
-- @copilotkit/shared@1.8.2
-
-
-# @copilotkit/react-textarea
-
-## 1.8.2
-
-### Patch Changes
-
-- @copilotkit/runtime-client-gql@1.8.2
-- @copilotkit/react-core@1.8.2
-- @copilotkit/shared@1.8.2
-
-
-# @copilotkit/runtime
+# @finalyst/runtime
 
 ## 1.8.2
 
 ### Patch Changes
 
 - 4eedf97: - fix: handle failure to fetch langgraph schema
-  - @copilotkit/shared@1.8.2
+  - @finalyst/shared@1.8.2
 
 
-# @copilotkit/runtime-client-gql
+# @finalyst/runtime-client-gql
 
 ## 1.8.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.2
+- @finalyst/shared@1.8.2
 
 
-# @copilotkit/shared
+# @finalyst/shared
+
+## 1.8.2
+
+# @finalyst/react-core
+
+## 1.8.2
+
+### Patch Changes
+
+- @finalyst/runtime-client-gql@1.8.2
+- @finalyst/shared@1.8.2
+
+
+# @finalyst/react-ui
+
+## 1.8.2
+
+### Patch Changes
+
+- @finalyst/runtime-client-gql@1.8.2
+- @finalyst/react-core@1.8.2
+- @finalyst/shared@1.8.2
+
+
+# @finalyst/sdk-js
+
+## 1.8.2
+
+### Patch Changes
+
+- @finalyst/shared@1.8.2
+
+
+# @finalyst/react-textarea
+
+## 1.8.2
+
+### Patch Changes
+
+- @finalyst/runtime-client-gql@1.8.2
+- @finalyst/react-core@1.8.2
+- @finalyst/shared@1.8.2
+
+
+# @finalyst/runtime
+
+## 1.8.2
+
+### Patch Changes
+
+- 4eedf97: - fix: handle failure to fetch langgraph schema
+  - @finalyst/shared@1.8.2
+
+
+# @finalyst/runtime-client-gql
+
+## 1.8.2
+
+### Patch Changes
+
+- @finalyst/shared@1.8.2
+
+
+# @finalyst/shared
 
 ## 1.8.2
 

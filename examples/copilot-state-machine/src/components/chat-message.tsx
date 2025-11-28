@@ -1,5 +1,5 @@
-import { UserMessageProps, AssistantMessageProps } from "@copilotkit/react-ui";
-import { Markdown } from "@copilotkit/react-ui";
+import { UserMessageProps, AssistantMessageProps } from "@finalyst/react-ui";
+import { Markdown } from "@finalyst/react-ui";
 
 export function UserMessage({ message, rawData }: UserMessageProps) {
   return (

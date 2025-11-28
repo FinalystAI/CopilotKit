@@ -1,7 +1,7 @@
 "use client"
 
-import { CopilotSidebar, useCopilotChatSuggestions } from "@copilotkit/react-ui";
-import { CopilotKit } from "@copilotkit/react-core";
+import { CopilotSidebar, useCopilotChatSuggestions } from "@finalyst/react-ui";
+import { CopilotKit } from "@finalyst/react-core";
 
 
 export const NewLookAndFeelPreview = () => {
@@ -21,7 +21,7 @@ const Chat = () => {
 
   return (
     <CopilotSidebar
-      onThumbsUp={(message) => alert(message)} 
+      onThumbsUp={(message) => alert(message)}
       onThumbsDown={(message) => alert(message)}
       labels={{
         initial: "Hey there Let's have a fun conversation!"

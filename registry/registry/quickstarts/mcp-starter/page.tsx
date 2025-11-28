@@ -2,9 +2,9 @@
 
 import { useEffect, useState } from "react";
 
-import { useCopilotChat, useDefaultTool, CatchAllActionRenderProps } from "@copilotkit/react-core";
-import { CopilotKitCSSProperties, CopilotSidebar, useCopilotChatSuggestions } from "@copilotkit/react-ui";
-import { MCPEndpointConfig } from "@copilotkit/runtime";
+import { useCopilotChat, useDefaultTool, CatchAllActionRenderProps } from "@finalyst/react-core";
+import { CopilotKitCSSProperties, CopilotSidebar, useCopilotChatSuggestions } from "@finalyst/react-ui";
+import { MCPEndpointConfig } from "@finalyst/runtime";
 import { DefaultToolRender } from "@/registry/quickstarts/mcp-starter/components/default-tool-render";
 
 const themeColor = "#6366f1";
@@ -85,10 +85,10 @@ function YourMainContent() {
               </button>
             </div>
           ))}
-          <input 
-            type="text" 
-            placeholder="Enter MCP server URL" 
-            className={classes.input} 
+          <input
+            type="text"
+            placeholder="Enter MCP server URL"
+            className={classes.input}
             value={newMcpServer}
             onChange={(e) => setNewMcpServer(e.target.value)}
           />

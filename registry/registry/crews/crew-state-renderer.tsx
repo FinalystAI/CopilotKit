@@ -3,23 +3,23 @@ import {
   CrewsResponseStatus,
   CrewsTaskStateItem,
   CrewsToolStateItem,
-} from "@copilotkit/react-core";
+} from "@finalyst/react-core";
 import { useEffect } from "react";
 import { useMemo, useRef, useState } from "react";
 
 /**
  * Component that renders the crew's execution state in real-time
- * 
+ *
  * This component visualizes:
  * - Steps being executed by the crew
  * - Tasks being performed
  * - Thoughts and results during execution
- * 
+ *
  * Features:
  * - Collapsible UI to save space
  * - Auto-scrolling to newest items
  * - Highlighting of newly added items
- * 
+ *
  * @param state - The current state of the crew agent
  * @param status - The response status of the crew
  */
@@ -74,8 +74,8 @@ function CrewStateRenderer({
       >
         <span className="text-xs">{isCollapsed ? "▶" : "▼"}</span>
         <span className="font-medium">
-          {status === "inProgress" ? 
-            <span className="text-zinc-500 dark:text-zinc-400 animate-pulse">Crew is analyzing...</span> : 
+          {status === "inProgress" ?
+            <span className="text-zinc-500 dark:text-zinc-400 animate-pulse">Crew is analyzing...</span> :
             <span className="text-zinc-500 dark:text-zinc-400">Crew analysis</span>
           }
           {!isCollapsed && items.length > 0 && ` (${items.length} steps)`}
@@ -110,7 +110,7 @@ function CrewStateRenderer({
                   )}
                   {"result" in item && item.result !== undefined && (
                     <pre className="text-xs mt-1.5 p-2 bg-zinc-50 dark:bg-zinc-900 rounded border border-zinc-100 dark:border-zinc-800 overflow-x-auto text-zinc-700 dark:text-zinc-300">
-                      {typeof item.result === 'object' 
+                      {typeof item.result === 'object'
                         ? JSON.stringify(item.result, null, 2)
                         : item.result}
                     </pre>

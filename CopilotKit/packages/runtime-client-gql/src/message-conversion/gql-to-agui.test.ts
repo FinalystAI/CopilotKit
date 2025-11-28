@@ -8,7 +8,7 @@ import {
   gqlImageMessageToAGUIMessage,
   gqlActionExecutionMessageToAGUIMessage,
 } from "./gql-to-agui";
-import { AIMessage } from "@copilotkit/shared";
+import { AIMessage } from "@finalyst/shared";
 
 describe("message-conversion", () => {
   describe("gqlTextMessageToAGUIMessage", () => {

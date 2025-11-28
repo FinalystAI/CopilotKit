@@ -1,6 +1,6 @@
 "use client";
 
-import { CopilotKit } from "@copilotkit/react-core";
+import { CopilotKit } from "@finalyst/react-core";
 import Main from "./Main";
 import {
   ModelSelectorProvider,

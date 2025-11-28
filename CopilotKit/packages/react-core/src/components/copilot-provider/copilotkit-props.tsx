@@ -1,7 +1,7 @@
-import { ForwardedParametersInput } from "@copilotkit/runtime-client-gql";
+import { ForwardedParametersInput } from "@finalyst/runtime-client-gql";
 import { ReactNode } from "react";
 import { AuthState } from "../../context/copilot-context";
-import { CopilotErrorHandler } from "@copilotkit/shared";
+import { CopilotErrorHandler } from "@finalyst/shared";
 /**
  * Props for CopilotKit.
  */

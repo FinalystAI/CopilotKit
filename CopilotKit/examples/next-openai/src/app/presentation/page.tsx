@@ -1,7 +1,7 @@
 "use client";
 
-import { CopilotKit } from "@copilotkit/react-core";
-import { CopilotKitCSSProperties, CopilotSidebar } from "@copilotkit/react-ui";
+import { CopilotKit } from "@finalyst/react-core";
+import { CopilotKitCSSProperties, CopilotSidebar } from "@finalyst/react-ui";
 import "./styles.css";
 import { Presentation } from "./components/main/Presentation";
 import { useState } from "react";

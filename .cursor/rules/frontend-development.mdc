@@ -53,7 +53,7 @@ Most coagents examples have a `ui/` folder with Next.js applications:
 
 ### Provider Setup
 ```typescript
-import { CopilotProvider } from '@copilotkit/react-core'
+import { CopilotProvider } from '@finalyst/react-core'
 
 function App() {
   return (
@@ -66,7 +66,7 @@ function App() {
 
 ### Chat Integration
 ```typescript
-import { CopilotChat } from '@copilotkit/react-ui'
+import { CopilotChat } from '@finalyst/react-ui'
 
 function ChatInterface() {
   return (
@@ -82,20 +82,20 @@ function ChatInterface() {
 
 ### Actions and State
 ```typescript
-import { useCopilotAction, useCopilotReadable } from '@copilotkit/react-core'
+import { useCopilotAction, useCopilotReadable } from '@finalyst/react-core'
 import { useState } from 'react'
 
 function MyComponent() {
   const [state, setState] = useState({})
   // …
 }
-  
+
   useCopilotReadable({
     name: "current_state",
     description: "Current application state",
     value: state
   })
-  
+
   useCopilotAction({
     name: "update_state",
     description: "Update application state",

@@ -14,7 +14,7 @@ List of technologies, tools, and frameworks powering this project:
 - **Frameworks**: Next.js 14, React 18  
 - **Styling**: Tailwind CSS, Radix-UI, Glassmorphism effects  
 - **AI Runtime**: Copilot Cloud Runtime (Direct LLM Calls)  
-- **Developer Tools**: CopilotKit UI (`@copilotkit/react-ui`, `@copilotkit/react-core`)  
+- **Developer Tools**: CopilotKit UI (`@finalyst/react-ui`, `@finalyst/react-core`)  
 - **Language**: TypeScript  
 
 

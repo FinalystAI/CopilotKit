@@ -13,7 +13,7 @@ import { Annotation } from "@langchain/langgraph";
 import { ChatOpenAI } from "@langchain/openai";
 
 // 1. Import necessary helpers for CopilotKit actions
-import { convertActionsToDynamicStructuredTools, CopilotKitStateAnnotation } from "@copilotkit/sdk-js/langgraph";
+import { convertActionsToDynamicStructuredTools, CopilotKitStateAnnotation } from "@finalyst/sdk-js/langgraph";
 
 // 2. Define our agent state, which includes CopilotKit state to
 //    provide actions to the state.

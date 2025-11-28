@@ -1,4 +1,4 @@
-import { MCPTool, MCPClient as MCPClientInterface } from "@copilotkit/runtime";
+import { MCPTool, MCPClient as MCPClientInterface } from "@finalyst/runtime";
 
 /**
  * HTTP Stream Transport client implementation for MCP

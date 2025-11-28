@@ -1,4 +1,4 @@
-import { LangGraphInterruptEvent } from "@copilotkit/runtime-client-gql";
+import { LangGraphInterruptEvent } from "@finalyst/runtime-client-gql";
 import { useState } from "react";
 
 export interface InterruptProps {
@@ -25,7 +25,7 @@ export function Interrupt({ event, resolve }: InterruptProps) {
         <h3 className={titleStyles}>
           🙋 {event.name} <span className={subtitleStyles}>({event.type})</span>
         </h3>
-        
+
         <p className="text-white">The agent wants you to see...</p>
         <div className="bg-white rounded-xl border shadow-inner w-full">
           <div className={eventStyles}>
@@ -34,15 +34,15 @@ export function Interrupt({ event, resolve }: InterruptProps) {
         </div>
 
         <p className="mt-6 text-white">How do you want to respond?</p>
-        <textarea 
-          className={textareaStyles} 
+        <textarea
+          className={textareaStyles}
           placeholder="Enter your response"
           value={response}
           onChange={(e) => setResponse(e.target.value)}
         />
-        
+
         <div className="flex justify-center mt-4">
-          <button 
+          <button
             onClick={() => resolve(event.value)}
             className={buttonStyles}
           >

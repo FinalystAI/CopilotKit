@@ -1,8 +1,8 @@
 "use client";
 
-import { CopilotChat } from "@copilotkit/react-ui";
+import { CopilotChat } from "@finalyst/react-ui";
 import "./styles.css";
-import { CopilotKit, useCopilotAction } from "@copilotkit/react-core";
+import { CopilotKit, useCopilotAction } from "@finalyst/react-core";
 import { useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";

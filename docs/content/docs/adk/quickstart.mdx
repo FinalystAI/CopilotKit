@@ -172,7 +172,7 @@ Before you begin, you'll need the following:
                 ### Install CopilotKit
                 First, install the latest packages for CopilotKit into your frontend.
                 ```package-install
-                npm install @copilotkit/react-ui @copilotkit/react-core @copilotkit/runtime
+                npm install @finalyst/react-ui @finalyst/react-core @finalyst/runtime
                 ```
             </Step>
             <Step>
@@ -187,7 +187,7 @@ Before you begin, you'll need the following:
                   CopilotRuntime,
                   ExperimentalEmptyAdapter,
                   copilotRuntimeNextJSAppRouterEndpoint,
-                } from "@copilotkit/runtime";
+                } from "@finalyst/runtime";
                 import { HttpAgent } from "@ag-ui/client";
                 import { NextRequest } from "next/server";
 
@@ -224,7 +224,7 @@ Before you begin, you'll need the following:
                 ```tsx title="app/layout.tsx"
                 import "./globals.css";
                 import { ReactNode } from "react";
-                import { CopilotKit } from "@copilotkit/react-core";
+                import { CopilotKit } from "@finalyst/react-core";
 
                 export default function RootLayout({ children }: { children: ReactNode }) {
                   return (
@@ -248,8 +248,8 @@ Before you begin, you'll need the following:
 
                 ```tsx title="page.tsx"
                 // [!code highlight:2]
-                import "@copilotkit/react-ui/styles.css";
-                import { CopilotSidebar } from "@copilotkit/react-ui";
+                import "@finalyst/react-ui/styles.css";
+                import { CopilotSidebar } from "@finalyst/react-ui";
 
                 export function YourApp() {
                 return (

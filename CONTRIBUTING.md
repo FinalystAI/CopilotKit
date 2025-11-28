@@ -92,7 +92,7 @@ Now that everything is set up and works as expected, you can get start developin
 turbo run dev
 
 # Start a specific package in development mode
-turbo run dev --filter="@copilotkit/package-name"
+turbo run dev --filter="@finalyst/package-name"
 ```
 
 ## Step 6: Add the changes that are ready to be committed

@@ -1,11 +1,11 @@
 "use client";
 
-import { CopilotChat } from "@copilotkit/react-ui";
+import { CopilotChat } from "@finalyst/react-ui";
 import "./styles.css";
-import { CopilotKit, useCopilotAction, useCopilotChat } from "@copilotkit/react-core";
+import { CopilotKit, useCopilotAction, useCopilotChat } from "@finalyst/react-core";
 import { useSearchParams } from "next/navigation";
-import { MessageRole, TextMessage, Message } from "@copilotkit/runtime-client-gql";
-import { randomId } from "@copilotkit/shared";
+import { MessageRole, TextMessage, Message } from "@finalyst/runtime-client-gql";
+import { randomId } from "@finalyst/shared";
 
 const testMessages = [
   {

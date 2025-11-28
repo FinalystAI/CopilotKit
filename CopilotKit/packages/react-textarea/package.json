@@ -1,5 +1,5 @@
 {
-  "name": "@copilotkit/react-textarea",
+  "name": "@finalyst/react-textarea",
   "private": false,
   "homepage": "https://github.com/CopilotKit/CopilotKit",
   "repository": {
@@ -9,7 +9,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.10.6-next.6",
+  "version": "1.10.6",
   "sideEffects": [
     "**/*.css"
   ],
@@ -59,9 +59,9 @@
     "typescript": "^5.2.3"
   },
   "dependencies": {
-    "@copilotkit/react-core": "workspace:*",
-    "@copilotkit/runtime-client-gql": "workspace:*",
-    "@copilotkit/shared": "workspace:*",
+    "@finalyst/react-core": "workspace:*",
+    "@finalyst/runtime-client-gql": "workspace:*",
+    "@finalyst/shared": "workspace:*",
     "@emotion/css": "^11.11.2",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",

@@ -2,14 +2,14 @@ import {
   CopilotRuntime,
   ExperimentalEmptyAdapter,
   copilotRuntimeNextJSAppRouterEndpoint,
-} from "@copilotkit/runtime";
+} from "@finalyst/runtime";
 import { HttpAgent } from "@ag-ui/client";
 import { agentsIntegrations } from "@/agents";
 
 import { NextRequest } from "next/server";
 
 export async function POST(request: NextRequest) {
- 
+
   const runtime = new CopilotRuntime({
     agents: {
       sample_agent: new HttpAgent({

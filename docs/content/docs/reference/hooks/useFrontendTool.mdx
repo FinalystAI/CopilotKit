@@ -32,7 +32,7 @@ lets you render a custom component or return a string to display.
 ### Simple Usage
 
 ```tsx
-import { useFrontendTool } from "@copilotkit/react-core";
+import { useFrontendTool } from "@finalyst/react-core";
 import { z } from "zod";
 
 useFrontendTool({
@@ -50,11 +50,11 @@ useFrontendTool({
 ### With Custom UI Rendering
 
 ```tsx
-import { useFrontendTool } from "@copilotkit/react-core";
+import { useFrontendTool } from "@finalyst/react-core";
 import { z } from "zod";
 
 useFrontendTool({
-  name: "showWeatherCard", 
+  name: "showWeatherCard",
   description: "Display weather information for a location",
   parameters: z.object({
     location: z.string().describe("The location to show weather for"),
@@ -70,7 +70,7 @@ useFrontendTool({
     }
     if (status === "complete" && result) {
       return (
-        <WeatherCard 
+        <WeatherCard
           location={result.location}
           temperature={result.temperature}
           conditions={result.conditions}
@@ -115,7 +115,7 @@ This hook enables you to dynamically generate UI elements and render them in the
 
     <PropertyReference name="render" type="React.ComponentType<RenderProps>">
       A React component that renders custom UI for the tool. The component receives props with:
-      
+
       <div className="ml-8">
         <PropertyReference name="status" type="'inProgress' | 'executing' | 'complete'">
           - `"inProgress"`: arguments are dynamically streamed to the function, allowing you to adjust your UI in real-time.

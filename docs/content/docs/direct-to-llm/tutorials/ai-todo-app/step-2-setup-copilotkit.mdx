@@ -13,15 +13,15 @@ import { FaCloud, FaServer } from "react-icons/fa";
 
 Now that we have our todo list app running, we're ready to integrate CopilotKit. For this tutorial, we will install the following dependencies:
 
-- `@copilotkit/react-core`: The core library for CopilotKit, which contains the CopilotKit provider and useful hooks.
-- `@copilotkit/react-ui`: The UI library for CopilotKit, which contains the CopilotKit UI components such as the sidebar, chat popup, textarea and more.
+- `@finalyst/react-core`: The core library for CopilotKit, which contains the CopilotKit provider and useful hooks.
+- `@finalyst/react-ui`: The UI library for CopilotKit, which contains the CopilotKit UI components such as the sidebar, chat popup, textarea and more.
 
 ## Install Dependencies
 
 To install the CopilotKit dependencies, run the following:
 
 ```package-install
-npm install @copilotkit/react-core @copilotkit/react-ui
+npm install @finalyst/react-core @finalyst/react-ui
 ```
 
 ## Setup CopilotKit
@@ -73,9 +73,9 @@ In this tutorial, we'll use the `<CopilotPopup/>` component to display the chat 
 
 import { TasksList } from "@/components/TasksList";
 import { TasksProvider } from "@/lib/hooks/use-tasks";
-import { CopilotKit } from "@copilotkit/react-core";
-import { CopilotPopup } from "@copilotkit/react-ui"; // [!code highlight]
-import "@copilotkit/react-ui/styles.css"; // [!code highlight]
+import { CopilotKit } from "@finalyst/react-core";
+import { CopilotPopup } from "@finalyst/react-ui"; // [!code highlight]
+import "@finalyst/react-ui/styles.css"; // [!code highlight]
 
 export default function Home() {
   return (
@@ -91,9 +91,9 @@ export default function Home() {
 
 Here's what we did:
 
-- We imported the `<CopilotPopup />` component from `@copilotkit/react-ui`.
+- We imported the `<CopilotPopup />` component from `@finalyst/react-ui`.
 - We wrapped the page with the `<CopilotKit>` provider.
-- We imported the built-in styles from `@copilotkit/react-ui`.
+- We imported the built-in styles from `@finalyst/react-ui`.
 
 Now, head back to your app and you'll find a chat popup in the bottom right corner of the page. At this point, you can start interacting with your copilot! 🎉
 

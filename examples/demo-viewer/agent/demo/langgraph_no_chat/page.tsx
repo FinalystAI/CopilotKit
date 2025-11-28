@@ -1,10 +1,10 @@
 "use client";
 import React, { useState, useEffect, useRef, ReactEventHandler } from "react";
-import "@copilotkit/react-ui/styles.css";
+import "@finalyst/react-ui/styles.css";
 import "./style.css";
-import { CopilotKit, useCoAgent, useCopilotAction, useCopilotChat } from "@copilotkit/react-core";
-import { TextMessage, Role } from "@copilotkit/runtime-client-gql";
-import { useCopilotChatSuggestions } from "@copilotkit/react-ui";
+import { CopilotKit, useCoAgent, useCopilotAction, useCopilotChat } from "@finalyst/react-core";
+import { TextMessage, Role } from "@finalyst/runtime-client-gql";
+import { useCopilotChatSuggestions } from "@finalyst/react-ui";
 import { chatSuggestions } from "@/lib/prompts";
 import { useTheme } from "next-themes";
 import { AnimatePresence, motion } from "framer-motion"

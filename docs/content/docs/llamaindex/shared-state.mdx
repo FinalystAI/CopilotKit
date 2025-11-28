@@ -62,7 +62,7 @@ You can use this when you want to provide the user with feedback about what your
     will update the agent state and trigger a rerender of anything that depends on the agent state.
 
     ```tsx title="ui/app/page.tsx"
-    import { useCoAgent } from "@copilotkit/react-core";
+    import { useCoAgent } from "@finalyst/react-core";
 
     // Define the agent state type, should match the actual state of your agent
     type AgentState = {
@@ -114,7 +114,7 @@ If you want to re-run it manually, use the `run` argument on the `useCoAgent` ho
 The agent will be re-run, and it will get not only the latest updated state, but also a **hint** that can depend on the data delta between the previous and the current state.
 
 ```tsx title="ui/app/page.tsx"
-import { useCoAgent } from "@copilotkit/react-core";
+import { useCoAgent } from "@finalyst/react-core";
 
 // ...
 

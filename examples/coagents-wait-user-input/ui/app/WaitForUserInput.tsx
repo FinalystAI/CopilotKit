@@ -1,7 +1,7 @@
 "use client";
 
-import { useCopilotAction } from "@copilotkit/react-core";
-import { CopilotPopup } from "@copilotkit/react-ui";
+import { useCopilotAction } from "@finalyst/react-core";
+import { CopilotPopup } from "@finalyst/react-ui";
 
 export function WaitForUserInput() {
   useCopilotAction({

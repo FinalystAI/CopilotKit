@@ -2,7 +2,7 @@ import { Trip } from "@/lib/types";
 import { PlaceCard } from "@/components/PlaceCard";
 import { X, Trash } from "lucide-react";
 import { ActionButtons } from "./ActionButtons";
-import { RenderFunctionStatus } from "@copilotkit/react-core";
+import { RenderFunctionStatus } from "@finalyst/react-core";
 
 export type DeleteTripsProps = {
   args: any;
@@ -32,10 +32,10 @@ export const DeleteTrips = ({ args, status, handler, trips }: DeleteTripsProps) 
       ))}
       { status !== "complete" && (
         <ActionButtons
-          status={status} 
-          handler={handler} 
-          approve={<><Trash className="w-4 h-4 mr-2" /> Delete</>} 
-          reject={<><X className="w-4 h-4 mr-2" /> Cancel</>} 
+          status={status}
+          handler={handler}
+          approve={<><Trash className="w-4 h-4 mr-2" /> Delete</>}
+          reject={<><X className="w-4 h-4 mr-2" /> Cancel</>}
         />
       )}
     </div>

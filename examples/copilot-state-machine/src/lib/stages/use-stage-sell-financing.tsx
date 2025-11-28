@@ -3,7 +3,7 @@ import {
   useCopilotAction,
   useCopilotAdditionalInstructions,
   useCopilotReadable,
-} from "@copilotkit/react-core";
+} from "@finalyst/react-core";
 
 export interface UseStagePaymentMethodOptions {
   enabled: boolean;

@@ -2,9 +2,9 @@ import {
   CopilotContextParams,
   CopilotMessagesContextParams,
   defaultCopilotContextCategories,
-} from "@copilotkit/react-core";
+} from "@finalyst/react-core";
 import { CopilotKitVersion } from "./types";
-export { shouldShowDevConsole } from "@copilotkit/react-core";
+export { shouldShowDevConsole } from "@finalyst/react-core";
 
 export async function getPublishedCopilotKitVersion(
   current: string,
@@ -38,7 +38,7 @@ export async function getPublishedCopilotKitVersion(
       body: JSON.stringify({
         packages: [
           {
-            packageName: "@copilotkit/shared",
+            packageName: "@finalyst/shared",
             packageVersion: current,
           },
         ],

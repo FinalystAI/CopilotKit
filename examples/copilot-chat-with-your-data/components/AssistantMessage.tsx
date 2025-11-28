@@ -1,12 +1,12 @@
-import { AssistantMessageProps } from "@copilotkit/react-ui";
-import { Markdown } from "@copilotkit/react-ui";
+import { AssistantMessageProps } from "@finalyst/react-ui";
+import { Markdown } from "@finalyst/react-ui";
 import { Loader } from "lucide-react";
 export const CustomAssistantMessage = (props: AssistantMessageProps) => {
   const { message, isLoading, subComponent } = props;
 
   return (
     <div className="pb-4">
-      {(message || isLoading) && 
+      {(message || isLoading) &&
         <div className="bg-white dark:bg-gray-800 p-3 rounded-lg border border-gray-200 dark:border-gray-700 shadow-sm p-4">
             <div className="text-sm text-gray-700 dark:text-gray-300">
             <Markdown content={message || ""} />
@@ -19,7 +19,7 @@ export const CustomAssistantMessage = (props: AssistantMessageProps) => {
             </div>
         </div>
       }
-      
+
       {subComponent && <div>{subComponent}</div> }
     </div>
   );

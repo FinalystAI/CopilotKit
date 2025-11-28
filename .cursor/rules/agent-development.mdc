@@ -66,7 +66,7 @@ Using LangGraph for agent state management:
 4. Define actions and agent logic
 
 ### JavaScript Agent Setup
-1. Install `@copilotkit/sdk-js` package
+1. Install `@finalyst/sdk-js` package
 2. Configure TypeScript with proper types
 3. Define actions and agent endpoints
 4. Set up Express.js server or similar

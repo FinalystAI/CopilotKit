@@ -3,9 +3,9 @@
 import dynamic from "next/dynamic";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { TripsProvider } from "@/lib/hooks/use-trips";
-import { CopilotKit } from "@copilotkit/react-core";
-import { CopilotSidebar, useChatContext } from "@copilotkit/react-ui";
-import "@copilotkit/react-ui/styles.css";
+import { CopilotKit } from "@finalyst/react-core";
+import { CopilotSidebar, useChatContext } from "@finalyst/react-ui";
+import "@finalyst/react-ui/styles.css";
 import { useEffect } from "react";
 import { useMediaQuery } from "@/lib/hooks/use-media-query";
 
@@ -25,7 +25,7 @@ MapCanvas = dynamic(
 function MainContent() {
   const { setOpen } = useChatContext();
   const isDesktop = useMediaQuery("(min-width: 900px)");
-  
+
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
     const copilotOpenParam = urlParams.get('copilotOpen');

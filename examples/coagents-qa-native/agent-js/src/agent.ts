@@ -6,12 +6,12 @@ import { RunnableConfig } from "@langchain/core/runnables";
 import {
   copilotkitExit,
   convertActionsToDynamicStructuredTools,
-} from "@copilotkit/sdk-js/langgraph";
+} from "@finalyst/sdk-js/langgraph";
 import { AIMessage, HumanMessage, ToolMessage } from "@langchain/core/messages";
 import { getModel } from "./model";
 import { END, StateGraph, interrupt } from "@langchain/langgraph";
 import { AgentState, AgentStateAnnotation } from "./state";
-import { copilotKitInterrupt } from "@copilotkit/sdk-js/langgraph";
+import { copilotKitInterrupt } from "@finalyst/sdk-js/langgraph";
 
 export async function email_node(state: AgentState, config: RunnableConfig) {
   /**

@@ -104,8 +104,8 @@ echo "Setting up the JS environment..."
 cd "$root_dir/../examples/$example_dir/ui"
 rm -rf .next
 pnpm i
-pnpm link --global @copilotkit/react-ui @copilotkit/react-core @copilotkit/runtime-client-gql \
-  @copilotkit/shared @copilotkit/runtime @copilotkit/sdk-js
+pnpm link --global @finalyst/react-ui @finalyst/react-core @finalyst/runtime-client-gql \
+  @finalyst/shared @finalyst/runtime @finalyst/sdk-js
 
 echo "Setting up the Python environment..."
 cd "$root_dir/../examples/$example_dir/$agent_dir"

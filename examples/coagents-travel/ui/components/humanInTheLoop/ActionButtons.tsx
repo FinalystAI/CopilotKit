@@ -1,4 +1,4 @@
-import { RenderFunctionStatus } from "@copilotkit/react-core";
+import { RenderFunctionStatus } from "@finalyst/react-core";
 import { Button } from "../ui/button";
 import { useEffect } from "react";
 
@@ -17,11 +17,11 @@ export const ActionButtons = ({ status, handler, approve, reject, selectedPlaceI
   useEffect(() => {
     console.log(placeIds, "placeIdsplaceIdsplaceIds");
   }, [placeIds]);
-  
+
   useEffect(() => {
     console.log(selectedPlaceIds,"btn");
   }, [selectedPlaceIds]);
-  
+
   return (
     <div className="flex gap-4 justify-between">
       <Button
@@ -45,7 +45,7 @@ export const ActionButtons = ({ status, handler, approve, reject, selectedPlaceI
               console.log(Array.from(selectedPlaceIds), "selectedPlaceIds")
               handler?.(JSON.stringify(Array.from(selectedPlaceIds)+"|||addMode"));
             }
-          } 
+          }
           else if(selectedPlaceIds && selectedPlaceIds.size == 0){
             setSelectedPlaceIds?.(new Set(placeIds?.[0] || []));
             if(type == "edit"){

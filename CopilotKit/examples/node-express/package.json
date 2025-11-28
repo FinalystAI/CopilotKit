@@ -7,8 +7,8 @@
     "example-dev": "nodemon ./src/index.ts"
   },
   "dependencies": {
-    "@copilotkit/runtime": "workspace:*",
-    "@copilotkit/shared": "workspace:*",
+    "@finalyst/runtime": "workspace:*",
+    "@finalyst/shared": "workspace:*",
     "express": "^4.19.2",
     "openai": "^4.85.1",
     "dotenv": "^16.4.7"

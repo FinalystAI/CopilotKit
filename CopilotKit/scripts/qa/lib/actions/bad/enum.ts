@@ -1,4 +1,4 @@
-import { useCopilotAction } from "@copilotkit/react-core";
+import { useCopilotAction } from "@finalyst/react-core";
 
 useCopilotAction({
   name: "enum",

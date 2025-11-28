@@ -99,7 +99,7 @@ as this guide uses it as a starting point.
 </Step>
 <Step>
 ### Render the tool call in your frontend
-At this point, your agent will be able to call the `get_weather` tool. Now 
+At this point, your agent will be able to call the `get_weather` tool. Now
 we just need to add a `useCopilotAction` hook to render the tool call in
 the UI.
 
@@ -109,7 +109,7 @@ the UI.
 </Callout>
 
 ```tsx title="app/page.tsx"
-import { useCopilotAction } from "@copilotkit/react-core"; // [!code highlight]
+import { useCopilotAction } from "@finalyst/react-core"; // [!code highlight]
 // ...
 
 const YourMainContent = () => {

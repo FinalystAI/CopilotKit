@@ -1,11 +1,11 @@
 "use client";
-import { CopilotKit, useCopilotAction, useCopilotReadable } from "@copilotkit/react-core";
-import { CopilotTextarea } from "@copilotkit/react-textarea";
-import { CopilotSidebar } from "@copilotkit/react-ui";
-import "@copilotkit/react-ui/styles.css";
+import { CopilotKit, useCopilotAction, useCopilotReadable } from "@finalyst/react-core";
+import { CopilotTextarea } from "@finalyst/react-textarea";
+import { CopilotSidebar } from "@finalyst/react-ui";
+import "@finalyst/react-ui/styles.css";
 import { useState } from "react";
-import "@copilotkit/react-textarea/styles.css";
-import "@copilotkit/react-ui/styles.css";
+import "@finalyst/react-textarea/styles.css";
+import "@finalyst/react-ui/styles.css";
 function InsideHome() {
   const [message, setMessage] = useState("Hello World!");
   const [text, setText] = useState("");

@@ -4,19 +4,19 @@ import { useCopilotMessagesContext, CopilotMessagesContextParams } from "../cont
 import { SystemMessageFunction } from "../types";
 import { useChat, AppendMessageOptions } from "./use-chat";
 import { defaultCopilotContextCategories } from "../components";
-import { CoAgentStateRenderHandlerArguments } from "@copilotkit/shared";
+import { CoAgentStateRenderHandlerArguments } from "@finalyst/shared";
 import { useAsyncCallback } from "../components/error-boundary/error-utils";
 import { reloadSuggestions as generateSuggestions } from "../utils";
 import type { SuggestionItem } from "../utils";
 
-import { Message } from "@copilotkit/shared";
+import { Message } from "@finalyst/shared";
 import {
   Role as gqlRole,
   TextMessage,
   aguiToGQL,
   gqlToAGUI,
   Message as DeprecatedGqlMessage,
-} from "@copilotkit/runtime-client-gql";
+} from "@finalyst/runtime-client-gql";
 import { useLangGraphInterruptRender } from "./use-langgraph-interrupt-render";
 
 export interface UseCopilotChatOptions {

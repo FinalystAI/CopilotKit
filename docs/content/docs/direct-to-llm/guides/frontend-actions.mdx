@@ -17,7 +17,7 @@ In addition to understanding state, you can empower the copilot to execute tools
 
 ```tsx title="YourComponent.tsx"
 "use client" // only necessary if you are using Next.js with the App Router. // [!code highlight]
-import { useFrontendTool } from "@copilotkit/react-core"; // [!code highlight]
+import { useFrontendTool } from "@finalyst/react-core"; // [!code highlight]
 
 export function MyComponent() {
   const [todos, setTodos] = useState<string[]>([]);
@@ -54,7 +54,7 @@ export function MyComponent() {
     While `useFrontendTool` is for frontend tools with handlers, CopilotKit provides other specialized hooks:
     - [`useHumanInTheLoop`](/reference/hooks/useHumanInTheLoop): For interactive workflows requiring user input/approval
     - [`useRenderToolCall`](/reference/hooks/useRenderToolCall): For rendering backend tool calls without handlers
-    
+
     Choose the right hook based on your specific use case.
   </Accordion>
 </Accordions>
@@ -70,9 +70,9 @@ export function MyComponent() {
 After defining the tool, ask the copilot to execute it. For example, you can now ask the copilot to "add a todo item" with any text you want.
 
 <Frame>
-  <img 
-    src="https://cdn.copilotkit.ai/docs/copilotkit/images/copilot-action-example.gif" 
-    alt="Example of Copilot action" 
+  <img
+    src="https://cdn.copilotkit.ai/docs/copilotkit/images/copilot-action-example.gif"
+    alt="Example of Copilot action"
     className="rounded-lg shadow-md w-full max-w-md mx-auto"
   />
 </Frame>

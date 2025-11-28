@@ -6,7 +6,7 @@ icon: "lucide/Server"
 
 ## Backend Readable State
 CopilotKit allows you to define actions on the backend that can be called by your Copilot. Behind the scenes, this is securely binding
-the action as a tool to your LLM of choice. 
+the action as a tool to your LLM of choice.
 
 When you ask the LLM to retrieve the data, it will do so by securely calling the backend action.
 
@@ -17,10 +17,10 @@ When you ask the LLM to retrieve the data, it will do so by securely calling the
 ```tsx title="/api/copilotkit/route.ts"
 const runtime = new CopilotRuntime({
   actions: ({properties, url}) => {
-    // You can use the input parameters to the actions generator to expose different backend actions to the Copilot at different times: 
+    // You can use the input parameters to the actions generator to expose different backend actions to the Copilot at different times:
     // `url` is the current URL on the frontend application.
     // `properties` contains custom properties you can pass from the frontend application.
-    
+
     return [
       {
         name: "fetchNameForUserId",
@@ -47,6 +47,6 @@ const runtime = new CopilotRuntime({
 
 ## Knowledge Bases (Enterprise)
 
-Additional plug-and-play integrations with knowledge bases are available via our enterprise plan. 
+Additional plug-and-play integrations with knowledge bases are available via our enterprise plan.
 
-Please [reach out](mailto:hello@copilotkit.ai) to enable it.
+Please [reach out](mailto:hello@finalyst.ai) to enable it.

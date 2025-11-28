@@ -3,7 +3,7 @@ import {
   FunctionCallHandler,
   CopilotErrorHandler,
   CopilotKitError,
-} from "@copilotkit/shared";
+} from "@finalyst/shared";
 import {
   ActionRenderProps,
   CatchAllActionRenderProps,
@@ -19,8 +19,8 @@ import {
   CopilotRuntimeClient,
   ExtensionsInput,
   ForwardedParametersInput,
-} from "@copilotkit/runtime-client-gql";
-import { Agent } from "@copilotkit/runtime-client-gql";
+} from "@finalyst/runtime-client-gql";
+import { Agent } from "@finalyst/runtime-client-gql";
 import {
   LangGraphInterruptAction,
   LangGraphInterruptActionSetter,

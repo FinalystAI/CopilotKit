@@ -1,7 +1,7 @@
 "use client";
 
-import { useCoAgent, useCopilotAction } from "@copilotkit/react-core";
-import { CopilotKitCSSProperties, CopilotSidebar } from "@copilotkit/react-ui";
+import { useCoAgent, useCopilotAction } from "@finalyst/react-core";
+import { CopilotKitCSSProperties, CopilotSidebar } from "@finalyst/react-ui";
 import { useState } from "react";
 
 export default function CopilotKitPage() {
@@ -117,7 +117,7 @@ function YourMainContent({ themeColor }: { themeColor: string }) {
                     proverbs: state.proverbs?.filter((_, i) => i !== index),
                   })
                 }
-                className="absolute right-3 top-3 opacity-0 group-hover:opacity-100 transition-opacity 
+                className="absolute right-3 top-3 opacity-0 group-hover:opacity-100 transition-opacity
                   bg-red-500 hover:bg-red-600 text-white rounded-full h-6 w-6 flex items-center justify-center"
               >
                 ✕

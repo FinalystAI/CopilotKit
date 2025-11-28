@@ -6,10 +6,10 @@ get_latest_versions() {
     for pkg in "$@"; do
         # Encode the package name for use in a URL
         encoded_pkg=$(echo "$pkg" | sed 's|/|%2F|g')
-        
+
         # Fetch the latest version of the package
         latest_version=$(curl -s "https://registry.npmjs.org/$encoded_pkg" | jq -r '.["dist-tags"].latest')
-        
+
         # Check if the latest version was found
         if [[ $latest_version != "null" && ! -z $latest_version ]]; then
             # Append the package and version to the result string, separated by '@' and spaces between packages
@@ -25,7 +25,7 @@ get_latest_versions() {
 }
 
 get_latest_copilotkit_versions() {
-  get_latest_versions "@copilotkit/backend" "@copilotkit/react-core" "@copilotkit/react-textarea" "@copilotkit/react-ui" "@copilotkit/shared"
+  get_latest_versions "@finalyst/backend" "@finalyst/react-core" "@finalyst/react-textarea" "@finalyst/react-ui" "@finalyst/shared"
 }
 
 get_latest_prerelease_versions() {
@@ -38,13 +38,13 @@ get_latest_prerelease_versions() {
     for pkg in "$@"; do
         # Encode the package name for use in a URL
         encoded_pkg=$(echo "$pkg" | sed 's|/|%2F|g')
-        
+
         # Fetch the list of all versions
         versions=$(curl -s "https://registry.npmjs.org/$encoded_pkg" | jq -r '.versions | keys[]')
-        
+
         # Filter versions that match the tag part and get the last one
         latest_prerelease_version=$(echo "$versions" | grep "$tag_part" | tail -n 1)
-        
+
         # Check if a version was found
         if [[ ! -z $latest_prerelease_version ]]; then
             # Append the package and version to the result string, separated by '@' and spaces between packages
@@ -59,7 +59,7 @@ get_latest_prerelease_versions() {
 }
 
 get_latest_copilotkit_prerelase_versions() {
-  get_latest_prerelease_versions $1 "@copilotkit/runtime" "@copilotkit/react-core" "@copilotkit/react-textarea" "@copilotkit/react-ui" "@copilotkit/shared"
+  get_latest_prerelease_versions $1 "@finalyst/runtime" "@finalyst/react-core" "@finalyst/react-textarea" "@finalyst/react-ui" "@finalyst/shared"
 }
 
 use_local_packages() {
@@ -72,7 +72,7 @@ use_local_packages() {
 yarn_install_packages() {
     local app_path="$1"
 
-    if [ -z "$packages" ]; then        
+    if [ -z "$packages" ]; then
         use_local_packages;
     fi
 

@@ -7,7 +7,7 @@
 import { RunnableConfig } from "@langchain/core/runnables";
 import { AgentState } from "./state";
 import { htmlToText } from "html-to-text";
-import { copilotkitEmitState } from "@copilotkit/sdk-js/langgraph";
+import { copilotkitEmitState } from "@finalyst/sdk-js/langgraph";
 
 const RESOURCE_CACHE: Record<string, string> = {};
 

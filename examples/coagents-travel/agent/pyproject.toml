@@ -2,7 +2,7 @@
 name = "travel"
 version = "0.1.0"
 description = ""
-authors = ["Tyler Slaton <tyler@copilotkit.ai>"]
+authors = ["Tyler Slaton <tyler@finalyst.ai>"]
 readme = "README.md"
 
 [project]

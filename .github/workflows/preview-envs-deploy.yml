@@ -116,12 +116,12 @@ jobs:
         working-directory: ./CopilotKit
         run: pnpm install --frozen-lockfile
 
-      - name: (UI, Local Deps) Build @copilotkit packages
+      - name: (UI, Local Deps) Build @finalyst packages
         if: matrix.app.type == 'ui' || matrix.app.type == 'next-openai'
         working-directory: ./CopilotKit
         run: pnpm run freshbuild
 
-      - name: (UI, Local Deps) Link @copilotkit packages
+      - name: (UI, Local Deps) Link @finalyst packages
         if: matrix.app.type == 'ui'
         working-directory: ./examples/${{ matrix.app.project }}/${{ matrix.app.type }}
         run: |

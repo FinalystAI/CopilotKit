@@ -83,7 +83,7 @@ Before you begin, you'll need the following:
                 Now we need to install the depedencies for the frontend and the agent.
 
                 <Callout type="info">
-                  The starter comes with a post-install script to install both the frontend and agent dependencies. 
+                  The starter comes with a post-install script to install both the frontend and agent dependencies.
                 </Callout>
 
                 <Tabs groupId="package-manager" items={['npm', 'pnpm', 'yarn', 'bun']}>
@@ -161,7 +161,7 @@ Before you begin, you'll need the following:
                 ### Add necessary dependencies
 
                 First, we'll need to make sure we have the necessary dependencies installed.
-                
+
                 <Tabs groupId="python-pm" items={['pip', 'poetry', 'uv']}>
                     <Tab value="pip">
                         ```bash
@@ -195,7 +195,7 @@ Before you begin, you'll need the following:
                 ### Install CopilotKit packages
 
                 ```package-install
-                @copilotkit/react-ui @copilotkit/react-core @copilotkit/runtime @ag-ui/llamaindex
+                @finalyst/react-ui @finalyst/react-core @finalyst/runtime @ag-ui/llamaindex
                 ```
             </Step>
             <Step>
@@ -257,7 +257,7 @@ Before you begin, you'll need the following:
                   CopilotRuntime,
                   ExperimentalEmptyAdapter,
                   copilotRuntimeNextJSAppRouterEndpoint,
-                } from "@copilotkit/runtime";
+                } from "@finalyst/runtime";
                 import { LlamaIndexAgent } from "@ag-ui/llamaindex";
                 import { NextRequest } from "next/server";
 
@@ -271,7 +271,7 @@ Before you begin, you'll need the following:
                     "llamaindex_agent": new LlamaIndexAgent({
                       url: "http://localhost:8000/run"
                     }),
-                  }   
+                  }
                 });
 
                 // Handle CopilotKit runtime requests
@@ -281,7 +281,7 @@ Before you begin, you'll need the following:
                     serviceAdapter,
                     endpoint: "/api/copilotkit",
                   });
-                
+
                   return handleRequest(req);
                 };
                 ```
@@ -298,20 +298,20 @@ Before you begin, you'll need the following:
                 You can just copy/paste this snippet into your existing `layout.tsx` file.
 
                 ```tsx title="app/layout.tsx"
-                import { CopilotKit } from "@copilotkit/react-core";
+                import { CopilotKit } from "@finalyst/react-core";
                 import "@/app/globals.css";
-                import "@copilotkit/react-ui/styles.css";
+                import "@finalyst/react-ui/styles.css";
 
-                export default function RootLayout({ 
-                  children 
-                }: { 
-                  children: React.ReactNode 
+                export default function RootLayout({
+                  children
+                }: {
+                  children: React.ReactNode
                 }) {
                   return (
                     <html lang="en">
                       <body>
-                        <CopilotKit 
-                          runtimeUrl="/api/copilotkit" 
+                        <CopilotKit
+                          runtimeUrl="/api/copilotkit"
                           agent="llamaindex_agent"
                         >
                           {children}
@@ -334,12 +334,12 @@ Before you begin, you'll need the following:
               You can just copy/paste this snippet into your existing `page.tsx` file.
 
               ```tsx title="app/page.tsx"
-              import { CopilotChat } from "@copilotkit/react-ui";
+              import { CopilotChat } from "@finalyst/react-ui";
 
               export default function Page() {
                 return (
                   <main className="min-h-screen p-8 bg-indigo-500/20">
-                    <CopilotChat 
+                    <CopilotChat
                       labels={{
                         initial: ["Howdy! I'm connected to your LlamaIndex agent 🦙"],
                       }}
@@ -418,8 +418,8 @@ Before you begin, you'll need the following:
     <Step>
         ### 🎉 Start chatting!
 
-        Your agent is now ready to use! 
-        
+        Your agent is now ready to use!
+
         Navigate to http://localhost:3000 and start chatting with it:
 
         ```
@@ -443,14 +443,14 @@ Before you begin, you'll need the following:
                         <li>Ensure your LlamaIndex agent is running on port 8000</li>
                         <li>Check that the agent health endpoint responds: <code>curl http://localhost:8000/health</code></li>
                     </ul>
-                    
+
                     <p><strong>API Key Issues:</strong></p>
                     <ul className="list-disc list-inside ml-4 space-y-1">
                         <li>Verify your OpenAI API key is correctly set: <code>echo $OPENAI_API_KEY</code></li>
                         <li>Check that your API key has sufficient credits</li>
                         <li>Ensure the key has access to the GPT-4o model</li>
                     </ul>
-                    
+
                     <p><strong>Frontend Issues:</strong></p>
                     <ul className="list-disc list-inside ml-4 space-y-1">
                         <li>Check browser console for errors</li>
@@ -486,4 +486,4 @@ Now that you have your basic agent setup, explore these advanced features:
     href="/llamaindex/frontend-actions"
     icon={<WrenchIcon />}
   />
-</Cards> 
+</Cards>

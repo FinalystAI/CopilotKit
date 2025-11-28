@@ -54,7 +54,7 @@ is a situation where a user and an agent are working together to solve a problem
           ```typescript title="agent-js/src/agent.ts"
           // ...
           import { Annotation } from "@langchain/langgraph";
-          import { CopilotKitStateAnnotation } from "@copilotkit/sdk-js/langgraph";
+          import { CopilotKitStateAnnotation } from "@finalyst/sdk-js/langgraph";
           // ...
 
           // This is the state of the agent.
@@ -118,7 +118,7 @@ is a situation where a user and an agent are working together to solve a problem
         import { ChatOpenAI } from "@langchain/openai";
         import { Annotation } from "@langchain/langgraph";
         import { SystemMessage } from "@langchain/core/messages";
-        import { copilotkitEmitState, CopilotKitStateAnnotation } from "@copilotkit/sdk-js/langgraph";
+        import { copilotkitEmitState, CopilotKitStateAnnotation } from "@finalyst/sdk-js/langgraph";
 
         type Search = {
           query: string;
@@ -160,7 +160,7 @@ is a situation where a user and an agent are working together to solve a problem
 
     ```tsx title="app/page.tsx"
     // ...
-    import { useCoAgentStateRender } from "@copilotkit/react-core";
+    import { useCoAgentStateRender } from "@finalyst/react-core";
     // ...
 
     // Define the state of the agent, should match the state of the agent in your LangGraph.
@@ -201,7 +201,7 @@ is a situation where a user and an agent are working together to solve a problem
     other than the chat.
 
     ```tsx title="app/page.tsx"
-    import { useCoAgent } from "@copilotkit/react-core"; // [!code highlight]
+    import { useCoAgent } from "@finalyst/react-core"; // [!code highlight]
     // ...
 
     // Define the state of the agent, should match the state of the agent in your LangGraph.

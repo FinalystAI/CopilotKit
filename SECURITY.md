@@ -7,7 +7,7 @@ At **Copilotkit**, we are continuously working to improve not only the product b
 We hope this product meets your expectations. However, if you notice anything that seems off, please feel free to report the issue by following the steps below:
 
 1. **Contact Information**:
-    - Email: [security@copilotkit.ai](mailto:security@copilotkit.ai)
+    - Email: [security@finalyst.ai](mailto:security@finalyst.ai)
 
 2. **Required Information**:
     - A detailed description of the vulnerability

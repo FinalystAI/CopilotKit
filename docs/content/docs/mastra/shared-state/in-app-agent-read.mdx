@@ -32,7 +32,7 @@ You can easily use the realtime agent state not only in the chat UI, but also in
 
 ## When should I use this?
 
-You can use this when you want to provide the user with feedback about what your working memory. As your agent's 
+You can use this when you want to provide the user with feedback about what your working memory. As your agent's
 state update you can reflect these updates natively in your application.
 
 ## Implementation
@@ -46,7 +46,7 @@ state update you can reflect these updates natively in your application.
     #### I already have an agent
 
     You can follow the instructions in the [quickstart](/mastra/quickstart) guide.
-    
+
     #### I want to start from scratch
 
     Run the following command to create a brand new project with a pre-configured agent:
@@ -94,7 +94,7 @@ state update you can reflect these updates natively in your application.
         },
       }),
     });
-    ```    
+    ```
   </Step>
   <Step>
     ### Use the `useCoAgent` Hook
@@ -102,7 +102,7 @@ state update you can reflect these updates natively in your application.
     optionally provide an initial state.
 
     ```tsx title="ui/app/page.tsx"
-    import { useCoAgent } from "@copilotkit/react-core"; // [!code highlight]
+    import { useCoAgent } from "@finalyst/react-core"; // [!code highlight]
     import { AgentState } from "@/mastra/agents/language-agent";
 
     function YourMainContent() {
@@ -110,7 +110,7 @@ state update you can reflect these updates natively in your application.
       const { state } = useCoAgent<AgentState>({
         name: "your-mastra-agent-name",
         // optionally provide a type-safe initial state
-        initialState: { language: "spanish" }  
+        initialState: { language: "spanish" }
       });
 
       // ...
@@ -120,7 +120,7 @@ state update you can reflect these updates natively in your application.
         <div>
           <h1>Your main content</h1>
           {/* [!code highlight:1] */}
-          <p>Language: {state.language}</p> 
+          <p>Language: {state.language}</p>
         </div>
       );
     }
@@ -138,11 +138,11 @@ state update you can reflect these updates natively in your application.
 
 ## Rendering agent state in the chat
 
-You can also render the working memory in the chat UI. This is useful for informing the user about the working memory in a 
+You can also render the working memory in the chat UI. This is useful for informing the user about the working memory in a
 more in-context way. To do this, you can use the [useCoAgentStateRender](/reference/hooks/useCoAgentStateRender) hook.
 
 ```tsx title="ui/app/page.tsx"
-import { useCoAgentStateRender } from "@copilotkit/react-core"; // [!code highlight]
+import { useCoAgentStateRender } from "@finalyst/react-core"; // [!code highlight]
 
 // Define the agent state type, should match the actual state of your agent
 type AgentState = {

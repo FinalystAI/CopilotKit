@@ -2,7 +2,7 @@
 
 import { useCopilotContext } from "../../context/copilot-context";
 import { useCopilotMessagesContext } from "../../context/copilot-messages-context";
-import { COPILOTKIT_VERSION } from "@copilotkit/shared";
+import { COPILOTKIT_VERSION } from "@finalyst/shared";
 import { useEffect, useState } from "react";
 import { CheckIcon, CopilotKitIcon, ExclamationMarkTriangleIcon } from "./icons";
 

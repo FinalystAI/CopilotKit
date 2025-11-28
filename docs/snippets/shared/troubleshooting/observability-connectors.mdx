@@ -4,7 +4,7 @@ See [Observability](../premium/observability) for a complete description of all 
 ## Quick Setup
 
 ```tsx
-import { CopilotKit } from "@copilotkit/react-core";
+import { CopilotKit } from "@finalyst/react-core";
 
 export default function App() {
   return (
@@ -32,7 +32,7 @@ export default function App() {
 ```
 
 <Callout type="info">
-  **Key Configuration**: 
+  **Key Configuration**:
   - Use `publicApiKey` when using Copilot Cloud
   - Use `publicLicenseKey` when self-hosting CopilotKit
   - Both keys provide the same observability features
@@ -49,7 +49,7 @@ You can get either type of key from [cloud.copilotkit.ai](https://cloud.copilotk
 The `onError` hook provides detailed, structured events:
 
 ```tsx
-import { CopilotErrorEvent } from "@copilotkit/shared";
+import { CopilotErrorEvent } from "@finalyst/shared";
 
 <CopilotKit
   publicApiKey="ck_pub_your_key" // or publicLicenseKey for self-hosted

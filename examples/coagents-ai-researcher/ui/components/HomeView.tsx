@@ -7,8 +7,8 @@ import { Button } from "./ui/button";
 import { CornerDownLeftIcon } from "lucide-react";
 import { useResearchContext } from "@/lib/research-provider";
 import { motion } from "framer-motion";
-import { useCoAgent } from "@copilotkit/react-core";
-import { TextMessage, MessageRole } from "@copilotkit/runtime-client-gql";
+import { useCoAgent } from "@finalyst/react-core";
+import { TextMessage, MessageRole } from "@finalyst/runtime-client-gql";
 import type { AgentState } from "../lib/types";
 import { useModelSelectorContext } from "@/lib/model-selector-provider";
 

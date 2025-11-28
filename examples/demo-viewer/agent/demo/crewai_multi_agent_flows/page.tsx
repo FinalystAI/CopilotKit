@@ -1,5 +1,5 @@
 "use client";
-import "@copilotkit/react-ui/styles.css";
+import "@finalyst/react-ui/styles.css";
 import "./style.css";
 
 import MarkdownIt from "markdown-it";
@@ -13,8 +13,8 @@ import {
   useCoAgent,
   useCopilotAction,
   useCopilotChat,
-} from "@copilotkit/react-core";
-import { CopilotSidebar } from "@copilotkit/react-ui";
+} from "@finalyst/react-core";
+import { CopilotSidebar } from "@finalyst/react-ui";
 
 const extensions = [StarterKit];
 
@@ -161,16 +161,16 @@ const DocumentEditor = () => {
   useCopilotAction({
     name: "confirm_changes",
     renderAndWaitForResponse: ({ args, respond, status }) => {
-      return <ConfirmChanges 
-        args={args} 
-        respond={respond} 
-        status={status} 
+      return <ConfirmChanges
+        args={args}
+        respond={respond}
+        status={status}
         onReject={() => {
           editor?.commands.setContent(fromMarkdown(currentDocument));
           setAgentState({
             document: currentDocument,
           });
-        }} 
+        }}
         onConfirm={() => {
           editor?.commands.setContent(fromMarkdown(agentState?.document || ""));
           setAgentState({

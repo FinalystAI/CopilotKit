@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge"
 import { cn } from "@/lib/utils"
 import { PRData, TestsData } from "@/app/Interfaces/interface"
 import React, { useEffect, useState } from "react"
-import { useCoAgent, useCoAgentStateRender } from "@copilotkit/react-core"
+import { useCoAgent, useCoAgentStateRender } from "@finalyst/react-core"
 import { Checkbox } from "@/components/ui/checkbox"
 
 interface DataTableProps {
@@ -23,7 +23,7 @@ export function DataTable({ columns, data }: DataTableProps) {
   const mainKeys = columns.map(col => col.accessorKey);
   const extraKeys = allKeys.filter(key => !mainKeys.includes(key));
 
-  
+
   const handleRowClick = (rowIndex: number) => {
     setExpandedRow(expandedRow === rowIndex ? null : rowIndex);
   };
@@ -34,7 +34,7 @@ export function DataTable({ columns, data }: DataTableProps) {
         <TableHeader>
           <TableRow>
             <TableHead className="w-[50px]">
-              <Checkbox 
+              <Checkbox
                 className="rounded-md border-gray-300 dark:border-gray-600"
                 onCheckedChange={(checked) => {
                   // Handle select all logic here
@@ -63,7 +63,7 @@ export function DataTable({ columns, data }: DataTableProps) {
                   onClick={() => handleRowClick(rowIndex)}
                 >
                   <TableCell className="w-[50px]">
-                    <Checkbox 
+                    <Checkbox
                       className="rounded-md border-gray-300 dark:border-gray-600"
                       onCheckedChange={(checked) => {
                         // Handle individual checkbox logic here

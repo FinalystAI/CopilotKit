@@ -63,7 +63,7 @@ When a node in your LangGraph finishes executing, **its returned state becomes t
             <Tab value="TypeScript">
                 ```ts title="agent-js/src/agent.ts"
                 import { Annotation } from "@langchain/langgraph";
-                import { CopilotKitStateAnnotation } from "@copilotkit/sdk-js/langgraph";
+                import { CopilotKitStateAnnotation } from "@finalyst/sdk-js/langgraph";
 
                 export const AgentStateAnnotation = Annotation.Root({
                     observed_steps: Annotation<string[]>,  // Array of completed steps
@@ -109,7 +109,7 @@ When a node in your LangGraph finishes executing, **its returned state becomes t
                                 "Generating recommendations...",
                                 "Formatting final output..."
                             ]
-                            
+
                             for step in steps:
                                 self.state["observed_steps"] = self.state.get("observed_steps", []) + [step]
                                 await copilotkit_emit_state(config, state) # [!code highlight]
@@ -120,7 +120,7 @@ When a node in your LangGraph finishes executing, **its returned state becomes t
                     </Tab>
                     <Tab value="TypeScript">
                         ```ts title="agent-js/src/agent.ts"
-                        import { copilotkitEmitState } from "@copilotkit/sdk-js/langgraph"; // [!code highlight]
+                        import { copilotkitEmitState } from "@finalyst/sdk-js/langgraph"; // [!code highlight]
                         // ...
                         async function chat_node(state: AgentState, config: RunnableConfig) {
                             // ...
@@ -132,7 +132,7 @@ When a node in your LangGraph finishes executing, **its returned state becomes t
                                 "Generating recommendations...",
                                 "Formatting final output..."
                             ];
-                            
+
                             for (const step of steps) {
                                 state.observed_steps = [...(state.observed_steps ?? []), step];
                                 copilotkitEmitState(config, state);
@@ -146,7 +146,7 @@ When a node in your LangGraph finishes executing, **its returned state becomes t
 
             <TailoredContentOption
                 id="tool-emission"
-                title="Tool-Based Predictive State Updates" 
+                title="Tool-Based Predictive State Updates"
                 description="Configure specific tool calls to automatically emit intermediate state updates."
                 icon={<FaWrench />}
             >
@@ -215,7 +215,7 @@ When a node in your LangGraph finishes executing, **its returned state becomes t
                     </Tab>
                     <Tab value="TypeScript">
                         ```typescript
-                        import { copilotkitCustomizeConfig } from '@copilotkit/sdk-js/langgraph';
+                        import { copilotkitCustomizeConfig } from '@finalyst/sdk-js/langgraph';
 
                         async function frontendActionsNode(state: AgentState, config: RunnableConfig): Promise<AgentState> {
                             const modifiedConfig = copilotkitCustomizeConfig(config, {
@@ -266,13 +266,13 @@ When a node in your LangGraph finishes executing, **its returned state becomes t
         These predictions will be emitted as the agent runs, allowing you to track its progress before the final state is determined.
 
         ```tsx title="ui/app/page.tsx"
-        import { useCoAgent, useCoAgentStateRender } from '@copilotkit/react-core';
+        import { useCoAgent, useCoAgentStateRender } from '@finalyst/react-core';
 
         // ...
         type AgentState = {
             observed_steps: string[];
         };
-        
+
         const YourMainContent = () => {
             // Get access to both predicted and final states
             const { state } = useCoAgent<AgentState>({ name: "sample_agent" });

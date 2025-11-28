@@ -142,7 +142,7 @@ Before you begin, you'll need the following:
                 ### Install CopilotKit packages
 
                 ```package-install
-                @copilotkit/react-ui @copilotkit/react-core @copilotkit/runtime @ag-ui/mastra @mastra/client-js
+                @finalyst/react-ui @finalyst/react-core @finalyst/runtime @ag-ui/mastra @mastra/client-js
                 ```
             </Step>
             <Step>
@@ -156,7 +156,7 @@ Before you begin, you'll need the following:
                   CopilotRuntime,
                   ExperimentalEmptyAdapter,
                   copilotRuntimeNextJSAppRouterEndpoint,
-                } from "@copilotkit/runtime";
+                } from "@finalyst/runtime";
                 import { NextRequest } from "next/server";
                 // [!code highlight:3]
                 import { MastraAgent } from "@ag-ui/mastra"
@@ -165,7 +165,7 @@ Before you begin, you'll need the following:
 
                 // 1. Service adapter for multi-agent support (using empty adapter for this example)
                 const serviceAdapter = new ExperimentalEmptyAdapter();
-                
+
                 // 2. Create the CopilotRuntime instance and utilize the Mastra AG-UI
                 //    integration to connect to your existing agent.
                 // [!code highlight:3]
@@ -181,7 +181,7 @@ Before you begin, you'll need the following:
                     serviceAdapter,
                     endpoint: "/api/copilotkit",
                   });
-                
+
                   return handleRequest(req);
                 };
                 ```
@@ -193,8 +193,8 @@ Before you begin, you'll need the following:
                 via the Mastra agent.
 
                 ```tsx title="app/layout.tsx"
-                import { CopilotKit } from "@copilotkit/react-core"; // [!code highlight]
-                import "@copilotkit/react-ui/styles.css";
+                import { CopilotKit } from "@finalyst/react-core"; // [!code highlight]
+                import "@finalyst/react-ui/styles.css";
 
                 // ...
 
@@ -203,8 +203,8 @@ Before you begin, you'll need the following:
                     <html lang="en">
                       <body>
                         {/* [!code highlight:6] */}
-                        <CopilotKit 
-                          runtimeUrl="/api/copilotkit" 
+                        <CopilotKit
+                          runtimeUrl="/api/copilotkit"
                           agent="your-mastra-agent-name"
                         >
                           {children}
@@ -222,7 +222,7 @@ Before you begin, you'll need the following:
               Add the CopilotSidebar component to your page:
 
               ```tsx title="app/page.tsx"
-              import { CopilotSidebar } from "@copilotkit/react-ui"; // [!code highlight]
+              import { CopilotSidebar } from "@finalyst/react-ui"; // [!code highlight]
 
               export default function Page() {
                 return (
@@ -286,4 +286,4 @@ Now that you have your basic agent setup, explore these advanced features:
     href="/mastra/frontend-actions"
     icon={<WrenchIcon />}
   />
-</Cards> 
+</Cards>

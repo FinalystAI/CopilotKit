@@ -1,6 +1,6 @@
-import { useCopilotContext, useCopilotMessagesContext } from "@copilotkit/react-core";
-import { gqlToAGUI } from "@copilotkit/runtime-client-gql";
-import { Message } from "@copilotkit/shared";
+import { useCopilotContext, useCopilotMessagesContext } from "@finalyst/react-core";
+import { gqlToAGUI } from "@finalyst/runtime-client-gql";
+import { Message } from "@finalyst/shared";
 import { MutableRefObject, useEffect, useRef, useState } from "react";
 
 export const checkMicrophonePermission = async () => {

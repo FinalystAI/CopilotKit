@@ -1,4 +1,4 @@
-import { useFrontendTool } from "@copilotkit/react-core";
+import { useFrontendTool } from "@finalyst/react-core";
 import { SlideModel } from "../types";
 import { SlidePreview } from "../components/misc/SlidePreview";
 

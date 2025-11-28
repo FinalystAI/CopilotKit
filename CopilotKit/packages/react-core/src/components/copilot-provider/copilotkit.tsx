@@ -6,7 +6,7 @@
  * You can find more information about self-hosting CopilotKit [here](/guides/self-hosting).
  *
  * ```tsx
- * import { CopilotKit } from "@copilotkit/react-core";
+ * import { CopilotKit } from "@finalyst/react-core";
  *
  * <CopilotKit runtimeUrl="<your-runtime-url>">
  *   // ... your app ...
@@ -36,7 +36,7 @@ import {
   CopilotKitError,
   CopilotErrorEvent,
   CopilotErrorHandler,
-} from "@copilotkit/shared";
+} from "@finalyst/shared";
 import { FrontendAction } from "../../types/frontend-action";
 import useFlatCategoryStore from "../../hooks/use-flat-category-store";
 import { CopilotKitProps } from "./copilotkit-props";
@@ -48,7 +48,7 @@ import { getErrorActions, UsageBanner } from "../usage-banner";
 import { useCopilotRuntimeClient } from "../../hooks/use-copilot-runtime-client";
 import { shouldShowDevConsole } from "../../utils";
 import { CopilotErrorBoundary } from "../error-boundary/error-boundary";
-import { Agent, ExtensionsInput } from "@copilotkit/runtime-client-gql";
+import { Agent, ExtensionsInput } from "@finalyst/runtime-client-gql";
 import {
   LangGraphInterruptAction,
   LangGraphInterruptActionSetterArgs,

@@ -122,7 +122,7 @@ Before you begin, you must have a [CrewAI Flow](https://docs.crewai.com/guides/f
             ### Install CopilotKit
             First, install the latest packages for CopilotKit into your frontend.
             ```package-install
-            npm install @copilotkit/react-ui @copilotkit/react-core
+            npm install @finalyst/react-ui @finalyst/react-core
             ```
         </Step>
 
@@ -148,9 +148,9 @@ Before you begin, you must have a [CrewAI Flow](https://docs.crewai.com/guides/f
 
             ```tsx title="page.tsx"
             "use client";
-            import "@copilotkit/react-ui/styles.css";
-            import { CopilotKit, useCopilotAction } from "@copilotkit/react-core";
-            import { CopilotChat } from "@copilotkit/react-ui";
+            import "@finalyst/react-ui/styles.css";
+            import { CopilotKit, useCopilotAction } from "@finalyst/react-core";
+            import { CopilotChat } from "@finalyst/react-ui";
             import React, { useState } from "react";
 
             const publicApiKey = process.env.NEXT_PUBLIC_COPILOT_API_KEY || "";

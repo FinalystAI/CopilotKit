@@ -1,9 +1,9 @@
 "use client";
-import { CopilotKit, useCoAgent, useCopilotChat } from "@copilotkit/react-core";
-import { CopilotSidebar } from "@copilotkit/react-ui";
+import { CopilotKit, useCoAgent, useCopilotChat } from "@finalyst/react-core";
+import { CopilotSidebar } from "@finalyst/react-ui";
 import { useState, useEffect, useRef } from "react";
-import { Role, TextMessage } from "@copilotkit/runtime-client-gql";
-import "@copilotkit/react-ui/styles.css";
+import { Role, TextMessage } from "@finalyst/runtime-client-gql";
+import "@finalyst/react-ui/styles.css";
 import "./style.css";
 
 enum SkillLevel {

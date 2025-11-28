@@ -1,4 +1,4 @@
-import { randomUUID } from "@copilotkit/shared";
+import { randomUUID } from "@finalyst/shared";
 
 type AgUiMessage = {
   id: string;

@@ -19,10 +19,10 @@ import UseClientCalloutSnippet from "@/snippets/use-client-callout.mdx";
 
 <Step>
 ### Simple Usage
- 
+
 ```tsx
-import { useCopilotChatSuggestions } from "@copilotkit/react-ui"; // [!code highlight]
- 
+import { useCopilotChatSuggestions } from "@finalyst/react-ui"; // [!code highlight]
+
 export function MyComponent() {
   // [!code highlight:8]
   useCopilotChatSuggestions(
@@ -39,10 +39,10 @@ export function MyComponent() {
 
 <Step>
 ### Dependency Management
- 
+
 ```tsx
-import { useCopilotChatSuggestions } from "@copilotkit/react-ui";
- 
+import { useCopilotChatSuggestions } from "@finalyst/react-ui";
+
 export function MyComponent() {
   useCopilotChatSuggestions(
     {
@@ -54,7 +54,7 @@ export function MyComponent() {
   );
 }
 ```
- 
+
 In the example above, the suggestions are generated based on the given instructions.
 The hook monitors `relevantState`, and updates suggestions accordingly whenever it changes.
 

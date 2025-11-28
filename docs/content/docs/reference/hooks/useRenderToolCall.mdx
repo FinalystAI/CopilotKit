@@ -19,7 +19,7 @@ for rendering UI based on tool calls that originate from elsewhere (typically th
 ### Rendering a Specific Backend Tool
 
 ```tsx
-import { useRenderToolCall } from "@copilotkit/react-core";
+import { useRenderToolCall } from "@finalyst/react-core";
 import { z } from "zod";
 
 useRenderToolCall({
@@ -38,7 +38,7 @@ useRenderToolCall({
         </div>
       );
     }
-    
+
     if (status === "complete" && result) {
       return (
         <div className="p-4 border rounded bg-green-50">
@@ -49,7 +49,7 @@ useRenderToolCall({
         </div>
       );
     }
-    
+
     return null;
   },
 });
@@ -75,7 +75,7 @@ useRenderToolCall({
 
     <PropertyReference name="render" type="React.ComponentType<RenderProps>">
       A React component that renders the tool call UI. The component receives props with:
-      
+
       <div className="ml-8">
         <PropertyReference name="status" type="'inProgress' | 'executing' | 'complete'">
           - `"inProgress"`: Tool is being prepared or arguments are being streamed.

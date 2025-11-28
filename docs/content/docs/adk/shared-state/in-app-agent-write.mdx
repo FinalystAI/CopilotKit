@@ -184,7 +184,7 @@ when your agent is calling tools. CopilotKit allows you to fully customize how t
     will update the agent state and trigger a rerender of anything that depends on the agent state.
 
     ```tsx title="ui/app/page.tsx"
-    import { useCoAgent } from "@copilotkit/react-core"; // [!code highlight]
+    import { useCoAgent } from "@finalyst/react-core"; // [!code highlight]
 
     // Define the agent state type, should match the actual state of your agent
     type AgentState = {
@@ -235,17 +235,17 @@ If you want to re-run it manually, use the `run` argument on the `useCoAgent` ho
 
 The agent will be re-run, and it will get not only the latest updated state, but also a **hint** that can depend on the data delta between the previous and the current state.
 
-For this example, you'll need to install the `@copilotkit/runtime-client-gql` and `@copilotkit/shared` packages.
+For this example, you'll need to install the `@finalyst/runtime-client-gql` and `@finalyst/shared` packages.
 
 ```bash
-pnpm add @copilotkit/runtime-client-gql
-pnpm add @copilotkit/shared
+pnpm add @finalyst/runtime-client-gql
+pnpm add @finalyst/shared
 ```
 
 ```tsx title="ui/app/page.tsx"
-import { useCoAgent } from "@copilotkit/react-core";
-import { TextMessage, MessageRole } from "@copilotkit/runtime-client-gql";  // [!code highlight]
-import type { Message } from "@copilotkit/shared";
+import { useCoAgent } from "@finalyst/react-core";
+import { TextMessage, MessageRole } from "@finalyst/runtime-client-gql";  // [!code highlight]
+import type { Message } from "@finalyst/shared";
 
 // ...
 

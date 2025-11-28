@@ -5,8 +5,8 @@ import {
   DocumentPointer,
   useCopilotReadable,
   useMakeCopilotDocumentReadable,
-} from "@copilotkit/react-core";
-import { CopilotTextarea, HTMLCopilotTextAreaElement } from "@copilotkit/react-textarea";
+} from "@finalyst/react-core";
+import { CopilotTextarea, HTMLCopilotTextAreaElement } from "@finalyst/react-textarea";
 import { useRef } from "react";
 import { useStateWithLocalStorage } from "../utils";
 import { useSearchParams } from "next/navigation";

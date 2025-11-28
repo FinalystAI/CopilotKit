@@ -4,21 +4,21 @@ import {
   useCoAgent,
   useCoAgentStateRender,
   useCopilotChat,
-} from "@copilotkit/react-core";
+} from "@finalyst/react-core";
 import {
   CopilotSidebar,
   useCopilotChatSuggestions,
-} from "@copilotkit/react-ui";
-import "@copilotkit/react-ui/styles.css";
+} from "@finalyst/react-ui";
+import "@finalyst/react-ui/styles.css";
 import {
   ModelSelectorProvider,
   useModelSelectorContext,
 } from "./lib/model-selector-provider";
 import { ModelSelector } from "./components/ModelSelector";
-import { MessageRole, TextMessage } from "@copilotkit/runtime-client-gql";
+import { MessageRole, TextMessage } from "@finalyst/runtime-client-gql";
 import { useSearchParams } from "next/navigation";
 import { Suspense } from "react";
-import { randomId } from "@copilotkit/shared";
+import { randomId } from "@finalyst/shared";
 
 export default function ModelSelectorWrapper() {
   return (

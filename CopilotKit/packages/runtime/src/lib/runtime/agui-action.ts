@@ -13,7 +13,7 @@ import {
 } from "@ag-ui/client";
 
 import { AbstractAgent } from "@ag-ui/client";
-import { Action, CopilotKitError, CopilotKitErrorCode, parseJson } from "@copilotkit/shared";
+import { Action, CopilotKitError, CopilotKitErrorCode, parseJson } from "@finalyst/shared";
 import { MetaEventInput } from "../../graphql/inputs/meta-event.input";
 import { GraphQLContext } from "../integrations/shared";
 import { CopilotContextInput } from "../../graphql/inputs/copilot-context.input";

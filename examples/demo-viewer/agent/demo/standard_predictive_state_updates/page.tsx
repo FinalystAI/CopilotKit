@@ -1,5 +1,5 @@
 "use client";
-import "@copilotkit/react-ui/styles.css";
+import "@finalyst/react-ui/styles.css";
 import "./style.css";
 
 import MarkdownIt from "markdown-it";
@@ -13,8 +13,8 @@ import {
   useCoAgent,
   useCopilotAction,
   useCopilotChat,
-} from "@copilotkit/react-core";
-import { CopilotSidebar, useCopilotChatSuggestions } from "@copilotkit/react-ui";
+} from "@finalyst/react-core";
+import { CopilotSidebar, useCopilotChatSuggestions } from "@finalyst/react-ui";
 import { chatSuggestions, initialPrompt, instructions } from "@/lib/prompts";
 const extensions = [StarterKit];
 

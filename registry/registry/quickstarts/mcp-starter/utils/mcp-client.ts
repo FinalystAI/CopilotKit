@@ -1,4 +1,4 @@
-import { MCPTool, MCPClient as MCPClientInterface } from "@copilotkit/runtime";
+import { MCPTool, MCPClient as MCPClientInterface } from "@finalyst/runtime";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { SSEClientTransport } from "@modelcontextprotocol/sdk/client/sse.js";
 // TODO: Replace with HttpClientTransport when available in SDK

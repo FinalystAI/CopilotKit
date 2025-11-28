@@ -4,7 +4,7 @@ import {
   CopilotRuntime,
   OpenAIAdapter,
   copilotRuntimeNextJSAppRouterEndpoint,
-} from "@copilotkit/runtime";
+} from "@finalyst/runtime";
 
 import { NextRequest } from "next/server";
 
@@ -132,7 +132,7 @@ Example PR data:
           handler: async () => {
             let authorNames = prData.map(pr => pr.author);
             let uniqueAuthorNames = [...new Set(authorNames)];
-            console.log(uniqueAuthorNames, "uniqueAuthorNames");            
+            console.log(uniqueAuthorNames, "uniqueAuthorNames");
             return uniqueAuthorNames;
           }
         },
@@ -172,7 +172,7 @@ Example PR data:
           handler: async () => {
             let reviewerNames = prData.map(pr => pr.assignedReviewer);
             let uniqueReviewerNames = [...new Set(reviewerNames)];
-            console.log(uniqueReviewerNames, "uniqueReviewerNames");            
+            console.log(uniqueReviewerNames, "uniqueReviewerNames");
             return uniqueReviewerNames;
           }
         },
@@ -240,7 +240,7 @@ Example PR data:
           handler: async () => {
             let testerNames = testData.map(test => test.executedBy);
             let uniqueTesterNames = [...new Set(testerNames)];
-            console.log(uniqueTesterNames, "uniqueTesterNames");            
+            console.log(uniqueTesterNames, "uniqueTesterNames");
             return uniqueTesterNames;
           }
         }

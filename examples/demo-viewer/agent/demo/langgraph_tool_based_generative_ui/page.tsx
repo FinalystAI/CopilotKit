@@ -1,8 +1,8 @@
 "use client";
-import { CopilotKit, useCopilotAction } from "@copilotkit/react-core";
-import { CopilotKitCSSProperties, CopilotSidebar, useCopilotChatSuggestions } from "@copilotkit/react-ui";
+import { CopilotKit, useCopilotAction } from "@finalyst/react-core";
+import { CopilotKitCSSProperties, CopilotSidebar, useCopilotChatSuggestions } from "@finalyst/react-ui";
 import { useState, useEffect } from "react";
-import "@copilotkit/react-ui/styles.css";
+import "@finalyst/react-ui/styles.css";
 import "./style.css";
 import { chatSuggestions, initialPrompt } from "@/lib/prompts";
 import HaikuCard from "./HaikuCard";
@@ -51,7 +51,7 @@ export default function AgenticChat() {
   );
 }
 
-interface Haiku { 
+interface Haiku {
   japanese: string[];
   english: string[];
   image_names: string[];
@@ -157,7 +157,7 @@ function Haiku() {
   });
   return (
     <div className="flex h-screen w-full">
-      
+
       {/* Thumbnail List */}
       <div className="w-40 p-4 border-r border-gray-200 overflow-y-auto overflow-x-hidden">
         {haikus.filter((haiku) => haiku.english[0] !== "A placeholder verse—").map((haiku, index) => (

@@ -23,15 +23,15 @@ const message = new TextMessage({
 
 #### After
 ```tsx
-const message = { 
-  role: "assistant", 
-  content: "Hello, how are you?" 
+const message = {
+  role: "assistant",
+  content: "Hello, how are you?"
 }
 ```
 
 ### Simplified Message Type Checking
 
-Message type checking has been streamlined for better developer experience. Instead of using the previous 
+Message type checking has been streamlined for better developer experience. Instead of using the previous
 `isTextMessage` or adjacent methods, you can now check the `role` property of the message.
 
 #### Before
@@ -82,7 +82,7 @@ Previously, you had to use the `subComponent` property to render custom assistan
 #### Before
 
 ```tsx
-import { AssistantMessageProps } from "@copilotkit/react-ui";
+import { AssistantMessageProps } from "@finalyst/react-ui";
 
 export const AssistantMessage = (props: AssistantMessageProps) => {
   const { message, subComponent } = props;
@@ -96,7 +96,7 @@ export const AssistantMessage = (props: AssistantMessageProps) => {
 #### After
 
 ```tsx
-import { AssistantMessageProps } from "@copilotkit/react-ui";
+import { AssistantMessageProps } from "@finalyst/react-ui";
 
 export const AssistantMessage = (props: AssistantMessageProps) => {
   const { message } = props;
@@ -164,7 +164,7 @@ return (
 
 ## What about `useCopilotChat`?
 
-With the introduction of the new headless UI hook, we are starting the deprecation of `useCopilotChat`. While it will remain supported for several months in maintenance mode, all new headless UI features will be added to `useCopilotChatHeadless_c`. 
+With the introduction of the new headless UI hook, we are starting the deprecation of `useCopilotChat`. While it will remain supported for several months in maintenance mode, all new headless UI features will be added to `useCopilotChatHeadless_c`.
 
 We recommend migrating to the new hook for new projects. However, please feel free to continue using `useCopilotChat` until you are ready to migrate.
 

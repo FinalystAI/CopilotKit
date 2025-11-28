@@ -2,11 +2,11 @@
 title: "Step 6: Human in the Loop"
 ---
 
-Now its time to add human in the loop to the application. This will allow the user to approve, reject, or modify mutative actions the 
+Now its time to add human in the loop to the application. This will allow the user to approve, reject, or modify mutative actions the
 agent wants to perform. For simplicity, we'll be only implementing approve and reject actions in this step.
 
-Our plan is to add a "breakpoint" to the application. This is a LangGraph concept that will force the agent to pause and wait for the 
-human approval before continuing execution. 
+Our plan is to add a "breakpoint" to the application. This is a LangGraph concept that will force the agent to pause and wait for the
+human approval before continuing execution.
 
 <Callout>
 You can learn more about breakpoints [here](https://langchain-ai.github.io/langgraph/how-tos/human_in_the_loop/breakpoints/?h=breakp).
@@ -87,11 +87,11 @@ async def perform_trips_node(state: AgentState, config: RunnableConfig):
     if tool_message.content == "CANCEL":
       await copilotkit_emit_message(config, "Cancelled operation of trip.")
       return state
-    
+
     # handle the edge case where the AI message is not an AIMessage or does not have tool calls, should never happen.
     if not isinstance(ai_message, AIMessage) or not ai_message.tool_calls:
         return state
-    
+
     # ...
 ```
 
@@ -126,14 +126,14 @@ With that, our work on the agent is complete and we are ready to update the fron
 
 ## Rendering the tool calls and taking the user's decision
 
-Now we need to update the front-end to render the tool calls and emit the user's decision back to the agent. To do this, 
+Now we need to update the front-end to render the tool calls and emit the user's decision back to the agent. To do this,
 we'll be adding `useCopilotAction` hooks for each tool call with the `renderAndWait` option.
 
 ```typescript title="ui/lib/hooks/use-trips.tsx"
 // ...
 import { AddTrips, EditTrips, DeleteTrips } from "@/components/humanInTheLoop"; // [!code ++]
-import { useCoAgent, useCoAgentStateRender } from "@copilotkit/react-core"; // [!code --]
-import { useCoAgent, useCoAgentStateRender, useCopilotAction } from "@copilotkit/react-core"; // [!code ++]
+import { useCoAgent, useCoAgentStateRender } from "@finalyst/react-core"; // [!code --]
+import { useCoAgent, useCoAgentStateRender, useCopilotAction } from "@finalyst/react-core"; // [!code ++]
 // ...
 
 export const TripsProvider = ({ children }: { children: ReactNode }) => {
@@ -147,7 +147,7 @@ export const TripsProvider = ({ children }: { children: ReactNode }) => {
   });
 
   // [!code ++:42]
-  useCopilotAction({ 
+  useCopilotAction({
     name: "add_trips",
     description: "Add some trips",
     parameters: [
@@ -207,7 +207,7 @@ import { Trip } from "@/lib/types";
 import { PlaceCard } from "@/components/PlaceCard";
 import { X, Trash } from "lucide-react";
 import { ActionButtons } from "./ActionButtons"; // [!code highlight]
-import { RenderFunctionStatus } from "@copilotkit/react-core";
+import { RenderFunctionStatus } from "@finalyst/react-core";
 
 export type DeleteTripsProps = {
   args: any;
@@ -238,10 +238,10 @@ export const DeleteTrips = ({ args, status, handler, trips }: DeleteTripsProps) 
       { status !== "complete" && (
         // [!code highlight:6]
         <ActionButtons
-          status={status} 
-          handler={handler} 
-          approve={<><Trash className="w-4 h-4 mr-2" /> Delete</>} 
-          reject={<><X className="w-4 h-4 mr-2" /> Cancel</>} 
+          status={status}
+          handler={handler}
+          approve={<><Trash className="w-4 h-4 mr-2" /> Delete</>}
+          reject={<><X className="w-4 h-4 mr-2" /> Cancel</>}
         />
       )}
     </div>
@@ -253,7 +253,7 @@ As you can see, this is a fairly standard component that renders the trips that 
 component. Let's take a look at it.
 
 ```tsx title="ui/lib/components/humanInTheLoop/ActionButtons.tsx"
-import { RenderFunctionStatus } from "@copilotkit/react-core";
+import { RenderFunctionStatus } from "@finalyst/react-core";
 import { Button } from "../ui/button";
 
 export type ActionButtonsProps = {
@@ -265,17 +265,17 @@ export type ActionButtonsProps = {
 
 export const ActionButtons = ({ status, handler, approve, reject }: ActionButtonsProps) => (
   <div className="flex gap-4 justify-between">
-    <Button 
+    <Button
       className="w-full"
       variant="outline"
-      disabled={status === "complete" || status === "inProgress"} 
+      disabled={status === "complete" || status === "inProgress"}
       onClick={() => handler?.("CANCEL")} // [!code highlight]
     >
       {reject}
     </Button>
-    <Button 
+    <Button
       className="w-full"
-      disabled={status === "complete" || status === "inProgress"} 
+      disabled={status === "complete" || status === "inProgress"}
       onClick={() => handler?.("SEND")} // [!code highlight]
     >
       {approve}
@@ -285,8 +285,8 @@ export const ActionButtons = ({ status, handler, approve, reject }: ActionButton
 ```
 
 The important piece here is that the `onClick` handlers emit the user's decision back to the agent. If the user clicks the `Delete` button
-then the `handler?.("SEND")` is called. If the user clicks the `Cancel` button then the `handler?.("CANCEL")` is called. This is how the 
-agent recieves the user's decision. 
+then the `handler?.("SEND")` is called. If the user clicks the `Cancel` button then the `handler?.("CANCEL")` is called. This is how the
+agent recieves the user's decision.
 
 <Callout>
 If you wanted to implement a more complex UI that allows for the human to edit the tool call arguments before sending them back to the agent,

@@ -12,34 +12,34 @@ description: "The useCopilotAdditionalInstructions hook allows you to provide ad
 }
 `useCopilotAdditionalInstructions` is a React hook that provides additional instructions
 to the Copilot.
- 
+
 ## Usage
- 
+
 ### Simple Usage
- 
+
 In its most basic usage, useCopilotAdditionalInstructions accepts a single string argument
 representing the instructions to be added to the Copilot.
- 
+
 ```tsx
-import { useCopilotAdditionalInstructions } from "@copilotkit/react-core";
- 
+import { useCopilotAdditionalInstructions } from "@finalyst/react-core";
+
 export function MyComponent() {
   useCopilotAdditionalInstructions({
     instructions: "Do not answer questions about the weather.",
   });
 }
 ```
- 
+
 ### Conditional Usage
- 
+
 You can also conditionally add instructions based on the state of your app.
- 
+
 ```tsx
-import { useCopilotAdditionalInstructions } from "@copilotkit/react-core";
- 
+import { useCopilotAdditionalInstructions } from "@finalyst/react-core";
+
 export function MyComponent() {
   const [showInstructions, setShowInstructions] = useState(false);
- 
+
   useCopilotAdditionalInstructions({
     available: showInstructions ? "enabled" : "disabled",
     instructions: "Do not answer questions about the weather.",
@@ -49,9 +49,9 @@ export function MyComponent() {
 
 ## Parameters
 
-<PropertyReference name="instructions" type="string" required > 
+<PropertyReference name="instructions" type="string" required >
 The instructions to be added to the Copilot. Will be added to the instructions like so:
- 
+
   ```txt
   You are a helpful assistant.
   Additionally, follow these instructions:
@@ -60,7 +60,7 @@ The instructions to be added to the Copilot. Will be added to the instructions l
   ```
 </PropertyReference>
 
-<PropertyReference name="available" type="'enabled' | 'disabled'"  > 
+<PropertyReference name="available" type="'enabled' | 'disabled'"  >
 Whether the instructions are available to the Copilot.
 </PropertyReference>
 

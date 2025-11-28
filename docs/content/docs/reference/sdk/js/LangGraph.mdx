@@ -13,34 +13,34 @@ description: "The CopilotKit LangGraph SDK for JavaScript allows you to build an
 ## copilotkitCustomizeConfig
 
 Customize the LangGraph configuration for use in CopilotKit.
- 
+
 To the CopilotKit SDK, run:
- 
+
 ```bash
-npm install @copilotkit/sdk-js
+npm install @finalyst/sdk-js
 ```
- 
+
 ### Examples
- 
+
 Disable emitting messages and tool calls:
- 
+
 ```typescript
-import { copilotkitCustomizeConfig } from "@copilotkit/sdk-js";
- 
+import { copilotkitCustomizeConfig } from "@finalyst/sdk-js";
+
 config = copilotkitCustomizeConfig(
   config,
   emitMessages=false,
   emitToolCalls=false
 )
 ```
- 
+
 To emit a tool call as streaming LangGraph state, pass the destination key in state,
 the tool name and optionally the tool argument. (If you don't pass the argument name,
 all arguments are emitted under the state key.)
- 
+
 ```typescript
-import { copilotkitCustomizeConfig } from "@copilotkit/sdk-js";
- 
+import { copilotkitCustomizeConfig } from "@finalyst/sdk-js";
+
 config = copilotkitCustomizeConfig(
   config,
   emitIntermediateState=[
@@ -55,11 +55,11 @@ config = copilotkitCustomizeConfig(
 
 ### Parameters
 
-<PropertyReference name="baseConfig" type="RunnableConfig" required > 
+<PropertyReference name="baseConfig" type="RunnableConfig" required >
 The LangChain/LangGraph configuration to customize.
 </PropertyReference>
 
-<PropertyReference name="options" type="OptionsConfig"  > 
+<PropertyReference name="options" type="OptionsConfig"  >
 Configuration options:
   - `emitMessages: boolean?`
     Configure how messages are emitted. By default, all messages are emitted. Pass false to
@@ -76,12 +76,12 @@ Configuration options:
 Exits the current agent after the run completes. Calling copilotkit_exit() will
 not immediately stop the agent. Instead, it signals to CopilotKit to stop the agent after
 the run completes.
- 
+
 ### Examples
- 
+
 ```typescript
-import { copilotkitExit } from "@copilotkit/sdk-js";
- 
+import { copilotkitExit } from "@finalyst/sdk-js";
+
 async function myNode(state: Any):
   await copilotkitExit(config)
   return state
@@ -89,7 +89,7 @@ async function myNode(state: Any):
 
 ### Parameters
 
-<PropertyReference name="config" type="RunnableConfig" required > 
+<PropertyReference name="config" type="RunnableConfig" required >
 The LangChain/LangGraph configuration.
 </PropertyReference>
 
@@ -97,12 +97,12 @@ The LangChain/LangGraph configuration.
 
 Emits intermediate state to CopilotKit. Useful if you have a longer running node and you want to
 update the user with the current state of the node.
- 
+
 ### Examples
- 
+
 ```typescript
-import { copilotkitEmitState } from "@copilotkit/sdk-js";
- 
+import { copilotkitEmitState } from "@finalyst/sdk-js";
+
 for (let i = 0; i < 10; i++) {
   await someLongRunningOperation(i);
   await copilotkitEmitState(config, { progress: i });
@@ -111,11 +111,11 @@ for (let i = 0; i < 10; i++) {
 
 ### Parameters
 
-<PropertyReference name="config" type="RunnableConfig" required > 
+<PropertyReference name="config" type="RunnableConfig" required >
 The LangChain/LangGraph configuration.
 </PropertyReference>
 
-<PropertyReference name="state" type="any" required > 
+<PropertyReference name="state" type="any" required >
 The state to emit.
 </PropertyReference>
 
@@ -123,15 +123,15 @@ The state to emit.
 
 Manually emits a message to CopilotKit. Useful in longer running nodes to update the user.
 Important: You still need to return the messages from the node.
- 
+
 ### Examples
- 
+
 ```typescript
-import { copilotkitEmitMessage } from "@copilotkit/sdk-js";
- 
+import { copilotkitEmitMessage } from "@finalyst/sdk-js";
+
 const message = "Step 1 of 10 complete";
 await copilotkitEmitMessage(config, message);
- 
+
 // Return the message from the node
 return {
   "messages": [AIMessage(content=message)]
@@ -140,37 +140,37 @@ return {
 
 ### Parameters
 
-<PropertyReference name="config" type="RunnableConfig" required > 
+<PropertyReference name="config" type="RunnableConfig" required >
 The LangChain/LangGraph configuration.
 </PropertyReference>
 
-<PropertyReference name="message" type="string" required > 
+<PropertyReference name="message" type="string" required >
 The message to emit.
 </PropertyReference>
 
 ## copilotkitEmitToolCall
 
 Manually emits a tool call to CopilotKit.
- 
+
 ### Examples
- 
+
 ```typescript
-import { copilotkitEmitToolCall } from "@copilotkit/sdk-js";
- 
+import { copilotkitEmitToolCall } from "@finalyst/sdk-js";
+
 await copilotkitEmitToolCall(config, name="SearchTool", args={"steps": 10})
 ```
 
 ### Parameters
 
-<PropertyReference name="config" type="RunnableConfig" required > 
+<PropertyReference name="config" type="RunnableConfig" required >
 The LangChain/LangGraph configuration.
 </PropertyReference>
 
-<PropertyReference name="name" type="string" required > 
+<PropertyReference name="name" type="string" required >
 The name of the tool to emit.
 </PropertyReference>
 
-<PropertyReference name="args" type="any" required > 
+<PropertyReference name="args" type="any" required >
 The arguments to emit.
 </PropertyReference>
 

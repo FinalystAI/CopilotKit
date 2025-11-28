@@ -8,14 +8,14 @@ import HeadlessUI from "@/snippets/shared/guides/custom-look-and-feel/headless-u
 <HeadlessUI components={props.components} />
 
 ### Interrupt-based
-LangGraph allows for you to interrupt the chat and wait for a human's response via an event. This is useful for 
+LangGraph allows for you to interrupt the chat and wait for a human's response via an event. This is useful for
 when you want to pause your LangGraph agent at specific points to solicit feedback or information from the user.
 
 When using the `useCopilotChatHeadless_c` hook, you can use the `interrupt` function to interrupt the chat.
 
 
 ```tsx title="src/app/components/chat.tsx"
-import { useLangGraphInterrupt, useCopilotChatHeadless_c } from "@copilotkit/react-core";
+import { useLangGraphInterrupt, useCopilotChatHeadless_c } from "@finalyst/react-core";
 
 export const Chat = () => {
   const { messages, sendMessage, interrupt } = useCopilotChatHeadless_c();

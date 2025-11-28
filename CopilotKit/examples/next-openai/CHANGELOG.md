@@ -6,12 +6,12 @@
 
 - .
 - Updated dependencies
-  - @copilotkit/runtime-client-gql@1.4.6
-  - @copilotkit/react-textarea@1.4.6
-  - @copilotkit/react-core@1.4.6
-  - @copilotkit/react-ui@1.4.6
-  - @copilotkit/runtime@1.4.6
-  - @copilotkit/shared@1.4.6
+  - @finalyst/runtime-client-gql@1.4.6
+  - @finalyst/react-textarea@1.4.6
+  - @finalyst/react-core@1.4.6
+  - @finalyst/react-ui@1.4.6
+  - @finalyst/runtime@1.4.6
+  - @finalyst/shared@1.4.6
 
 ## 1.4.5
 
@@ -19,12 +19,12 @@
 
 - .
 - Updated dependencies
-  - @copilotkit/runtime-client-gql@1.4.5
-  - @copilotkit/react-textarea@1.4.5
-  - @copilotkit/react-core@1.4.5
-  - @copilotkit/react-ui@1.4.5
-  - @copilotkit/runtime@1.4.5
-  - @copilotkit/shared@1.4.5
+  - @finalyst/runtime-client-gql@1.4.5
+  - @finalyst/react-textarea@1.4.5
+  - @finalyst/react-core@1.4.5
+  - @finalyst/react-ui@1.4.5
+  - @finalyst/runtime@1.4.5
+  - @finalyst/shared@1.4.5
 
 ## 1.4.4
 
@@ -32,12 +32,12 @@
 
 - .
 - Updated dependencies
-  - @copilotkit/react-core@1.4.4
-  - @copilotkit/react-textarea@1.4.4
-  - @copilotkit/react-ui@1.4.4
-  - @copilotkit/runtime@1.4.4
-  - @copilotkit/runtime-client-gql@1.4.4
-  - @copilotkit/shared@1.4.4
+  - @finalyst/react-core@1.4.4
+  - @finalyst/react-textarea@1.4.4
+  - @finalyst/react-ui@1.4.4
+  - @finalyst/runtime@1.4.4
+  - @finalyst/runtime-client-gql@1.4.4
+  - @finalyst/shared@1.4.4
 
 ## 1.4.3
 
@@ -49,12 +49,12 @@
   - Ensure state is immediately set without using flushSync
 - Updated dependencies [c296282]
 - Updated dependencies
-  - @copilotkit/react-core@1.4.3
-  - @copilotkit/react-textarea@1.4.3
-  - @copilotkit/react-ui@1.4.3
-  - @copilotkit/runtime@1.4.3
-  - @copilotkit/runtime-client-gql@1.4.3
-  - @copilotkit/shared@1.4.3
+  - @finalyst/react-core@1.4.3
+  - @finalyst/react-textarea@1.4.3
+  - @finalyst/react-ui@1.4.3
+  - @finalyst/runtime@1.4.3
+  - @finalyst/runtime-client-gql@1.4.3
+  - @finalyst/shared@1.4.3
 
 ## 1.4.3-pre.0
 
@@ -63,12 +63,12 @@
 - - Better error surfacing when using LangGraph Platform streaming
   - Ensure state is immediately set without using flushSync
 - Updated dependencies
-  - @copilotkit/react-core@1.4.3-pre.0
-  - @copilotkit/react-textarea@1.4.3-pre.0
-  - @copilotkit/react-ui@1.4.3-pre.0
-  - @copilotkit/runtime@1.4.3-pre.0
-  - @copilotkit/runtime-client-gql@1.4.3-pre.0
-  - @copilotkit/shared@1.4.3-pre.0
+  - @finalyst/react-core@1.4.3-pre.0
+  - @finalyst/react-textarea@1.4.3-pre.0
+  - @finalyst/react-ui@1.4.3-pre.0
+  - @finalyst/runtime@1.4.3-pre.0
+  - @finalyst/runtime-client-gql@1.4.3-pre.0
+  - @finalyst/shared@1.4.3-pre.0
 
 ## 1.4.2
 
@@ -77,12 +77,12 @@
 - - Make sure agent state is set immediately (#1077)
   - Support running an agent without messages (#1075)
 - Updated dependencies
-  - @copilotkit/react-core@1.4.2
-  - @copilotkit/react-textarea@1.4.2
-  - @copilotkit/react-ui@1.4.2
-  - @copilotkit/runtime@1.4.2
-  - @copilotkit/runtime-client-gql@1.4.2
-  - @copilotkit/shared@1.4.2
+  - @finalyst/react-core@1.4.2
+  - @finalyst/react-textarea@1.4.2
+  - @finalyst/react-ui@1.4.2
+  - @finalyst/runtime@1.4.2
+  - @finalyst/runtime-client-gql@1.4.2
+  - @finalyst/shared@1.4.2
 
 ## 1.4.1
 
@@ -113,7 +113,7 @@
 
   CopilotKid Back-end SDK:
 
-  - Released a whole-new `@copilotkit/sdk-js` for building agents with LangGraph JS Support
+  - Released a whole-new `@finalyst/sdk-js` for building agents with LangGraph JS Support
 
 - 8d0144f: bump
 - 8d0144f: bump
@@ -129,12 +129,12 @@
 - Updated dependencies [8d0144f]
 - Updated dependencies [8d0144f]
 - Updated dependencies [fef1b74]
-  - @copilotkit/react-core@1.4.1
-  - @copilotkit/react-textarea@1.4.1
-  - @copilotkit/react-ui@1.4.1
-  - @copilotkit/runtime@1.4.1
-  - @copilotkit/runtime-client-gql@1.4.1
-  - @copilotkit/shared@1.4.1
+  - @finalyst/react-core@1.4.1
+  - @finalyst/react-textarea@1.4.1
+  - @finalyst/react-ui@1.4.1
+  - @finalyst/runtime@1.4.1
+  - @finalyst/runtime-client-gql@1.4.1
+  - @finalyst/shared@1.4.1
 
 ## 1.4.1-pre.6
 
@@ -148,12 +148,12 @@
 - Updated dependencies [1721cbd]
 - Updated dependencies [1721cbd]
 - Updated dependencies
-  - @copilotkit/react-core@1.4.1-pre.6
-  - @copilotkit/react-textarea@1.4.1-pre.6
-  - @copilotkit/react-ui@1.4.1-pre.6
-  - @copilotkit/runtime@1.4.1-pre.6
-  - @copilotkit/runtime-client-gql@1.4.1-pre.6
-  - @copilotkit/shared@1.4.1-pre.6
+  - @finalyst/react-core@1.4.1-pre.6
+  - @finalyst/react-textarea@1.4.1-pre.6
+  - @finalyst/react-ui@1.4.1-pre.6
+  - @finalyst/runtime@1.4.1-pre.6
+  - @finalyst/runtime-client-gql@1.4.1-pre.6
+  - @finalyst/shared@1.4.1-pre.6
 
 ## 1.4.1-pre.5
 
@@ -161,12 +161,12 @@
 
 - bump
 - Updated dependencies
-  - @copilotkit/runtime-client-gql@1.4.1-pre.5
-  - @copilotkit/react-textarea@1.4.1-pre.5
-  - @copilotkit/react-core@1.4.1-pre.5
-  - @copilotkit/react-ui@1.4.1-pre.5
-  - @copilotkit/runtime@1.4.1-pre.5
-  - @copilotkit/shared@1.4.1-pre.5
+  - @finalyst/runtime-client-gql@1.4.1-pre.5
+  - @finalyst/react-textarea@1.4.1-pre.5
+  - @finalyst/react-core@1.4.1-pre.5
+  - @finalyst/react-ui@1.4.1-pre.5
+  - @finalyst/runtime@1.4.1-pre.5
+  - @finalyst/shared@1.4.1-pre.5
 
 ## 1.4.1-pre.4
 
@@ -174,12 +174,12 @@
 
 - bump
 - Updated dependencies
-  - @copilotkit/runtime-client-gql@1.4.1-pre.4
-  - @copilotkit/react-textarea@1.4.1-pre.4
-  - @copilotkit/react-core@1.4.1-pre.4
-  - @copilotkit/react-ui@1.4.1-pre.4
-  - @copilotkit/runtime@1.4.1-pre.4
-  - @copilotkit/shared@1.4.1-pre.4
+  - @finalyst/runtime-client-gql@1.4.1-pre.4
+  - @finalyst/react-textarea@1.4.1-pre.4
+  - @finalyst/react-core@1.4.1-pre.4
+  - @finalyst/react-ui@1.4.1-pre.4
+  - @finalyst/runtime@1.4.1-pre.4
+  - @finalyst/shared@1.4.1-pre.4
 
 ## 1.4.1-pre.3
 
@@ -187,12 +187,12 @@
 
 - bump
 - Updated dependencies
-  - @copilotkit/runtime-client-gql@1.4.1-pre.3
-  - @copilotkit/react-textarea@1.4.1-pre.3
-  - @copilotkit/react-core@1.4.1-pre.3
-  - @copilotkit/react-ui@1.4.1-pre.3
-  - @copilotkit/runtime@1.4.1-pre.3
-  - @copilotkit/shared@1.4.1-pre.3
+  - @finalyst/runtime-client-gql@1.4.1-pre.3
+  - @finalyst/react-textarea@1.4.1-pre.3
+  - @finalyst/react-core@1.4.1-pre.3
+  - @finalyst/react-ui@1.4.1-pre.3
+  - @finalyst/runtime@1.4.1-pre.3
+  - @finalyst/shared@1.4.1-pre.3
 
 ## 1.4.1-pre.2
 
@@ -200,12 +200,12 @@
 
 - bump
 - Updated dependencies
-  - @copilotkit/runtime-client-gql@1.4.1-pre.2
-  - @copilotkit/react-textarea@1.4.1-pre.2
-  - @copilotkit/react-core@1.4.1-pre.2
-  - @copilotkit/react-ui@1.4.1-pre.2
-  - @copilotkit/runtime@1.4.1-pre.2
-  - @copilotkit/shared@1.4.1-pre.2
+  - @finalyst/runtime-client-gql@1.4.1-pre.2
+  - @finalyst/react-textarea@1.4.1-pre.2
+  - @finalyst/react-core@1.4.1-pre.2
+  - @finalyst/react-ui@1.4.1-pre.2
+  - @finalyst/runtime@1.4.1-pre.2
+  - @finalyst/shared@1.4.1-pre.2
 
 ## 1.4.1-pre.1
 
@@ -213,12 +213,12 @@
 
 - bump
 - Updated dependencies
-  - @copilotkit/runtime-client-gql@1.4.1-pre.1
-  - @copilotkit/react-textarea@1.4.1-pre.1
-  - @copilotkit/react-core@1.4.1-pre.1
-  - @copilotkit/react-ui@1.4.1-pre.1
-  - @copilotkit/runtime@1.4.1-pre.1
-  - @copilotkit/shared@1.4.1-pre.1
+  - @finalyst/runtime-client-gql@1.4.1-pre.1
+  - @finalyst/react-textarea@1.4.1-pre.1
+  - @finalyst/react-core@1.4.1-pre.1
+  - @finalyst/react-ui@1.4.1-pre.1
+  - @finalyst/runtime@1.4.1-pre.1
+  - @finalyst/shared@1.4.1-pre.1
 
 ## 1.4.1-pre.0
 
@@ -226,12 +226,12 @@
 
 - New prerelease
 - Updated dependencies
-  - @copilotkit/runtime-client-gql@1.4.1-pre.0
-  - @copilotkit/react-core@1.4.1-pre.0
-  - @copilotkit/runtime@1.4.1-pre.0
-  - @copilotkit/shared@1.4.1-pre.0
-  - @copilotkit/react-textarea@1.4.1-pre.0
-  - @copilotkit/react-ui@1.4.1-pre.0
+  - @finalyst/runtime-client-gql@1.4.1-pre.0
+  - @finalyst/react-core@1.4.1-pre.0
+  - @finalyst/runtime@1.4.1-pre.0
+  - @finalyst/shared@1.4.1-pre.0
+  - @finalyst/react-textarea@1.4.1-pre.0
+  - @finalyst/react-ui@1.4.1-pre.0
 
 ## 1.4.0
 
@@ -255,7 +255,7 @@ CoAgents:
 
 CopilotKid Back-end SDK:
 
-- Released a whole-new `@copilotkit/sdk-js` for building agents with LangGraph JS Support
+- Released a whole-new `@finalyst/sdk-js` for building agents with LangGraph JS Support
 
 ### Patch Changes
 
@@ -288,12 +288,12 @@ CopilotKid Back-end SDK:
 - Updated dependencies [332d744]
 - Updated dependencies [f6fab28]
 - Updated dependencies [f6fab28]
-  - @copilotkit/runtime-client-gql@1.4.0
-  - @copilotkit/react-textarea@1.4.0
-  - @copilotkit/react-core@1.4.0
-  - @copilotkit/react-ui@1.4.0
-  - @copilotkit/runtime@1.4.0
-  - @copilotkit/shared@1.4.0
+  - @finalyst/runtime-client-gql@1.4.0
+  - @finalyst/react-textarea@1.4.0
+  - @finalyst/react-core@1.4.0
+  - @finalyst/react-ui@1.4.0
+  - @finalyst/runtime@1.4.0
+  - @finalyst/shared@1.4.0
 
 ## 1.3.16-mme-revert-rxjs-changes.0
 
@@ -327,11 +327,11 @@ CopilotKid Back-end SDK:
 - Updated dependencies [332d744]
 - Updated dependencies [f6fab28]
 - Updated dependencies [f6fab28]
-  - @copilotkit/react-textarea@1.3.16-mme-revert-rxjs-changes.10
-  - @copilotkit/react-core@1.3.16-mme-revert-rxjs-changes.10
-  - @copilotkit/react-ui@1.3.16-mme-revert-rxjs-changes.10
-  - @copilotkit/runtime@1.3.16-mme-revert-rxjs-changes.10
-  - @copilotkit/shared@1.3.16-mme-revert-rxjs-changes.10
+  - @finalyst/react-textarea@1.3.16-mme-revert-rxjs-changes.10
+  - @finalyst/react-core@1.3.16-mme-revert-rxjs-changes.10
+  - @finalyst/react-ui@1.3.16-mme-revert-rxjs-changes.10
+  - @finalyst/runtime@1.3.16-mme-revert-rxjs-changes.10
+  - @finalyst/shared@1.3.16-mme-revert-rxjs-changes.10
 
 ## 1.3.15
 
@@ -339,11 +339,11 @@ CopilotKid Back-end SDK:
 
 - pass description for array and object action parameters in langchain adapter
 - Updated dependencies
-  - @copilotkit/react-core@1.3.15
-  - @copilotkit/react-textarea@1.3.15
-  - @copilotkit/react-ui@1.3.15
-  - @copilotkit/runtime@1.3.15
-  - @copilotkit/shared@1.3.15
+  - @finalyst/react-core@1.3.15
+  - @finalyst/react-textarea@1.3.15
+  - @finalyst/react-ui@1.3.15
+  - @finalyst/runtime@1.3.15
+  - @finalyst/shared@1.3.15
 
 ## 1.3.14
 
@@ -351,11 +351,11 @@ CopilotKid Back-end SDK:
 
 - Add data-test-id to some elements for testing
 - Updated dependencies
-  - @copilotkit/react-core@1.3.14
-  - @copilotkit/react-textarea@1.3.14
-  - @copilotkit/react-ui@1.3.14
-  - @copilotkit/runtime@1.3.14
-  - @copilotkit/shared@1.3.14
+  - @finalyst/react-core@1.3.14
+  - @finalyst/react-textarea@1.3.14
+  - @finalyst/react-ui@1.3.14
+  - @finalyst/runtime@1.3.14
+  - @finalyst/shared@1.3.14
 
 ## 1.3.13
 
@@ -363,11 +363,11 @@ CopilotKid Back-end SDK:
 
 - fix usage of one-at-a-time tool when called multiple times
 - Updated dependencies
-  - @copilotkit/react-core@1.3.13
-  - @copilotkit/react-textarea@1.3.13
-  - @copilotkit/react-ui@1.3.13
-  - @copilotkit/runtime@1.3.13
-  - @copilotkit/shared@1.3.13
+  - @finalyst/react-core@1.3.13
+  - @finalyst/react-textarea@1.3.13
+  - @finalyst/react-ui@1.3.13
+  - @finalyst/runtime@1.3.13
+  - @finalyst/shared@1.3.13
 
 ## 1.3.12
 
@@ -376,11 +376,11 @@ CopilotKid Back-end SDK:
 - - enable dynamic parameters in langchain adapter tool call
   - fix unparsable action arguments causing tool call crashes
 - Updated dependencies
-  - @copilotkit/react-core@1.3.12
-  - @copilotkit/react-textarea@1.3.12
-  - @copilotkit/react-ui@1.3.12
-  - @copilotkit/runtime@1.3.12
-  - @copilotkit/shared@1.3.12
+  - @finalyst/react-core@1.3.12
+  - @finalyst/react-textarea@1.3.12
+  - @finalyst/react-ui@1.3.12
+  - @finalyst/runtime@1.3.12
+  - @finalyst/shared@1.3.12
 
 ## 1.3.11
 
@@ -390,11 +390,11 @@ CopilotKid Back-end SDK:
 - Fix duplicate messages
 - Updated dependencies [08e8956]
 - Updated dependencies
-  - @copilotkit/runtime@1.3.11
-  - @copilotkit/react-core@1.3.11
-  - @copilotkit/react-textarea@1.3.11
-  - @copilotkit/react-ui@1.3.11
-  - @copilotkit/shared@1.3.11
+  - @finalyst/runtime@1.3.11
+  - @finalyst/react-core@1.3.11
+  - @finalyst/react-textarea@1.3.11
+  - @finalyst/react-ui@1.3.11
+  - @finalyst/shared@1.3.11
 
 ## 1.3.11-mme-fix-duplicate-messages.0
 
@@ -402,11 +402,11 @@ CopilotKid Back-end SDK:
 
 - Fix duplicate messages
 - Updated dependencies
-  - @copilotkit/runtime@1.3.11-mme-fix-duplicate-messages.0
-  - @copilotkit/react-core@1.3.11-mme-fix-duplicate-messages.0
-  - @copilotkit/react-textarea@1.3.11-mme-fix-duplicate-messages.0
-  - @copilotkit/react-ui@1.3.11-mme-fix-duplicate-messages.0
-  - @copilotkit/shared@1.3.11-mme-fix-duplicate-messages.0
+  - @finalyst/runtime@1.3.11-mme-fix-duplicate-messages.0
+  - @finalyst/react-core@1.3.11-mme-fix-duplicate-messages.0
+  - @finalyst/react-textarea@1.3.11-mme-fix-duplicate-messages.0
+  - @finalyst/react-ui@1.3.11-mme-fix-duplicate-messages.0
+  - @finalyst/shared@1.3.11-mme-fix-duplicate-messages.0
 
 ## 1.3.10
 
@@ -414,11 +414,11 @@ CopilotKid Back-end SDK:
 
 - change how message chunk type is resolved (fixed langchain adapters)
 - Updated dependencies
-  - @copilotkit/react-core@1.3.10
-  - @copilotkit/react-textarea@1.3.10
-  - @copilotkit/react-ui@1.3.10
-  - @copilotkit/runtime@1.3.10
-  - @copilotkit/shared@1.3.10
+  - @finalyst/react-core@1.3.10
+  - @finalyst/react-textarea@1.3.10
+  - @finalyst/react-ui@1.3.10
+  - @finalyst/runtime@1.3.10
+  - @finalyst/shared@1.3.10
 
 ## 1.3.9
 
@@ -426,11 +426,11 @@ CopilotKid Back-end SDK:
 
 - Fix message id issues
 - Updated dependencies
-  - @copilotkit/react-core@1.3.9
-  - @copilotkit/react-textarea@1.3.9
-  - @copilotkit/react-ui@1.3.9
-  - @copilotkit/runtime@1.3.9
-  - @copilotkit/shared@1.3.9
+  - @finalyst/react-core@1.3.9
+  - @finalyst/react-textarea@1.3.9
+  - @finalyst/react-ui@1.3.9
+  - @finalyst/runtime@1.3.9
+  - @finalyst/shared@1.3.9
 
 ## 1.3.8
 
@@ -438,11 +438,11 @@ CopilotKid Back-end SDK:
 
 - fix textarea on multiple llm providers and memoize react ui context
 - Updated dependencies
-  - @copilotkit/react-core@1.3.8
-  - @copilotkit/react-textarea@1.3.8
-  - @copilotkit/react-ui@1.3.8
-  - @copilotkit/runtime@1.3.8
-  - @copilotkit/shared@1.3.8
+  - @finalyst/react-core@1.3.8
+  - @finalyst/react-textarea@1.3.8
+  - @finalyst/react-ui@1.3.8
+  - @finalyst/runtime@1.3.8
+  - @finalyst/shared@1.3.8
 
 ## 1.3.7
 
@@ -450,11 +450,11 @@ CopilotKid Back-end SDK:
 
 - Fix libraries for React 19 and Next.js 15 support
 - Updated dependencies
-  - @copilotkit/react-core@1.3.7
-  - @copilotkit/react-textarea@1.3.7
-  - @copilotkit/react-ui@1.3.7
-  - @copilotkit/runtime@1.3.7
-  - @copilotkit/shared@1.3.7
+  - @finalyst/react-core@1.3.7
+  - @finalyst/react-textarea@1.3.7
+  - @finalyst/react-ui@1.3.7
+  - @finalyst/runtime@1.3.7
+  - @finalyst/shared@1.3.7
 
 ## 1.3.6
 
@@ -464,11 +464,11 @@ CopilotKid Back-end SDK:
   2. Fixes Nest.js runtime docs
 
 - Updated dependencies
-  - @copilotkit/react-core@1.3.6
-  - @copilotkit/react-textarea@1.3.6
-  - @copilotkit/react-ui@1.3.6
-  - @copilotkit/runtime@1.3.6
-  - @copilotkit/shared@1.3.6
+  - @finalyst/react-core@1.3.6
+  - @finalyst/react-textarea@1.3.6
+  - @finalyst/react-ui@1.3.6
+  - @finalyst/runtime@1.3.6
+  - @finalyst/shared@1.3.6
 
 ## 1.3.5
 
@@ -476,11 +476,11 @@ CopilotKid Back-end SDK:
 
 - Improve CoAgent state render
 - Updated dependencies
-  - @copilotkit/react-core@1.3.5
-  - @copilotkit/react-textarea@1.3.5
-  - @copilotkit/react-ui@1.3.5
-  - @copilotkit/runtime@1.3.5
-  - @copilotkit/shared@1.3.5
+  - @finalyst/react-core@1.3.5
+  - @finalyst/react-textarea@1.3.5
+  - @finalyst/react-ui@1.3.5
+  - @finalyst/runtime@1.3.5
+  - @finalyst/shared@1.3.5
 
 ## 1.3.4
 
@@ -488,11 +488,11 @@ CopilotKid Back-end SDK:
 
 - Add followUp property to useCopilotAction
 - Updated dependencies
-  - @copilotkit/react-core@1.3.4
-  - @copilotkit/react-textarea@1.3.4
-  - @copilotkit/react-ui@1.3.4
-  - @copilotkit/runtime@1.3.4
-  - @copilotkit/shared@1.3.4
+  - @finalyst/react-core@1.3.4
+  - @finalyst/react-textarea@1.3.4
+  - @finalyst/react-ui@1.3.4
+  - @finalyst/runtime@1.3.4
+  - @finalyst/shared@1.3.4
 
 ## 1.3.3
 
@@ -500,11 +500,11 @@ CopilotKid Back-end SDK:
 
 - Impvovements to error handling and CoAgent protocol
 - Updated dependencies
-  - @copilotkit/react-core@1.3.3
-  - @copilotkit/react-textarea@1.3.3
-  - @copilotkit/react-ui@1.3.3
-  - @copilotkit/runtime@1.3.3
-  - @copilotkit/shared@1.3.3
+  - @finalyst/react-core@1.3.3
+  - @finalyst/react-textarea@1.3.3
+  - @finalyst/react-ui@1.3.3
+  - @finalyst/runtime@1.3.3
+  - @finalyst/shared@1.3.3
 
 ## 1.3.2
 
@@ -514,11 +514,11 @@ CopilotKid Back-end SDK:
 - 30232c0: Ensure actions can be discovered on state change
 - Updated dependencies
 - Updated dependencies [30232c0]
-  - @copilotkit/react-core@1.3.2
-  - @copilotkit/react-textarea@1.3.2
-  - @copilotkit/react-ui@1.3.2
-  - @copilotkit/runtime@1.3.2
-  - @copilotkit/shared@1.3.2
+  - @finalyst/react-core@1.3.2
+  - @finalyst/react-textarea@1.3.2
+  - @finalyst/react-ui@1.3.2
+  - @finalyst/runtime@1.3.2
+  - @finalyst/shared@1.3.2
 
 ## 1.3.2-mme-discover-actions.0
 
@@ -526,11 +526,11 @@ CopilotKid Back-end SDK:
 
 - Ensure actions can be discovered on state change
 - Updated dependencies
-  - @copilotkit/react-core@1.3.2-mme-discover-actions.0
-  - @copilotkit/react-textarea@1.3.2-mme-discover-actions.0
-  - @copilotkit/react-ui@1.3.2-mme-discover-actions.0
-  - @copilotkit/runtime@1.3.2-mme-discover-actions.0
-  - @copilotkit/shared@1.3.2-mme-discover-actions.0
+  - @finalyst/react-core@1.3.2-mme-discover-actions.0
+  - @finalyst/react-textarea@1.3.2-mme-discover-actions.0
+  - @finalyst/react-ui@1.3.2-mme-discover-actions.0
+  - @finalyst/runtime@1.3.2-mme-discover-actions.0
+  - @finalyst/shared@1.3.2-mme-discover-actions.0
 
 ## 1.3.1
 
@@ -538,11 +538,11 @@ CopilotKid Back-end SDK:
 
 - Revert CSS injection
 - Updated dependencies
-  - @copilotkit/react-core@1.3.1
-  - @copilotkit/react-textarea@1.3.1
-  - @copilotkit/react-ui@1.3.1
-  - @copilotkit/runtime@1.3.1
-  - @copilotkit/shared@1.3.1
+  - @finalyst/react-core@1.3.1
+  - @finalyst/react-textarea@1.3.1
+  - @finalyst/react-ui@1.3.1
+  - @finalyst/runtime@1.3.1
+  - @finalyst/shared@1.3.1
 
 ## 1.3.0
 
@@ -569,11 +569,11 @@ CopilotKid Back-end SDK:
 - Updated dependencies [00be203]
 - Updated dependencies [fb15f72]
 - Updated dependencies [8ecc3e4]
-  - @copilotkit/react-core@1.3.0
-  - @copilotkit/react-textarea@1.3.0
-  - @copilotkit/react-ui@1.3.0
-  - @copilotkit/runtime@1.3.0
-  - @copilotkit/shared@1.3.0
+  - @finalyst/react-core@1.3.0
+  - @finalyst/react-textarea@1.3.0
+  - @finalyst/react-ui@1.3.0
+  - @finalyst/runtime@1.3.0
+  - @finalyst/shared@1.3.0
 
 ## 1.2.1
 
@@ -590,11 +590,11 @@ CopilotKid Back-end SDK:
   - updated docs
 
 - Updated dependencies
-  - @copilotkit/react-core@1.2.1
-  - @copilotkit/react-textarea@1.2.1
-  - @copilotkit/react-ui@1.2.1
-  - @copilotkit/runtime@1.2.1
-  - @copilotkit/shared@1.2.1
+  - @finalyst/react-core@1.2.1
+  - @finalyst/react-textarea@1.2.1
+  - @finalyst/react-ui@1.2.1
+  - @finalyst/runtime@1.2.1
+  - @finalyst/shared@1.2.1
 
 ## 1.2.0
 
@@ -611,22 +611,22 @@ CopilotKid Back-end SDK:
 - Updated dependencies [638d51d]
 - Updated dependencies [faccbe1]
 - Updated dependencies [b0cf700]
-  - @copilotkit/react-core@1.2.0
-  - @copilotkit/react-textarea@1.2.0
-  - @copilotkit/react-ui@1.2.0
-  - @copilotkit/runtime@1.2.0
-  - @copilotkit/shared@1.2.0
+  - @finalyst/react-core@1.2.0
+  - @finalyst/react-textarea@1.2.0
+  - @finalyst/react-ui@1.2.0
+  - @finalyst/runtime@1.2.0
+  - @finalyst/shared@1.2.0
 
 ## 1.1.2
 
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-core@1.1.2
-  - @copilotkit/react-textarea@1.1.2
-  - @copilotkit/react-ui@1.1.2
-  - @copilotkit/runtime@1.1.2
-  - @copilotkit/shared@1.1.2
+  - @finalyst/react-core@1.1.2
+  - @finalyst/react-textarea@1.1.2
+  - @finalyst/react-ui@1.1.2
+  - @finalyst/runtime@1.1.2
+  - @finalyst/shared@1.1.2
 
 ## 1.1.1
 
@@ -637,11 +637,11 @@ CopilotKid Back-end SDK:
   - show/hide dev console
   - forward maxTokens, stop and force function calling
 - Updated dependencies
-  - @copilotkit/react-core@1.1.1
-  - @copilotkit/react-textarea@1.1.1
-  - @copilotkit/react-ui@1.1.1
-  - @copilotkit/runtime@1.1.1
-  - @copilotkit/shared@1.1.1
+  - @finalyst/react-core@1.1.1
+  - @finalyst/react-textarea@1.1.1
+  - @finalyst/react-ui@1.1.1
+  - @finalyst/runtime@1.1.1
+  - @finalyst/shared@1.1.1
 
 ## 1.1.0
 
@@ -652,11 +652,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-core@1.1.0
-  - @copilotkit/react-textarea@1.1.0
-  - @copilotkit/react-ui@1.1.0
-  - @copilotkit/runtime@1.1.0
-  - @copilotkit/shared@1.1.0
+  - @finalyst/react-core@1.1.0
+  - @finalyst/react-textarea@1.1.0
+  - @finalyst/react-ui@1.1.0
+  - @finalyst/runtime@1.1.0
+  - @finalyst/shared@1.1.0
 
 ## 1.0.9
 
@@ -664,33 +664,33 @@ CopilotKid Back-end SDK:
 
 - Dev console, bugfixes
 - Updated dependencies
-  - @copilotkit/react-core@1.0.9
-  - @copilotkit/react-textarea@1.0.9
-  - @copilotkit/react-ui@1.0.9
-  - @copilotkit/runtime@1.0.9
-  - @copilotkit/shared@1.0.9
+  - @finalyst/react-core@1.0.9
+  - @finalyst/react-textarea@1.0.9
+  - @finalyst/react-ui@1.0.9
+  - @finalyst/runtime@1.0.9
+  - @finalyst/shared@1.0.9
 
 ## 1.0.8
 
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-core@1.0.8
-  - @copilotkit/react-textarea@1.0.8
-  - @copilotkit/react-ui@1.0.8
-  - @copilotkit/runtime@1.0.8
-  - @copilotkit/shared@1.0.8
+  - @finalyst/react-core@1.0.8
+  - @finalyst/react-textarea@1.0.8
+  - @finalyst/react-ui@1.0.8
+  - @finalyst/runtime@1.0.8
+  - @finalyst/shared@1.0.8
 
 ## 1.0.7
 
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-core@1.0.7
-  - @copilotkit/react-textarea@1.0.7
-  - @copilotkit/react-ui@1.0.7
-  - @copilotkit/runtime@1.0.7
-  - @copilotkit/shared@1.0.7
+  - @finalyst/react-core@1.0.7
+  - @finalyst/react-textarea@1.0.7
+  - @finalyst/react-ui@1.0.7
+  - @finalyst/runtime@1.0.7
+  - @finalyst/shared@1.0.7
 
 ## 1.0.6
 
@@ -699,22 +699,22 @@ CopilotKid Back-end SDK:
 - - Proactively prevent race conditions
   - Improve token counting performance
 - Updated dependencies
-  - @copilotkit/react-core@1.0.6
-  - @copilotkit/react-textarea@1.0.6
-  - @copilotkit/react-ui@1.0.6
-  - @copilotkit/runtime@1.0.6
-  - @copilotkit/shared@1.0.6
+  - @finalyst/react-core@1.0.6
+  - @finalyst/react-textarea@1.0.6
+  - @finalyst/react-ui@1.0.6
+  - @finalyst/runtime@1.0.6
+  - @finalyst/shared@1.0.6
 
 ## 1.0.5
 
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-core@1.0.5
-  - @copilotkit/react-textarea@1.0.5
-  - @copilotkit/react-ui@1.0.5
-  - @copilotkit/runtime@1.0.5
-  - @copilotkit/shared@1.0.5
+  - @finalyst/react-core@1.0.5
+  - @finalyst/react-textarea@1.0.5
+  - @finalyst/react-ui@1.0.5
+  - @finalyst/runtime@1.0.5
+  - @finalyst/shared@1.0.5
 
 ## 1.0.4
 
@@ -722,44 +722,44 @@ CopilotKid Back-end SDK:
 
 - Remove nanoid
 - Updated dependencies
-  - @copilotkit/react-core@1.0.4
-  - @copilotkit/react-textarea@1.0.4
-  - @copilotkit/react-ui@1.0.4
-  - @copilotkit/runtime@1.0.4
-  - @copilotkit/shared@1.0.4
+  - @finalyst/react-core@1.0.4
+  - @finalyst/react-textarea@1.0.4
+  - @finalyst/react-ui@1.0.4
+  - @finalyst/runtime@1.0.4
+  - @finalyst/shared@1.0.4
 
 ## 1.0.3
 
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-core@1.0.3
-  - @copilotkit/react-textarea@1.0.3
-  - @copilotkit/react-ui@1.0.3
-  - @copilotkit/runtime@1.0.3
-  - @copilotkit/shared@1.0.3
+  - @finalyst/react-core@1.0.3
+  - @finalyst/react-textarea@1.0.3
+  - @finalyst/react-ui@1.0.3
+  - @finalyst/runtime@1.0.3
+  - @finalyst/shared@1.0.3
 
 ## 1.0.2
 
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-core@1.0.2
-  - @copilotkit/react-textarea@1.0.2
-  - @copilotkit/react-ui@1.0.2
-  - @copilotkit/runtime@1.0.2
-  - @copilotkit/shared@1.0.2
+  - @finalyst/react-core@1.0.2
+  - @finalyst/react-textarea@1.0.2
+  - @finalyst/react-ui@1.0.2
+  - @finalyst/runtime@1.0.2
+  - @finalyst/shared@1.0.2
 
 ## 1.0.1
 
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-core@1.0.1
-  - @copilotkit/react-textarea@1.0.1
-  - @copilotkit/react-ui@1.0.1
-  - @copilotkit/runtime@1.0.1
-  - @copilotkit/shared@1.0.1
+  - @finalyst/react-core@1.0.1
+  - @finalyst/react-textarea@1.0.1
+  - @finalyst/react-ui@1.0.1
+  - @finalyst/runtime@1.0.1
+  - @finalyst/shared@1.0.1
 
 ## 1.0.0
 
@@ -787,22 +787,22 @@ CopilotKid Back-end SDK:
 - Updated dependencies [b6a4b6eb]
 - Updated dependencies [b6a4b6eb]
 - Updated dependencies
-  - @copilotkit/react-core@1.0.0
-  - @copilotkit/react-textarea@1.0.0
-  - @copilotkit/react-ui@1.0.0
-  - @copilotkit/runtime@1.0.0
-  - @copilotkit/shared@1.0.0
+  - @finalyst/react-core@1.0.0
+  - @finalyst/react-textarea@1.0.0
+  - @finalyst/react-ui@1.0.0
+  - @finalyst/runtime@1.0.0
+  - @finalyst/shared@1.0.0
 
 ## 1.0.0-beta.2
 
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@1.0.0-beta.2
-  - @copilotkit/react-core@1.0.0-beta.2
-  - @copilotkit/react-ui@1.0.0-beta.2
-  - @copilotkit/runtime@1.0.0-beta.2
-  - @copilotkit/shared@1.0.0-beta.2
+  - @finalyst/react-textarea@1.0.0-beta.2
+  - @finalyst/react-core@1.0.0-beta.2
+  - @finalyst/react-ui@1.0.0-beta.2
+  - @finalyst/runtime@1.0.0-beta.2
+  - @finalyst/shared@1.0.0-beta.2
 
 ## 1.23.0
 
@@ -817,11 +817,11 @@ CopilotKid Back-end SDK:
 - Updated dependencies [f771353]
 - Updated dependencies [9df8d43]
 - Updated dependencies
-  - @copilotkit/react-core@0.37.0
-  - @copilotkit/backend@0.37.0
-  - @copilotkit/react-textarea@0.37.0
-  - @copilotkit/react-ui@0.37.0
-  - @copilotkit/shared@0.37.0
+  - @finalyst/react-core@0.37.0
+  - @finalyst/backend@0.37.0
+  - @finalyst/react-textarea@0.37.0
+  - @finalyst/react-ui@0.37.0
+  - @finalyst/shared@0.37.0
 
 ## 1.23.0-mme-fix-textarea-css.1
 
@@ -832,11 +832,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.37.0-mme-fix-textarea-css.1
-  - @copilotkit/backend@0.37.0-mme-fix-textarea-css.1
-  - @copilotkit/react-core@0.37.0-mme-fix-textarea-css.1
-  - @copilotkit/react-ui@0.37.0-mme-fix-textarea-css.1
-  - @copilotkit/shared@0.37.0-mme-fix-textarea-css.1
+  - @finalyst/react-textarea@0.37.0-mme-fix-textarea-css.1
+  - @finalyst/backend@0.37.0-mme-fix-textarea-css.1
+  - @finalyst/react-core@0.37.0-mme-fix-textarea-css.1
+  - @finalyst/react-ui@0.37.0-mme-fix-textarea-css.1
+  - @finalyst/shared@0.37.0-mme-fix-textarea-css.1
 
 ## 1.23.0-mme-fix-feedback-readable.0
 
@@ -847,11 +847,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-core@0.37.0-mme-fix-feedback-readable.0
-  - @copilotkit/backend@0.37.0-mme-fix-feedback-readable.0
-  - @copilotkit/react-textarea@0.37.0-mme-fix-feedback-readable.0
-  - @copilotkit/react-ui@0.37.0-mme-fix-feedback-readable.0
-  - @copilotkit/shared@0.37.0-mme-fix-feedback-readable.0
+  - @finalyst/react-core@0.37.0-mme-fix-feedback-readable.0
+  - @finalyst/backend@0.37.0-mme-fix-feedback-readable.0
+  - @finalyst/react-textarea@0.37.0-mme-fix-feedback-readable.0
+  - @finalyst/react-ui@0.37.0-mme-fix-feedback-readable.0
+  - @finalyst/shared@0.37.0-mme-fix-feedback-readable.0
 
 ## 1.22.0
 
@@ -864,11 +864,11 @@ CopilotKid Back-end SDK:
 
 - Updated dependencies [8baa862]
 - Updated dependencies
-  - @copilotkit/react-core@0.36.0
-  - @copilotkit/react-ui@0.36.0
-  - @copilotkit/backend@0.36.0
-  - @copilotkit/react-textarea@0.36.0
-  - @copilotkit/shared@0.36.0
+  - @finalyst/react-core@0.36.0
+  - @finalyst/react-ui@0.36.0
+  - @finalyst/backend@0.36.0
+  - @finalyst/react-textarea@0.36.0
+  - @finalyst/shared@0.36.0
 
 ## 1.22.0-mme-push-to-talk.0
 
@@ -879,11 +879,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-core@0.36.0-mme-push-to-talk.0
-  - @copilotkit/react-ui@0.36.0-mme-push-to-talk.0
-  - @copilotkit/backend@0.36.0-mme-push-to-talk.0
-  - @copilotkit/react-textarea@0.36.0-mme-push-to-talk.0
-  - @copilotkit/shared@0.36.0-mme-push-to-talk.0
+  - @finalyst/react-core@0.36.0-mme-push-to-talk.0
+  - @finalyst/react-ui@0.36.0-mme-push-to-talk.0
+  - @finalyst/backend@0.36.0-mme-push-to-talk.0
+  - @finalyst/react-textarea@0.36.0-mme-push-to-talk.0
+  - @finalyst/shared@0.36.0-mme-push-to-talk.0
 
 ## 1.21.0
 
@@ -920,11 +920,11 @@ CopilotKid Back-end SDK:
 - Updated dependencies [95bcbd8]
 - Updated dependencies [5f6f57a]
 - Updated dependencies [95bcbd8]
-  - @copilotkit/react-textarea@0.35.0
-  - @copilotkit/react-core@0.25.0
-  - @copilotkit/react-ui@0.22.0
-  - @copilotkit/backend@0.9.0
-  - @copilotkit/shared@0.9.0
+  - @finalyst/react-textarea@0.35.0
+  - @finalyst/react-core@0.25.0
+  - @finalyst/react-ui@0.22.0
+  - @finalyst/backend@0.9.0
+  - @finalyst/shared@0.9.0
 
 ## 1.21.0-mme-cloud.7
 
@@ -935,11 +935,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.35.0-mme-cloud.7
-  - @copilotkit/react-core@0.25.0-mme-cloud.7
-  - @copilotkit/react-ui@0.22.0-mme-cloud.7
-  - @copilotkit/backend@0.9.0-mme-cloud.7
-  - @copilotkit/shared@0.9.0-mme-cloud.7
+  - @finalyst/react-textarea@0.35.0-mme-cloud.7
+  - @finalyst/react-core@0.25.0-mme-cloud.7
+  - @finalyst/react-ui@0.22.0-mme-cloud.7
+  - @finalyst/backend@0.9.0-mme-cloud.7
+  - @finalyst/shared@0.9.0-mme-cloud.7
 
 ## 1.21.0-mme-cloud.6
 
@@ -950,11 +950,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.35.0-mme-cloud.6
-  - @copilotkit/react-core@0.25.0-mme-cloud.6
-  - @copilotkit/react-ui@0.22.0-mme-cloud.6
-  - @copilotkit/backend@0.9.0-mme-cloud.6
-  - @copilotkit/shared@0.9.0-mme-cloud.6
+  - @finalyst/react-textarea@0.35.0-mme-cloud.6
+  - @finalyst/react-core@0.25.0-mme-cloud.6
+  - @finalyst/react-ui@0.22.0-mme-cloud.6
+  - @finalyst/backend@0.9.0-mme-cloud.6
+  - @finalyst/shared@0.9.0-mme-cloud.6
 
 ## 1.21.0-mme-cloud.5
 
@@ -965,11 +965,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.35.0-mme-cloud.5
-  - @copilotkit/react-core@0.25.0-mme-cloud.5
-  - @copilotkit/react-ui@0.22.0-mme-cloud.5
-  - @copilotkit/backend@0.9.0-mme-cloud.5
-  - @copilotkit/shared@0.9.0-mme-cloud.5
+  - @finalyst/react-textarea@0.35.0-mme-cloud.5
+  - @finalyst/react-core@0.25.0-mme-cloud.5
+  - @finalyst/react-ui@0.22.0-mme-cloud.5
+  - @finalyst/backend@0.9.0-mme-cloud.5
+  - @finalyst/shared@0.9.0-mme-cloud.5
 
 ## 1.21.0-mme-cloud.4
 
@@ -980,11 +980,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.35.0-mme-cloud.4
-  - @copilotkit/react-core@0.25.0-mme-cloud.4
-  - @copilotkit/react-ui@0.22.0-mme-cloud.4
-  - @copilotkit/backend@0.9.0-mme-cloud.4
-  - @copilotkit/shared@0.9.0-mme-cloud.4
+  - @finalyst/react-textarea@0.35.0-mme-cloud.4
+  - @finalyst/react-core@0.25.0-mme-cloud.4
+  - @finalyst/react-ui@0.22.0-mme-cloud.4
+  - @finalyst/backend@0.9.0-mme-cloud.4
+  - @finalyst/shared@0.9.0-mme-cloud.4
 
 ## 1.21.0-mme-cloud.3
 
@@ -1005,11 +1005,11 @@ CopilotKid Back-end SDK:
 - Updated dependencies [12ff590]
 - Updated dependencies [f0c4745]
 - Updated dependencies [17f4b1b]
-  - @copilotkit/react-textarea@0.35.0-mme-cloud.3
-  - @copilotkit/react-core@0.25.0-mme-cloud.3
-  - @copilotkit/react-ui@0.22.0-mme-cloud.3
-  - @copilotkit/backend@0.9.0-mme-cloud.3
-  - @copilotkit/shared@0.9.0-mme-cloud.3
+  - @finalyst/react-textarea@0.35.0-mme-cloud.3
+  - @finalyst/react-core@0.25.0-mme-cloud.3
+  - @finalyst/react-ui@0.22.0-mme-cloud.3
+  - @finalyst/backend@0.9.0-mme-cloud.3
+  - @finalyst/shared@0.9.0-mme-cloud.3
 
 ## 1.21.0-function-calling-fixes.2
 
@@ -1020,11 +1020,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.35.0-function-calling-fixes.2
-  - @copilotkit/react-core@0.25.0-function-calling-fixes.2
-  - @copilotkit/react-ui@0.22.0-function-calling-fixes.2
-  - @copilotkit/backend@0.9.0-function-calling-fixes.2
-  - @copilotkit/shared@0.9.0-function-calling-fixes.2
+  - @finalyst/react-textarea@0.35.0-function-calling-fixes.2
+  - @finalyst/react-core@0.25.0-function-calling-fixes.2
+  - @finalyst/react-ui@0.22.0-function-calling-fixes.2
+  - @finalyst/backend@0.9.0-function-calling-fixes.2
+  - @finalyst/shared@0.9.0-function-calling-fixes.2
 
 ## 1.21.0-function-calling-fixes.1
 
@@ -1035,11 +1035,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.35.0-function-calling-fixes.1
-  - @copilotkit/react-core@0.25.0-function-calling-fixes.1
-  - @copilotkit/react-ui@0.22.0-function-calling-fixes.1
-  - @copilotkit/backend@0.9.0-function-calling-fixes.1
-  - @copilotkit/shared@0.9.0-function-calling-fixes.1
+  - @finalyst/react-textarea@0.35.0-function-calling-fixes.1
+  - @finalyst/react-core@0.25.0-function-calling-fixes.1
+  - @finalyst/react-ui@0.22.0-function-calling-fixes.1
+  - @finalyst/backend@0.9.0-function-calling-fixes.1
+  - @finalyst/shared@0.9.0-function-calling-fixes.1
 
 ## 1.21.0-alpha.0
 
@@ -1050,11 +1050,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/backend@0.9.0-alpha.0
-  - @copilotkit/shared@0.9.0-alpha.0
-  - @copilotkit/react-core@0.25.0-alpha.0
-  - @copilotkit/react-textarea@0.35.0-alpha.0
-  - @copilotkit/react-ui@0.22.0-alpha.0
+  - @finalyst/backend@0.9.0-alpha.0
+  - @finalyst/shared@0.9.0-alpha.0
+  - @finalyst/react-core@0.25.0-alpha.0
+  - @finalyst/react-textarea@0.35.0-alpha.0
+  - @finalyst/react-ui@0.22.0-alpha.0
 
 ## 1.20.0
 
@@ -1071,11 +1071,11 @@ CopilotKid Back-end SDK:
 - Updated dependencies
 - Updated dependencies [5a0b2cf]
 - Updated dependencies [e12b921]
-  - @copilotkit/react-textarea@0.34.0
-  - @copilotkit/react-core@0.24.0
-  - @copilotkit/react-ui@0.21.0
-  - @copilotkit/backend@0.8.0
-  - @copilotkit/shared@0.8.0
+  - @finalyst/react-textarea@0.34.0
+  - @finalyst/react-core@0.24.0
+  - @finalyst/react-ui@0.21.0
+  - @finalyst/backend@0.8.0
+  - @finalyst/shared@0.8.0
 
 ## 1.20.0-mme-esm-error.2
 
@@ -1086,11 +1086,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.34.0-mme-esm-error.2
-  - @copilotkit/react-core@0.24.0-mme-esm-error.2
-  - @copilotkit/react-ui@0.21.0-mme-esm-error.2
-  - @copilotkit/backend@0.8.0-mme-esm-error.2
-  - @copilotkit/shared@0.8.0-mme-esm-error.2
+  - @finalyst/react-textarea@0.34.0-mme-esm-error.2
+  - @finalyst/react-core@0.24.0-mme-esm-error.2
+  - @finalyst/react-ui@0.21.0-mme-esm-error.2
+  - @finalyst/backend@0.8.0-mme-esm-error.2
+  - @finalyst/shared@0.8.0-mme-esm-error.2
 
 ## 1.20.0-mme-esm-error.1
 
@@ -1101,11 +1101,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.34.0-mme-esm-error.1
-  - @copilotkit/react-core@0.24.0-mme-esm-error.1
-  - @copilotkit/react-ui@0.21.0-mme-esm-error.1
-  - @copilotkit/backend@0.8.0-mme-esm-error.1
-  - @copilotkit/shared@0.8.0-mme-esm-error.1
+  - @finalyst/react-textarea@0.34.0-mme-esm-error.1
+  - @finalyst/react-core@0.24.0-mme-esm-error.1
+  - @finalyst/react-ui@0.21.0-mme-esm-error.1
+  - @finalyst/backend@0.8.0-mme-esm-error.1
+  - @finalyst/shared@0.8.0-mme-esm-error.1
 
 ## 1.20.0-mme-esm-error.0
 
@@ -1116,11 +1116,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.34.0-mme-esm-error.0
-  - @copilotkit/react-core@0.24.0-mme-esm-error.0
-  - @copilotkit/react-ui@0.21.0-mme-esm-error.0
-  - @copilotkit/shared@0.8.0-mme-esm-error.0
-  - @copilotkit/backend@0.8.0-mme-esm-error.0
+  - @finalyst/react-textarea@0.34.0-mme-esm-error.0
+  - @finalyst/react-core@0.24.0-mme-esm-error.0
+  - @finalyst/react-ui@0.21.0-mme-esm-error.0
+  - @finalyst/shared@0.8.0-mme-esm-error.0
+  - @finalyst/backend@0.8.0-mme-esm-error.0
 
 ## 1.19.0
 
@@ -1133,11 +1133,11 @@ CopilotKid Back-end SDK:
 
 - Updated dependencies [899aa6e]
 - Updated dependencies
-  - @copilotkit/backend@0.7.0
-  - @copilotkit/react-core@0.23.0
-  - @copilotkit/react-textarea@0.33.0
-  - @copilotkit/react-ui@0.20.0
-  - @copilotkit/shared@0.7.0
+  - @finalyst/backend@0.7.0
+  - @finalyst/react-core@0.23.0
+  - @finalyst/react-textarea@0.33.0
+  - @finalyst/react-ui@0.20.0
+  - @finalyst/shared@0.7.0
 
 ## 1.19.0-mme-firebase-fixes.0
 
@@ -1148,11 +1148,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/backend@0.7.0-mme-firebase-fixes.0
-  - @copilotkit/react-core@0.23.0-mme-firebase-fixes.0
-  - @copilotkit/react-textarea@0.33.0-mme-firebase-fixes.0
-  - @copilotkit/react-ui@0.20.0-mme-firebase-fixes.0
-  - @copilotkit/shared@0.7.0-mme-firebase-fixes.0
+  - @finalyst/backend@0.7.0-mme-firebase-fixes.0
+  - @finalyst/react-core@0.23.0-mme-firebase-fixes.0
+  - @finalyst/react-textarea@0.33.0-mme-firebase-fixes.0
+  - @finalyst/react-ui@0.20.0-mme-firebase-fixes.0
+  - @finalyst/shared@0.7.0-mme-firebase-fixes.0
 
 ## 1.18.0
 
@@ -1163,11 +1163,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/backend@0.6.0
-  - @copilotkit/react-core@0.22.0
-  - @copilotkit/react-textarea@0.32.0
-  - @copilotkit/react-ui@0.19.0
-  - @copilotkit/shared@0.6.0
+  - @finalyst/backend@0.6.0
+  - @finalyst/react-core@0.22.0
+  - @finalyst/react-textarea@0.32.0
+  - @finalyst/react-ui@0.19.0
+  - @finalyst/shared@0.6.0
 
 ## 1.17.0
 
@@ -1194,11 +1194,11 @@ CopilotKid Back-end SDK:
 - Updated dependencies [0dd6180]
 - Updated dependencies [225812d]
 - Updated dependencies
-  - @copilotkit/backend@0.5.0
-  - @copilotkit/react-core@0.21.0
-  - @copilotkit/react-textarea@0.31.0
-  - @copilotkit/react-ui@0.18.0
-  - @copilotkit/shared@0.5.0
+  - @finalyst/backend@0.5.0
+  - @finalyst/react-core@0.21.0
+  - @finalyst/react-textarea@0.31.0
+  - @finalyst/react-ui@0.18.0
+  - @finalyst/shared@0.5.0
 
 ## 1.17.0-mme-deprecate-annotated-function.4
 
@@ -1209,11 +1209,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.31.0-mme-deprecate-annotated-function.4
-  - @copilotkit/react-core@0.21.0-mme-deprecate-annotated-function.4
-  - @copilotkit/react-ui@0.18.0-mme-deprecate-annotated-function.4
-  - @copilotkit/backend@0.5.0-mme-deprecate-annotated-function.4
-  - @copilotkit/shared@0.5.0-mme-deprecate-annotated-function.4
+  - @finalyst/react-textarea@0.31.0-mme-deprecate-annotated-function.4
+  - @finalyst/react-core@0.21.0-mme-deprecate-annotated-function.4
+  - @finalyst/react-ui@0.18.0-mme-deprecate-annotated-function.4
+  - @finalyst/backend@0.5.0-mme-deprecate-annotated-function.4
+  - @finalyst/shared@0.5.0-mme-deprecate-annotated-function.4
 
 ## 1.17.0-mme-pre-release.3
 
@@ -1228,11 +1228,11 @@ CopilotKid Back-end SDK:
 - Updated dependencies
 - Updated dependencies [3fbee5d]
 - Updated dependencies [3f5ad60]
-  - @copilotkit/backend@0.5.0-mme-pre-release.3
-  - @copilotkit/react-core@0.21.0-mme-pre-release.3
-  - @copilotkit/react-textarea@0.31.0-mme-pre-release.3
-  - @copilotkit/react-ui@0.18.0-mme-pre-release.3
-  - @copilotkit/shared@0.5.0-mme-pre-release.3
+  - @finalyst/backend@0.5.0-mme-pre-release.3
+  - @finalyst/react-core@0.21.0-mme-pre-release.3
+  - @finalyst/react-textarea@0.31.0-mme-pre-release.3
+  - @finalyst/react-ui@0.18.0-mme-pre-release.3
+  - @finalyst/shared@0.5.0-mme-pre-release.3
 
 ## 1.17.0-mme-function-call-labels.2
 
@@ -1245,11 +1245,11 @@ CopilotKid Back-end SDK:
 
 - Updated dependencies [be00d61]
 - Updated dependencies
-  - @copilotkit/react-core@0.21.0-mme-function-call-labels.2
-  - @copilotkit/backend@0.5.0-mme-function-call-labels.2
-  - @copilotkit/shared@0.5.0-mme-function-call-labels.2
-  - @copilotkit/react-textarea@0.31.0-mme-function-call-labels.2
-  - @copilotkit/react-ui@0.18.0-mme-function-call-labels.2
+  - @finalyst/react-core@0.21.0-mme-function-call-labels.2
+  - @finalyst/backend@0.5.0-mme-function-call-labels.2
+  - @finalyst/shared@0.5.0-mme-function-call-labels.2
+  - @finalyst/react-textarea@0.31.0-mme-function-call-labels.2
+  - @finalyst/react-ui@0.18.0-mme-function-call-labels.2
 
 ## 1.17.0-mme-experimental-actions.1
 
@@ -1260,11 +1260,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.31.0-mme-experimental-actions.1
-  - @copilotkit/react-core@0.21.0-mme-experimental-actions.1
-  - @copilotkit/react-ui@0.18.0-mme-experimental-actions.1
-  - @copilotkit/backend@0.5.0-mme-experimental-actions.1
-  - @copilotkit/shared@0.5.0-mme-experimental-actions.1
+  - @finalyst/react-textarea@0.31.0-mme-experimental-actions.1
+  - @finalyst/react-core@0.21.0-mme-experimental-actions.1
+  - @finalyst/react-ui@0.18.0-mme-experimental-actions.1
+  - @finalyst/backend@0.5.0-mme-experimental-actions.1
+  - @finalyst/shared@0.5.0-mme-experimental-actions.1
 
 ## 1.17.0-mme-experimental-actions.0
 
@@ -1275,11 +1275,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.31.0-mme-experimental-actions.0
-  - @copilotkit/react-core@0.21.0-mme-experimental-actions.0
-  - @copilotkit/react-ui@0.18.0-mme-experimental-actions.0
-  - @copilotkit/backend@0.5.0-mme-experimental-actions.0
-  - @copilotkit/shared@0.5.0-mme-experimental-actions.0
+  - @finalyst/react-textarea@0.31.0-mme-experimental-actions.0
+  - @finalyst/react-core@0.21.0-mme-experimental-actions.0
+  - @finalyst/react-ui@0.18.0-mme-experimental-actions.0
+  - @finalyst/backend@0.5.0-mme-experimental-actions.0
+  - @finalyst/shared@0.5.0-mme-experimental-actions.0
 
 ## 1.16.1
 
@@ -1291,11 +1291,11 @@ CopilotKid Back-end SDK:
 - Updated dependencies [5ec8ad4]
 - Updated dependencies [5a154d0]
 - Updated dependencies
-  - @copilotkit/react-textarea@0.30.1
-  - @copilotkit/react-core@0.20.1
-  - @copilotkit/react-ui@0.17.1
-  - @copilotkit/backend@0.4.1
-  - @copilotkit/shared@0.4.1
+  - @finalyst/react-textarea@0.30.1
+  - @finalyst/react-core@0.20.1
+  - @finalyst/react-ui@0.17.1
+  - @finalyst/backend@0.4.1
+  - @finalyst/shared@0.4.1
 
 ## 1.16.1-atai-0223-fix-backendOnlyProps.1
 
@@ -1303,11 +1303,11 @@ CopilotKid Back-end SDK:
 
 - fix- bring back removeBackendOnlyProps
 - Updated dependencies
-  - @copilotkit/react-textarea@0.30.1-atai-0223-fix-backendOnlyProps.1
-  - @copilotkit/react-core@0.20.1-atai-0223-fix-backendOnlyProps.1
-  - @copilotkit/react-ui@0.17.1-atai-0223-fix-backendOnlyProps.1
-  - @copilotkit/backend@0.4.1-atai-0223-fix-backendOnlyProps.1
-  - @copilotkit/shared@0.4.1-atai-0223-fix-backendOnlyProps.1
+  - @finalyst/react-textarea@0.30.1-atai-0223-fix-backendOnlyProps.1
+  - @finalyst/react-core@0.20.1-atai-0223-fix-backendOnlyProps.1
+  - @finalyst/react-ui@0.17.1-atai-0223-fix-backendOnlyProps.1
+  - @finalyst/backend@0.4.1-atai-0223-fix-backendOnlyProps.1
+  - @finalyst/shared@0.4.1-atai-0223-fix-backendOnlyProps.1
 
 ## 1.16.1-atai-0223-fix-backendOnlyProps.0
 
@@ -1315,11 +1315,11 @@ CopilotKid Back-end SDK:
 
 - fix: bring back removeBackendOnlyProps
 - Updated dependencies
-  - @copilotkit/backend@0.4.1-atai-0223-fix-backendOnlyProps.0
-  - @copilotkit/react-core@0.20.1-atai-0223-fix-backendOnlyProps.0
-  - @copilotkit/react-textarea@0.30.1-atai-0223-fix-backendOnlyProps.0
-  - @copilotkit/react-ui@0.17.1-atai-0223-fix-backendOnlyProps.0
-  - @copilotkit/shared@0.4.1-atai-0223-fix-backendOnlyProps.0
+  - @finalyst/backend@0.4.1-atai-0223-fix-backendOnlyProps.0
+  - @finalyst/react-core@0.20.1-atai-0223-fix-backendOnlyProps.0
+  - @finalyst/react-textarea@0.30.1-atai-0223-fix-backendOnlyProps.0
+  - @finalyst/react-ui@0.17.1-atai-0223-fix-backendOnlyProps.0
+  - @finalyst/shared@0.4.1-atai-0223-fix-backendOnlyProps.0
 
 ## 1.16.0
 
@@ -1335,18 +1335,18 @@ CopilotKid Back-end SDK:
 - Updated dependencies [b0e92a1]
 - Updated dependencies [401e474]
 - Updated dependencies [2f3296e]
-  - @copilotkit/backend@0.4.0
-  - @copilotkit/react-core@0.20.0
-  - @copilotkit/react-textarea@0.30.0
-  - @copilotkit/react-ui@0.17.0
-  - @copilotkit/shared@0.4.0
+  - @finalyst/backend@0.4.0
+  - @finalyst/react-core@0.20.0
+  - @finalyst/react-textarea@0.30.0
+  - @finalyst/react-ui@0.17.0
+  - @finalyst/shared@0.4.0
 
 ## 1.16.0-mme-fix-tools-error.2
 
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/backend@0.4.0-mme-fix-tools-error.2
+  - @finalyst/backend@0.4.0-mme-fix-tools-error.2
 
 ## 1.16.0-beta-automation.1
 
@@ -1357,11 +1357,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/backend@0.4.0-beta-automation.1
-  - @copilotkit/react-core@0.20.0-beta-automation.1
-  - @copilotkit/react-textarea@0.30.0-beta-automation.1
-  - @copilotkit/react-ui@0.17.0-beta-automation.1
-  - @copilotkit/shared@0.4.0-beta-automation.1
+  - @finalyst/backend@0.4.0-beta-automation.1
+  - @finalyst/react-core@0.20.0-beta-automation.1
+  - @finalyst/react-textarea@0.30.0-beta-automation.1
+  - @finalyst/react-ui@0.17.0-beta-automation.1
+  - @finalyst/shared@0.4.0-beta-automation.1
 
 ## 1.16.0-tools.0
 
@@ -1372,11 +1372,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-core@0.20.0-tools.0
-  - @copilotkit/backend@0.4.0-tools.0
-  - @copilotkit/shared@0.4.0-tools.0
-  - @copilotkit/react-textarea@0.30.0-tools.0
-  - @copilotkit/react-ui@0.17.0-tools.0
+  - @finalyst/react-core@0.20.0-tools.0
+  - @finalyst/backend@0.4.0-tools.0
+  - @finalyst/shared@0.4.0-tools.0
+  - @finalyst/react-textarea@0.30.0-tools.0
+  - @finalyst/react-ui@0.17.0-tools.0
 
 ## 1.15.0
 
@@ -1391,11 +1391,11 @@ CopilotKid Back-end SDK:
 - Updated dependencies
 - Updated dependencies [58a8524]
 - Updated dependencies [a34a226]
-  - @copilotkit/react-textarea@0.29.0
-  - @copilotkit/react-core@0.19.0
-  - @copilotkit/react-ui@0.16.0
-  - @copilotkit/backend@0.3.0
-  - @copilotkit/shared@0.3.0
+  - @finalyst/react-textarea@0.29.0
+  - @finalyst/react-core@0.19.0
+  - @finalyst/react-ui@0.16.0
+  - @finalyst/backend@0.3.0
+  - @finalyst/shared@0.3.0
 
 ## 1.15.0-alpha.1
 
@@ -1406,11 +1406,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.29.0-alpha.1
-  - @copilotkit/react-core@0.19.0-alpha.1
-  - @copilotkit/react-ui@0.16.0-alpha.1
-  - @copilotkit/backend@0.3.0-alpha.1
-  - @copilotkit/shared@0.3.0-alpha.1
+  - @finalyst/react-textarea@0.29.0-alpha.1
+  - @finalyst/react-core@0.19.0-alpha.1
+  - @finalyst/react-ui@0.16.0-alpha.1
+  - @finalyst/backend@0.3.0-alpha.1
+  - @finalyst/shared@0.3.0-alpha.1
 
 ## 1.15.0-alpha.0
 
@@ -1421,11 +1421,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/backend@0.3.0-alpha.0
-  - @copilotkit/react-core@0.19.0-alpha.0
-  - @copilotkit/react-textarea@0.29.0-alpha.0
-  - @copilotkit/react-ui@0.16.0-alpha.0
-  - @copilotkit/shared@0.3.0-alpha.0
+  - @finalyst/backend@0.3.0-alpha.0
+  - @finalyst/react-core@0.19.0-alpha.0
+  - @finalyst/react-textarea@0.29.0-alpha.0
+  - @finalyst/react-ui@0.16.0-alpha.0
+  - @finalyst/shared@0.3.0-alpha.0
 
 ## 1.14.0
 
@@ -1458,11 +1458,11 @@ CopilotKid Back-end SDK:
 - Updated dependencies [eba87c7]
 - Updated dependencies [61168c7]
 - Updated dependencies [fb32fe3]
-  - @copilotkit/react-textarea@0.28.0
-  - @copilotkit/react-core@0.18.0
-  - @copilotkit/react-ui@0.15.0
-  - @copilotkit/backend@0.2.0
-  - @copilotkit/shared@0.2.0
+  - @finalyst/react-textarea@0.28.0
+  - @finalyst/react-core@0.18.0
+  - @finalyst/react-ui@0.15.0
+  - @finalyst/backend@0.2.0
+  - @finalyst/shared@0.2.0
 
 ## 1.14.0-alpha.9
 
@@ -1473,11 +1473,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.28.0-alpha.9
-  - @copilotkit/react-core@0.18.0-alpha.9
-  - @copilotkit/react-ui@0.15.0-alpha.9
-  - @copilotkit/backend@0.2.0-alpha.8
-  - @copilotkit/shared@0.2.0-alpha.8
+  - @finalyst/react-textarea@0.28.0-alpha.9
+  - @finalyst/react-core@0.18.0-alpha.9
+  - @finalyst/react-ui@0.15.0-alpha.9
+  - @finalyst/backend@0.2.0-alpha.8
+  - @finalyst/shared@0.2.0-alpha.8
 
 ## 1.14.0-alpha.8
 
@@ -1488,11 +1488,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.28.0-alpha.8
-  - @copilotkit/react-core@0.18.0-alpha.8
-  - @copilotkit/react-ui@0.15.0-alpha.8
-  - @copilotkit/backend@0.2.0-alpha.7
-  - @copilotkit/shared@0.2.0-alpha.7
+  - @finalyst/react-textarea@0.28.0-alpha.8
+  - @finalyst/react-core@0.18.0-alpha.8
+  - @finalyst/react-ui@0.15.0-alpha.8
+  - @finalyst/backend@0.2.0-alpha.7
+  - @finalyst/shared@0.2.0-alpha.7
 
 ## 1.14.0-alpha.7
 
@@ -1503,11 +1503,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.28.0-alpha.7
-  - @copilotkit/react-core@0.18.0-alpha.7
-  - @copilotkit/react-ui@0.15.0-alpha.7
-  - @copilotkit/backend@0.2.0-alpha.6
-  - @copilotkit/shared@0.2.0-alpha.6
+  - @finalyst/react-textarea@0.28.0-alpha.7
+  - @finalyst/react-core@0.18.0-alpha.7
+  - @finalyst/react-ui@0.15.0-alpha.7
+  - @finalyst/backend@0.2.0-alpha.6
+  - @finalyst/shared@0.2.0-alpha.6
 
 ## 1.14.0-alpha.6
 
@@ -1518,11 +1518,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/backend@0.2.0-alpha.5
-  - @copilotkit/react-core@0.18.0-alpha.6
-  - @copilotkit/react-textarea@0.28.0-alpha.6
-  - @copilotkit/react-ui@0.15.0-alpha.6
-  - @copilotkit/shared@0.2.0-alpha.5
+  - @finalyst/backend@0.2.0-alpha.5
+  - @finalyst/react-core@0.18.0-alpha.6
+  - @finalyst/react-textarea@0.28.0-alpha.6
+  - @finalyst/react-ui@0.15.0-alpha.6
+  - @finalyst/shared@0.2.0-alpha.5
 
 ## 1.14.0-alpha.5
 
@@ -1533,11 +1533,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.28.0-alpha.5
-  - @copilotkit/react-core@0.18.0-alpha.5
-  - @copilotkit/react-ui@0.15.0-alpha.5
-  - @copilotkit/backend@0.2.0-alpha.4
-  - @copilotkit/shared@0.2.0-alpha.4
+  - @finalyst/react-textarea@0.28.0-alpha.5
+  - @finalyst/react-core@0.18.0-alpha.5
+  - @finalyst/react-ui@0.15.0-alpha.5
+  - @finalyst/backend@0.2.0-alpha.4
+  - @finalyst/shared@0.2.0-alpha.4
 
 ## 1.14.0-alpha.4
 
@@ -1548,11 +1548,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.28.0-alpha.4
-  - @copilotkit/react-core@0.18.0-alpha.4
-  - @copilotkit/react-ui@0.15.0-alpha.4
-  - @copilotkit/backend@0.2.0-alpha.3
-  - @copilotkit/shared@0.2.0-alpha.3
+  - @finalyst/react-textarea@0.28.0-alpha.4
+  - @finalyst/react-core@0.18.0-alpha.4
+  - @finalyst/react-ui@0.15.0-alpha.4
+  - @finalyst/backend@0.2.0-alpha.3
+  - @finalyst/shared@0.2.0-alpha.3
 
 ## 1.14.0-alpha.3
 
@@ -1563,11 +1563,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.28.0-alpha.3
-  - @copilotkit/react-core@0.18.0-alpha.3
-  - @copilotkit/react-ui@0.15.0-alpha.3
-  - @copilotkit/backend@0.2.0-alpha.2
-  - @copilotkit/shared@0.2.0-alpha.2
+  - @finalyst/react-textarea@0.28.0-alpha.3
+  - @finalyst/react-core@0.18.0-alpha.3
+  - @finalyst/react-ui@0.15.0-alpha.3
+  - @finalyst/backend@0.2.0-alpha.2
+  - @finalyst/shared@0.2.0-alpha.2
 
 ## 1.14.0-alpha.2
 
@@ -1580,11 +1580,11 @@ CopilotKid Back-end SDK:
 
 - Updated dependencies
 - Updated dependencies
-  - @copilotkit/react-textarea@0.28.0-alpha.2
-  - @copilotkit/react-core@0.18.0-alpha.2
-  - @copilotkit/react-ui@0.15.0-alpha.2
-  - @copilotkit/backend@0.2.0-alpha.1
-  - @copilotkit/shared@0.2.0-alpha.1
+  - @finalyst/react-textarea@0.28.0-alpha.2
+  - @finalyst/react-core@0.18.0-alpha.2
+  - @finalyst/react-ui@0.15.0-alpha.2
+  - @finalyst/backend@0.2.0-alpha.1
+  - @finalyst/shared@0.2.0-alpha.1
 
 ## 1.14.0-alpha.1
 
@@ -1595,11 +1595,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/backend@0.2.0-alpha.0
-  - @copilotkit/react-core@0.18.0-alpha.1
-  - @copilotkit/react-textarea@0.28.0-alpha.1
-  - @copilotkit/react-ui@0.15.0-alpha.1
-  - @copilotkit/shared@0.2.0-alpha.0
+  - @finalyst/backend@0.2.0-alpha.0
+  - @finalyst/react-core@0.18.0-alpha.1
+  - @finalyst/react-textarea@0.28.0-alpha.1
+  - @finalyst/react-ui@0.15.0-alpha.1
+  - @finalyst/shared@0.2.0-alpha.0
 
 ## 1.14.0-alpha.0
 
@@ -1610,9 +1610,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-core@0.18.0-alpha.0
-  - @copilotkit/react-ui@0.15.0-alpha.0
-  - @copilotkit/react-textarea@0.27.2-alpha.0
+  - @finalyst/react-core@0.18.0-alpha.0
+  - @finalyst/react-ui@0.15.0-alpha.0
+  - @finalyst/react-textarea@0.27.2-alpha.0
 
 ## 1.13.1
 
@@ -1624,11 +1624,11 @@ CopilotKid Back-end SDK:
 - Updated dependencies
 - Updated dependencies [aa6bc5a]
 - Updated dependencies [cf0bde6]
-  - @copilotkit/react-textarea@0.27.1
-  - @copilotkit/react-core@0.17.1
-  - @copilotkit/react-ui@0.14.1
-  - @copilotkit/shared@0.1.1
-  - @copilotkit/backend@0.1.1
+  - @finalyst/react-textarea@0.27.1
+  - @finalyst/react-core@0.17.1
+  - @finalyst/react-ui@0.14.1
+  - @finalyst/shared@0.1.1
+  - @finalyst/backend@0.1.1
 
 ## 1.13.1-alpha.1
 
@@ -1636,11 +1636,11 @@ CopilotKid Back-end SDK:
 
 - change order of operations on stop cleanup
 - Updated dependencies
-  - @copilotkit/react-textarea@0.27.1-alpha.1
-  - @copilotkit/react-core@0.17.1-alpha.1
-  - @copilotkit/react-ui@0.14.1-alpha.1
-  - @copilotkit/shared@0.1.1-alpha.1
-  - @copilotkit/backend@0.1.1-alpha.1
+  - @finalyst/react-textarea@0.27.1-alpha.1
+  - @finalyst/react-core@0.17.1-alpha.1
+  - @finalyst/react-ui@0.14.1-alpha.1
+  - @finalyst/shared@0.1.1-alpha.1
+  - @finalyst/backend@0.1.1-alpha.1
 
 ## 1.13.1-alpha.0
 
@@ -1648,11 +1648,11 @@ CopilotKid Back-end SDK:
 
 - fix stop generate
 - Updated dependencies
-  - @copilotkit/backend@0.1.1-alpha.0
-  - @copilotkit/react-core@0.17.1-alpha.0
-  - @copilotkit/react-textarea@0.27.1-alpha.0
-  - @copilotkit/react-ui@0.14.1-alpha.0
-  - @copilotkit/shared@0.1.1-alpha.0
+  - @finalyst/backend@0.1.1-alpha.0
+  - @finalyst/react-core@0.17.1-alpha.0
+  - @finalyst/react-textarea@0.27.1-alpha.0
+  - @finalyst/react-ui@0.14.1-alpha.0
+  - @finalyst/shared@0.1.1-alpha.0
 
 ## 1.13.0
 
@@ -1675,9 +1675,9 @@ CopilotKid Back-end SDK:
 - Updated dependencies [fa84257]
 - Updated dependencies [98a37c8]
 - Updated dependencies [250032d]
-  - @copilotkit/react-textarea@0.27.0
-  - @copilotkit/react-core@0.17.0
-  - @copilotkit/react-ui@0.14.0
+  - @finalyst/react-textarea@0.27.0
+  - @finalyst/react-core@0.17.0
+  - @finalyst/react-ui@0.14.0
 
 ## 1.13.0-alpha.5
 
@@ -1688,9 +1688,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.27.0-alpha.5
-  - @copilotkit/react-core@0.17.0-alpha.5
-  - @copilotkit/react-ui@0.14.0-alpha.5
+  - @finalyst/react-textarea@0.27.0-alpha.5
+  - @finalyst/react-core@0.17.0-alpha.5
+  - @finalyst/react-ui@0.14.0-alpha.5
 
 ## 1.13.0-alpha.4
 
@@ -1701,9 +1701,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.27.0-alpha.4
-  - @copilotkit/react-core@0.17.0-alpha.4
-  - @copilotkit/react-ui@0.14.0-alpha.4
+  - @finalyst/react-textarea@0.27.0-alpha.4
+  - @finalyst/react-core@0.17.0-alpha.4
+  - @finalyst/react-ui@0.14.0-alpha.4
 
 ## 1.13.0-alpha.3
 
@@ -1714,9 +1714,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.27.0-alpha.3
-  - @copilotkit/react-core@0.17.0-alpha.3
-  - @copilotkit/react-ui@0.14.0-alpha.3
+  - @finalyst/react-textarea@0.27.0-alpha.3
+  - @finalyst/react-core@0.17.0-alpha.3
+  - @finalyst/react-ui@0.14.0-alpha.3
 
 ## 1.13.0-alpha.2
 
@@ -1727,9 +1727,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.27.0-alpha.2
-  - @copilotkit/react-core@0.17.0-alpha.2
-  - @copilotkit/react-ui@0.14.0-alpha.2
+  - @finalyst/react-textarea@0.27.0-alpha.2
+  - @finalyst/react-core@0.17.0-alpha.2
+  - @finalyst/react-ui@0.14.0-alpha.2
 
 ## 1.13.0-alpha.1
 
@@ -1740,9 +1740,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.27.0-alpha.1
-  - @copilotkit/react-core@0.17.0-alpha.1
-  - @copilotkit/react-ui@0.14.0-alpha.1
+  - @finalyst/react-textarea@0.27.0-alpha.1
+  - @finalyst/react-core@0.17.0-alpha.1
+  - @finalyst/react-ui@0.14.0-alpha.1
 
 ## 1.13.0-alpha.0
 
@@ -1753,9 +1753,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.27.0-alpha.0
-  - @copilotkit/react-core@0.17.0-alpha.0
-  - @copilotkit/react-ui@0.14.0-alpha.0
+  - @finalyst/react-textarea@0.27.0-alpha.0
+  - @finalyst/react-core@0.17.0-alpha.0
+  - @finalyst/react-ui@0.14.0-alpha.0
 
 ## 1.12.0
 
@@ -1766,9 +1766,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-core@0.16.0
-  - @copilotkit/react-textarea@0.26.1
-  - @copilotkit/react-ui@0.13.1
+  - @finalyst/react-core@0.16.0
+  - @finalyst/react-textarea@0.26.1
+  - @finalyst/react-ui@0.13.1
 
 ## 1.11.0
 
@@ -1793,11 +1793,11 @@ CopilotKid Back-end SDK:
 - Updated dependencies [bbd152e]
 - Updated dependencies [8517bb1]
 - Updated dependencies [478840a]
-  - @copilotkit/react-textarea@0.26.0
-  - @copilotkit/react-core@0.15.0
-  - @copilotkit/react-ui@0.13.0
-  - @copilotkit/shared@0.1.0
-  - @copilotkit/backend@0.1.0
+  - @finalyst/react-textarea@0.26.0
+  - @finalyst/react-core@0.15.0
+  - @finalyst/react-ui@0.13.0
+  - @finalyst/shared@0.1.0
+  - @finalyst/backend@0.1.0
 
 ## 1.11.0-alpha.6
 
@@ -1808,11 +1808,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.26.0-alpha.6
-  - @copilotkit/react-core@0.15.0-alpha.6
-  - @copilotkit/react-ui@0.13.0-alpha.6
-  - @copilotkit/shared@0.1.0-alpha.6
-  - @copilotkit/backend@0.1.0-alpha.6
+  - @finalyst/react-textarea@0.26.0-alpha.6
+  - @finalyst/react-core@0.15.0-alpha.6
+  - @finalyst/react-ui@0.13.0-alpha.6
+  - @finalyst/shared@0.1.0-alpha.6
+  - @finalyst/backend@0.1.0-alpha.6
 
 ## 1.11.0-alpha.5
 
@@ -1823,11 +1823,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.26.0-alpha.5
-  - @copilotkit/react-core@0.15.0-alpha.5
-  - @copilotkit/react-ui@0.13.0-alpha.5
-  - @copilotkit/shared@0.1.0-alpha.5
-  - @copilotkit/backend@0.1.0-alpha.5
+  - @finalyst/react-textarea@0.26.0-alpha.5
+  - @finalyst/react-core@0.15.0-alpha.5
+  - @finalyst/react-ui@0.13.0-alpha.5
+  - @finalyst/shared@0.1.0-alpha.5
+  - @finalyst/backend@0.1.0-alpha.5
 
 ## 1.11.0-alpha.4
 
@@ -1838,11 +1838,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.26.0-alpha.4
-  - @copilotkit/react-core@0.15.0-alpha.4
-  - @copilotkit/react-ui@0.13.0-alpha.4
-  - @copilotkit/shared@0.1.0-alpha.4
-  - @copilotkit/backend@0.1.0-alpha.4
+  - @finalyst/react-textarea@0.26.0-alpha.4
+  - @finalyst/react-core@0.15.0-alpha.4
+  - @finalyst/react-ui@0.13.0-alpha.4
+  - @finalyst/shared@0.1.0-alpha.4
+  - @finalyst/backend@0.1.0-alpha.4
 
 ## 1.11.0-alpha.3
 
@@ -1853,11 +1853,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.26.0-alpha.3
-  - @copilotkit/react-core@0.15.0-alpha.3
-  - @copilotkit/react-ui@0.13.0-alpha.3
-  - @copilotkit/shared@0.1.0-alpha.3
-  - @copilotkit/backend@0.1.0-alpha.3
+  - @finalyst/react-textarea@0.26.0-alpha.3
+  - @finalyst/react-core@0.15.0-alpha.3
+  - @finalyst/react-ui@0.13.0-alpha.3
+  - @finalyst/shared@0.1.0-alpha.3
+  - @finalyst/backend@0.1.0-alpha.3
 
 ## 1.11.0-alpha.2
 
@@ -1868,11 +1868,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.26.0-alpha.2
-  - @copilotkit/react-core@0.15.0-alpha.2
-  - @copilotkit/react-ui@0.13.0-alpha.2
-  - @copilotkit/shared@0.1.0-alpha.2
-  - @copilotkit/backend@0.1.0-alpha.2
+  - @finalyst/react-textarea@0.26.0-alpha.2
+  - @finalyst/react-core@0.15.0-alpha.2
+  - @finalyst/react-ui@0.13.0-alpha.2
+  - @finalyst/shared@0.1.0-alpha.2
+  - @finalyst/backend@0.1.0-alpha.2
 
 ## 1.11.0-alpha.1
 
@@ -1883,11 +1883,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.26.0-alpha.1
-  - @copilotkit/react-core@0.15.0-alpha.1
-  - @copilotkit/react-ui@0.13.0-alpha.1
-  - @copilotkit/shared@0.1.0-alpha.1
-  - @copilotkit/backend@0.1.0-alpha.1
+  - @finalyst/react-textarea@0.26.0-alpha.1
+  - @finalyst/react-core@0.15.0-alpha.1
+  - @finalyst/react-ui@0.13.0-alpha.1
+  - @finalyst/shared@0.1.0-alpha.1
+  - @finalyst/backend@0.1.0-alpha.1
 
 ## 1.11.0-alpha.0
 
@@ -1898,11 +1898,11 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.26.0-alpha.0
-  - @copilotkit/react-core@0.15.0-alpha.0
-  - @copilotkit/react-ui@0.13.0-alpha.0
-  - @copilotkit/shared@0.1.0-alpha.0
-  - @copilotkit/backend@0.1.0-alpha.0
+  - @finalyst/react-textarea@0.26.0-alpha.0
+  - @finalyst/react-core@0.15.0-alpha.0
+  - @finalyst/react-ui@0.13.0-alpha.0
+  - @finalyst/shared@0.1.0-alpha.0
+  - @finalyst/backend@0.1.0-alpha.0
 
 ## 1.10.0
 
@@ -1913,9 +1913,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.25.0
-  - @copilotkit/react-core@0.14.0
-  - @copilotkit/react-ui@0.12.0
+  - @finalyst/react-textarea@0.25.0
+  - @finalyst/react-core@0.14.0
+  - @finalyst/react-ui@0.12.0
 
 ## 1.9.0
 
@@ -1926,9 +1926,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.24.0
-  - @copilotkit/react-core@0.13.0
-  - @copilotkit/react-ui@0.11.0
+  - @finalyst/react-textarea@0.24.0
+  - @finalyst/react-core@0.13.0
+  - @finalyst/react-ui@0.11.0
 
 ## 1.8.0
 
@@ -1939,16 +1939,16 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.23.0
-  - @copilotkit/react-core@0.12.0
-  - @copilotkit/react-ui@0.10.1
+  - @finalyst/react-textarea@0.23.0
+  - @finalyst/react-core@0.12.0
+  - @finalyst/react-ui@0.10.1
 
 ## 1.7.1
 
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.22.0
+  - @finalyst/react-textarea@0.22.0
 
 ## 1.7.0
 
@@ -1975,9 +1975,9 @@ CopilotKid Back-end SDK:
 - Updated dependencies [2b9591a]
 - Updated dependencies [222f5e6]
 - Updated dependencies [2b9591a]
-  - @copilotkit/react-textarea@0.21.0
-  - @copilotkit/react-core@0.11.0
-  - @copilotkit/react-ui@0.10.0
+  - @finalyst/react-textarea@0.21.0
+  - @finalyst/react-core@0.11.0
+  - @finalyst/react-ui@0.10.0
 
 ## 1.7.0-alpha.7
 
@@ -1988,9 +1988,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.21.0-alpha.7
-  - @copilotkit/react-core@0.11.0-alpha.7
-  - @copilotkit/react-ui@0.10.0-alpha.7
+  - @finalyst/react-textarea@0.21.0-alpha.7
+  - @finalyst/react-core@0.11.0-alpha.7
+  - @finalyst/react-ui@0.10.0-alpha.7
 
 ## 1.7.0-alpha.6
 
@@ -2001,9 +2001,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.21.0-alpha.6
-  - @copilotkit/react-core@0.11.0-alpha.6
-  - @copilotkit/react-ui@0.10.0-alpha.6
+  - @finalyst/react-textarea@0.21.0-alpha.6
+  - @finalyst/react-core@0.11.0-alpha.6
+  - @finalyst/react-ui@0.10.0-alpha.6
 
 ## 1.7.0-alpha.5
 
@@ -2014,9 +2014,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.21.0-alpha.5
-  - @copilotkit/react-core@0.11.0-alpha.5
-  - @copilotkit/react-ui@0.10.0-alpha.5
+  - @finalyst/react-textarea@0.21.0-alpha.5
+  - @finalyst/react-core@0.11.0-alpha.5
+  - @finalyst/react-ui@0.10.0-alpha.5
 
 ## 1.7.0-alpha.4
 
@@ -2027,9 +2027,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.21.0-alpha.4
-  - @copilotkit/react-core@0.11.0-alpha.4
-  - @copilotkit/react-ui@0.10.0-alpha.4
+  - @finalyst/react-textarea@0.21.0-alpha.4
+  - @finalyst/react-core@0.11.0-alpha.4
+  - @finalyst/react-ui@0.10.0-alpha.4
 
 ## 1.7.0-alpha.3
 
@@ -2040,9 +2040,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.21.0-alpha.3
-  - @copilotkit/react-core@0.11.0-alpha.3
-  - @copilotkit/react-ui@0.10.0-alpha.3
+  - @finalyst/react-textarea@0.21.0-alpha.3
+  - @finalyst/react-core@0.11.0-alpha.3
+  - @finalyst/react-ui@0.10.0-alpha.3
 
 ## 1.7.0-alpha.2
 
@@ -2053,9 +2053,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.21.0-alpha.2
-  - @copilotkit/react-core@0.11.0-alpha.2
-  - @copilotkit/react-ui@0.10.0-alpha.2
+  - @finalyst/react-textarea@0.21.0-alpha.2
+  - @finalyst/react-core@0.11.0-alpha.2
+  - @finalyst/react-ui@0.10.0-alpha.2
 
 ## 1.7.0-alpha.1
 
@@ -2066,9 +2066,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.21.0-alpha.1
-  - @copilotkit/react-core@0.11.0-alpha.1
-  - @copilotkit/react-ui@0.10.0-alpha.1
+  - @finalyst/react-textarea@0.21.0-alpha.1
+  - @finalyst/react-core@0.11.0-alpha.1
+  - @finalyst/react-ui@0.10.0-alpha.1
 
 ## 1.7.0-alpha.0
 
@@ -2079,9 +2079,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.21.0-alpha.0
-  - @copilotkit/react-core@0.11.0-alpha.0
-  - @copilotkit/react-ui@0.9.3-alpha.0
+  - @finalyst/react-textarea@0.21.0-alpha.0
+  - @finalyst/react-core@0.11.0-alpha.0
+  - @finalyst/react-ui@0.9.3-alpha.0
 
 ## 1.6.0
 
@@ -2092,9 +2092,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.20.0
-  - @copilotkit/react-core@0.10.0
-  - @copilotkit/react-ui@0.9.2
+  - @finalyst/react-textarea@0.20.0
+  - @finalyst/react-core@0.10.0
+  - @finalyst/react-ui@0.9.2
 
 ## 1.5.0
 
@@ -2105,9 +2105,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies [0467f62]
-  - @copilotkit/react-core@0.9.0
-  - @copilotkit/react-textarea@0.19.1
-  - @copilotkit/react-ui@0.9.1
+  - @finalyst/react-core@0.9.0
+  - @finalyst/react-textarea@0.19.1
+  - @finalyst/react-ui@0.9.1
 
 ## 1.4.0
 
@@ -2141,9 +2141,9 @@ CopilotKid Back-end SDK:
 - Updated dependencies [eed7c64]
 - Updated dependencies [939454e]
 - Updated dependencies [5829585]
-  - @copilotkit/react-ui@0.9.0
-  - @copilotkit/react-textarea@0.19.0
-  - @copilotkit/react-core@0.8.0
+  - @finalyst/react-ui@0.9.0
+  - @finalyst/react-textarea@0.19.0
+  - @finalyst/react-core@0.8.0
 
 ## 1.4.0-alpha.11
 
@@ -2154,9 +2154,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.19.0-alpha.9
-  - @copilotkit/react-core@0.8.0-alpha.6
-  - @copilotkit/react-ui@0.9.0-alpha.11
+  - @finalyst/react-textarea@0.19.0-alpha.9
+  - @finalyst/react-core@0.8.0-alpha.6
+  - @finalyst/react-ui@0.9.0-alpha.11
 
 ## 1.4.0-alpha.10
 
@@ -2167,9 +2167,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.19.0-alpha.8
-  - @copilotkit/react-core@0.8.0-alpha.5
-  - @copilotkit/react-ui@0.9.0-alpha.10
+  - @finalyst/react-textarea@0.19.0-alpha.8
+  - @finalyst/react-core@0.8.0-alpha.5
+  - @finalyst/react-ui@0.9.0-alpha.10
 
 ## 1.4.0-alpha.9
 
@@ -2180,9 +2180,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.19.0-alpha.7
-  - @copilotkit/react-core@0.8.0-alpha.4
-  - @copilotkit/react-ui@0.9.0-alpha.9
+  - @finalyst/react-textarea@0.19.0-alpha.7
+  - @finalyst/react-core@0.8.0-alpha.4
+  - @finalyst/react-ui@0.9.0-alpha.9
 
 ## 1.4.0-alpha.8
 
@@ -2193,9 +2193,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.19.0-alpha.6
-  - @copilotkit/react-ui@0.9.0-alpha.8
-  - @copilotkit/react-core@0.8.0-alpha.3
+  - @finalyst/react-textarea@0.19.0-alpha.6
+  - @finalyst/react-ui@0.9.0-alpha.8
+  - @finalyst/react-core@0.8.0-alpha.3
 
 ## 1.4.0-alpha.7
 
@@ -2206,9 +2206,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.19.0-alpha.5
-  - @copilotkit/react-ui@0.9.0-alpha.7
-  - @copilotkit/react-core@0.8.0-alpha.3
+  - @finalyst/react-textarea@0.19.0-alpha.5
+  - @finalyst/react-ui@0.9.0-alpha.7
+  - @finalyst/react-core@0.8.0-alpha.3
 
 ## 1.4.0-alpha.6
 
@@ -2219,31 +2219,31 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.19.0-alpha.4
-  - @copilotkit/react-ui@0.9.0-alpha.6
+  - @finalyst/react-textarea@0.19.0-alpha.4
+  - @finalyst/react-ui@0.9.0-alpha.6
 
 ## 1.4.0-alpha.5
 
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-ui@0.9.0-alpha.5
+  - @finalyst/react-ui@0.9.0-alpha.5
 
 ## 1.4.0-alpha.4
 
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-ui@0.9.0-alpha.4
+  - @finalyst/react-ui@0.9.0-alpha.4
 
 ## 1.4.0-alpha.3
 
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.19.0-alpha.3
-  - @copilotkit/react-core@0.8.0-alpha.3
-  - @copilotkit/react-ui@0.9.0-alpha.3
+  - @finalyst/react-textarea@0.19.0-alpha.3
+  - @finalyst/react-core@0.8.0-alpha.3
+  - @finalyst/react-ui@0.9.0-alpha.3
 
 ## 1.4.0-alpha.2
 
@@ -2251,9 +2251,9 @@ CopilotKid Back-end SDK:
 
 - rebase master
 - Updated dependencies
-  - @copilotkit/react-textarea@0.19.0-alpha.2
-  - @copilotkit/react-core@0.8.0-alpha.2
-  - @copilotkit/react-ui@0.9.0-alpha.2
+  - @finalyst/react-textarea@0.19.0-alpha.2
+  - @finalyst/react-core@0.8.0-alpha.2
+  - @finalyst/react-ui@0.9.0-alpha.2
 
 ## 1.4.0-alpha.1
 
@@ -2261,9 +2261,9 @@ CopilotKid Back-end SDK:
 
 - prettify
 - Updated dependencies
-  - @copilotkit/react-textarea@0.19.0-alpha.1
-  - @copilotkit/react-core@0.8.0-alpha.1
-  - @copilotkit/react-ui@0.9.0-alpha.1
+  - @finalyst/react-textarea@0.19.0-alpha.1
+  - @finalyst/react-core@0.8.0-alpha.1
+  - @finalyst/react-ui@0.9.0-alpha.1
 
 ## 1.4.0-alpha.0
 
@@ -2274,16 +2274,16 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.19.0-alpha.0
-  - @copilotkit/react-core@0.8.0-alpha.0
-  - @copilotkit/react-ui@0.9.0-alpha.0
+  - @finalyst/react-textarea@0.19.0-alpha.0
+  - @finalyst/react-core@0.8.0-alpha.0
+  - @finalyst/react-ui@0.9.0-alpha.0
 
 ## 1.3.15
 
 ### Patch Changes
 
 - Updated dependencies [e9624bc]
-  - @copilotkit/react-textarea@0.18.0
+  - @finalyst/react-textarea@0.18.0
 
 ## 1.3.14
 
@@ -2291,7 +2291,7 @@ CopilotKid Back-end SDK:
 
 - 6624a13: Textarea: no default apiEndpoint, textareaPurpose, css bugfix
 - Updated dependencies [6624a13]
-  - @copilotkit/react-textarea@0.17.0
+  - @finalyst/react-textarea@0.17.0
 
 ## 1.3.13
 
@@ -2299,7 +2299,7 @@ CopilotKid Back-end SDK:
 
 - e182a29: copilottextarea: remove nodes conditionally with try catch
 - Updated dependencies [e182a29]
-  - @copilotkit/react-textarea@0.16.0
+  - @finalyst/react-textarea@0.16.0
 
 ## 1.3.12
 
@@ -2307,35 +2307,35 @@ CopilotKid Back-end SDK:
 
 - 8f4b3d1: do not include disableBranding in props forwarded to DOM
 - Updated dependencies [8f4b3d1]
-  - @copilotkit/react-textarea@0.15.1
+  - @finalyst/react-textarea@0.15.1
 
 ## 1.3.11
 
 ### Patch Changes
 
 - Updated dependencies [3580a3c]
-  - @copilotkit/react-textarea@0.15.0
+  - @finalyst/react-textarea@0.15.0
 
 ## 1.3.10
 
 ### Patch Changes
 
 - Updated dependencies [20bed44]
-  - @copilotkit/react-textarea@0.14.1
+  - @finalyst/react-textarea@0.14.1
 
 ## 1.3.9
 
 ### Patch Changes
 
 - Updated dependencies [cfdc367]
-  - @copilotkit/react-textarea@0.14.0
+  - @finalyst/react-textarea@0.14.0
 
 ## 1.3.8
 
 ### Patch Changes
 
 - Updated dependencies [1f26798]
-  - @copilotkit/react-textarea@0.13.0
+  - @finalyst/react-textarea@0.13.0
 
 ## 1.3.7
 
@@ -2344,7 +2344,7 @@ CopilotKid Back-end SDK:
 - ec7484f: - CopilotTextarea supports passing in ref compatible with <textarea>'s HTMLTextAreaElement ref (for focus, blur, styling, etc.)
   - Minor bug fix: CopilotTextarea branding remains correclty positioned as textarea scrolls
 - Updated dependencies [ec7484f]
-  - @copilotkit/react-textarea@0.12.0
+  - @finalyst/react-textarea@0.12.0
 
 ## 1.3.6
 
@@ -2352,14 +2352,14 @@ CopilotKid Back-end SDK:
 
 - 3517bd5: CopilotTextarea supports standard onChange interface
 - Updated dependencies [3517bd5]
-  - @copilotkit/react-textarea@0.11.0
+  - @finalyst/react-textarea@0.11.0
 
 ## 1.3.5
 
 ### Patch Changes
 
 - Updated dependencies [7ae5549]
-  - @copilotkit/react-textarea@0.10.0
+  - @finalyst/react-textarea@0.10.0
 
 ## 1.3.4
 
@@ -2367,7 +2367,7 @@ CopilotKid Back-end SDK:
 
 - 59f9fc4: code quality and optional branding
 - Updated dependencies [59f9fc4]
-  - @copilotkit/react-textarea@0.9.0
+  - @finalyst/react-textarea@0.9.0
 
 ## 1.3.3
 
@@ -2375,9 +2375,9 @@ CopilotKid Back-end SDK:
 
 - ce193f7: Dependency fix
 - Updated dependencies [ce193f7]
-  - @copilotkit/react-textarea@0.8.0
-  - @copilotkit/react-core@0.7.0
-  - @copilotkit/react-ui@0.8.0
+  - @finalyst/react-textarea@0.8.0
+  - @finalyst/react-core@0.7.0
+  - @finalyst/react-ui@0.8.0
   - docs@1.3.3
 
 ## 1.3.2
@@ -2386,8 +2386,8 @@ CopilotKid Back-end SDK:
 
 - Made CopilotTextarea standalone for clarity
 - Updated dependencies
-  - @copilotkit/react-textarea@0.7.0
-  - @copilotkit/react-ui@0.7.0
+  - @finalyst/react-textarea@0.7.0
+  - @finalyst/react-ui@0.7.0
   - docs@1.3.2
 
 ## 1.3.1
@@ -2395,9 +2395,9 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-textarea@0.6.0
-  - @copilotkit/react-core@0.6.0
-  - @copilotkit/react-ui@0.6.0
+  - @finalyst/react-textarea@0.6.0
+  - @finalyst/react-core@0.6.0
+  - @finalyst/react-ui@0.6.0
   - docs@1.3.1
 
 ## 1.3.0
@@ -2411,8 +2411,8 @@ CopilotKid Back-end SDK:
 
 - Updated dependencies
 - Updated dependencies
-  - @copilotkit/react-core@0.5.0
-  - @copilotkit/react-ui@0.5.0
+  - @finalyst/react-core@0.5.0
+  - @finalyst/react-ui@0.5.0
   - docs@1.3.0
 
 ## 1.2.0
@@ -2424,8 +2424,8 @@ CopilotKid Back-end SDK:
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-core@0.4.0
-  - @copilotkit/react-ui@0.4.0
+  - @finalyst/react-core@0.4.0
+  - @finalyst/react-ui@0.4.0
   - docs@1.2.0
 
 ## 1.1.0
@@ -2440,15 +2440,15 @@ CopilotKid Back-end SDK:
 - Updated dependencies
 - Updated dependencies [9d2f3cb]
   - docs@1.1.0
-  - @copilotkit/react-core@0.3.0
-  - @copilotkit/react-ui@0.3.0
+  - @finalyst/react-core@0.3.0
+  - @finalyst/react-ui@0.3.0
 
 ## 1.0.2
 
 ### Patch Changes
 
 - Updated dependencies
-  - @copilotkit/react-ui@0.2.0
+  - @finalyst/react-ui@0.2.0
 
 ## 1.0.1
 

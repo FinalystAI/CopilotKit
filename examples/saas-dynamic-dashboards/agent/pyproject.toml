@@ -2,7 +2,7 @@
 name = "agent"
 version = "0.1.0"
 description = ""
-authors = ["Orca CopilotKit <testapp@copilotkit.ai>"]
+authors = ["Orca CopilotKit <testapp@finalyst.ai>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

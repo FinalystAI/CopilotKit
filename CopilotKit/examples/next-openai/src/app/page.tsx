@@ -1,7 +1,7 @@
 "use client";
 
-import { CopilotKit } from "@copilotkit/react-core";
-import { CopilotSidebar } from "@copilotkit/react-ui";
+import { CopilotKit } from "@finalyst/react-core";
+import { CopilotSidebar } from "@finalyst/react-ui";
 import { VacationList } from "./components/vacation-list";
 import { useSearchParams } from "next/navigation";
 

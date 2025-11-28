@@ -8,9 +8,9 @@
   "exclude": ["node_modules"],
   "paths": {
     "@/*": ["./src/*"],
-    "@copilotkit/react-core/*": ["../packages/react-core/*"],
-    "@copilotkit/react-ui/*": ["../packages/react-ui/*"],
-    "@copilotkit/react-textarea/*": ["../packages/react-textarea/*"],
-    "@copilotkit/runtime/*": ["../packages/runtime/*"],
+    "@finalyst/react-core/*": ["../packages/react-core/*"],
+    "@finalyst/react-ui/*": ["../packages/react-ui/*"],
+    "@finalyst/react-textarea/*": ["../packages/react-textarea/*"],
+    "@finalyst/runtime/*": ["../packages/runtime/*"],
   }
 }

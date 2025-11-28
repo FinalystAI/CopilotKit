@@ -1,6 +1,6 @@
 import { SearchProgress } from "@/components/SearchProgress";
-import { useCoAgent, useCoAgentStateRender, useCopilotAction } from "@copilotkit/react-core";
-import { useCopilotChatSuggestions } from "@copilotkit/react-ui";
+import { useCoAgent, useCoAgentStateRender, useCopilotAction } from "@finalyst/react-core";
+import { useCopilotChatSuggestions } from "@finalyst/react-ui";
 import { createContext, useContext, ReactNode, useMemo } from "react";
 import { AddTrips, EditTrips, DeleteTrips } from "@/components/humanInTheLoop";
 import { Trip, Place, AgentState, defaultTrips} from "@/lib/types";
@@ -45,7 +45,7 @@ export const TripsProvider = ({ children }: { children: ReactNode }) => {
     maxSuggestions: 2,
   }, [state.trips]);
 
-  useCopilotAction({ 
+  useCopilotAction({
     name: "add_trips",
     description: "Add some trips",
     parameters: [
@@ -143,13 +143,13 @@ export const TripsProvider = ({ children }: { children: ReactNode }) => {
   };
 
   return (
-    <TripsContext.Provider value={{ 
-      trips: state.trips, 
-      selectedTripId: state.selected_trip_id, 
+    <TripsContext.Provider value={{
+      trips: state.trips,
+      selectedTripId: state.selected_trip_id,
       selectedTrip,
-      setSelectedTripId, 
-      addTrip, 
-      updateTrip, 
+      setSelectedTripId,
+      addTrip,
+      updateTrip,
       deleteTrip,
       addPlace,
       updatePlace,
@@ -166,4 +166,4 @@ export const useTrips = () => {
     throw new Error("useTrips must be used within a TripsProvider");
   }
   return context;
-}; 
+};

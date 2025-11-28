@@ -6,9 +6,9 @@ import {
   useCopilotAction,
   useCopilotChatHeadless_c,
   useLangGraphInterrupt,
-} from "@copilotkit/react-core";
-import { CopilotSidebar, useCopilotChatSuggestions } from "@copilotkit/react-ui";
-import { randomId } from "@copilotkit/shared";
+} from "@finalyst/react-core";
+import { CopilotSidebar, useCopilotChatSuggestions } from "@finalyst/react-ui";
+import { randomId } from "@finalyst/shared";
 import { AnimatedMarkdown } from "flowtoken";
 import { useSearchParams } from "next/navigation";
 import { useCallback, useState, useRef, useEffect } from "react";

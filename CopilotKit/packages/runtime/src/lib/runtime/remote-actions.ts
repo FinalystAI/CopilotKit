@@ -1,4 +1,4 @@
-import { Action, CopilotKitErrorCode } from "@copilotkit/shared";
+import { Action, CopilotKitErrorCode } from "@finalyst/shared";
 import { GraphQLContext } from "../integrations/shared";
 import { Logger } from "pino";
 import { Message } from "../../graphql/types/converted";
@@ -13,7 +13,7 @@ import {
   CopilotKitLowLevelError,
   ResolvedCopilotKitError,
   CopilotKitError,
-} from "@copilotkit/shared";
+} from "@finalyst/shared";
 import { MetaEventInput } from "../../graphql/inputs/meta-event.input";
 import { AbstractAgent } from "@ag-ui/client";
 import { constructAGUIRemoteAction, RemoteAgentAction } from "./agui-action";

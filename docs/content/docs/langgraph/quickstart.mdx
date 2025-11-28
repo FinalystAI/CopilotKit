@@ -130,7 +130,7 @@ Before you begin, you'll need the following:
                 ### Install CopilotKit
                 First, install the latest packages for CopilotKit into your frontend.
                 ```package-install
-                npm install @copilotkit/react-ui @copilotkit/react-core
+                npm install @finalyst/react-ui @finalyst/react-core
                 ```
             </Step>
             <TailoredContent
@@ -253,11 +253,11 @@ Before you begin, you'll need the following:
                                 <Accordions className="mb-4">
                                     <Accordion title="Having trouble?">
                                       If you encounter issues while tunneling on Windows, try the following solutions:
-                                        - Make sure the following lines are uncommented in your `hosts` file:  
-                                        ```bash  
-                                        127.0.0.1 localhost  
+                                        - Make sure the following lines are uncommented in your `hosts` file:
+                                        ```bash
+                                        127.0.0.1 localhost
                                         ::1       localhost
-                                        ```  
+                                        ```
                                         - Try starting the langgraph server using
                                         ```bash
                                         langgraph dev --host :: --port 8000
@@ -289,10 +289,10 @@ Before you begin, you'll need the following:
                                     <Accordion title="Having trouble?">
                                       If you encounter issues while tunneling on Windows, try the following solutions:
                                         - Make sure the following lines are uncommented in your `hosts` file:
-                                        ```bash  
-                                        127.0.0.1 localhost  
+                                        ```bash
+                                        127.0.0.1 localhost
                                         ::1       localhost
-                                        ```  
+                                        ```
                                         - In the `demo.py` file, use `::` as the host to enable IPv6 binding.
                                     </Accordion>
                                 </Accordions>
@@ -337,7 +337,7 @@ Before you begin, you'll need the following:
                         Copilot Runtime is a production-ready proxy for your LangGraph agents. In your frontend, go ahead and install it.
 
                         ```package-install
-                        @copilotkit/runtime class-validator
+                        @finalyst/runtime class-validator
                         ```
                     </Step>
                     <Step>

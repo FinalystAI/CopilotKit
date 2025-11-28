@@ -4,7 +4,7 @@
  * ## Example
  *
  * ```ts
- * import { CopilotRuntime, OpenAIAdapter } from "@copilotkit/runtime";
+ * import { CopilotRuntime, OpenAIAdapter } from "@finalyst/runtime";
  * import OpenAI from "openai";
  *
  * const copilotKit = new CopilotRuntime();
@@ -20,7 +20,7 @@
  * ## Example with Azure OpenAI
  *
  * ```ts
- * import { CopilotRuntime, OpenAIAdapter } from "@copilotkit/runtime";
+ * import { CopilotRuntime, OpenAIAdapter } from "@finalyst/runtime";
  * import OpenAI from "openai";
  *
  * // The name of your Azure OpenAI Instance.
@@ -59,7 +59,7 @@ import {
   convertMessageToOpenAIMessage,
   limitMessagesToTokenCount,
 } from "./utils";
-import { randomUUID } from "@copilotkit/shared";
+import { randomUUID } from "@finalyst/shared";
 import { convertServiceAdapterError } from "../shared";
 
 const DEFAULT_MODEL = "gpt-4o";

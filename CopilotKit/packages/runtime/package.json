@@ -1,5 +1,5 @@
 {
-  "name": "@copilotkit/runtime",
+  "name": "@finalyst/runtime",
   "private": false,
   "homepage": "https://github.com/CopilotKit/CopilotKit",
   "repository": {
@@ -9,7 +9,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.10.6-next.6",
+  "version": "1.10.6",
   "sideEffects": false,
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.57.0",
-    "@copilotkit/shared": "workspace:*",
+    "@finalyst/shared": "workspace:*",
     "@graphql-yoga/plugin-defer-stream": "^3.3.1",
     "@langchain/aws": "^0.1.9",
     "@langchain/community": "^0.3.29",

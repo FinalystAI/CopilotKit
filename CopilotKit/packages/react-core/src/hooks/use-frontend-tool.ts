@@ -1,6 +1,6 @@
 import { useCopilotAction } from "./use-copilot-action";
 import { FrontendAction } from "../types/frontend-action";
-import { Parameter } from "@copilotkit/shared";
+import { Parameter } from "@finalyst/shared";
 
 type UseToolCallArgs<T extends Parameter[] | [] = []> = {
   available?: "disabled" | "enabled";

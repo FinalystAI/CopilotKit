@@ -2,7 +2,7 @@ import {
   CopilotRuntime,
   AnthropicAdapter,
   copilotRuntimeNextJSAppRouterEndpoint,
-} from "@copilotkit/runtime";
+} from "@finalyst/runtime";
 
 import { Pinecone } from "@pinecone-database/pinecone";
 import { posts } from "@/app/lib/data/data";

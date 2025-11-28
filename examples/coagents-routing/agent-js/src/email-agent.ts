@@ -9,7 +9,7 @@ import {
   copilotkitCustomizeConfig,
   CopilotKitStateAnnotation,
   copilotkitExit,
-} from "@copilotkit/sdk-js/langgraph";
+} from "@finalyst/sdk-js/langgraph";
 import { SystemMessage, ToolMessage } from "@langchain/core/messages";
 import { getModel } from "./model";
 import { END, MemorySaver, StateGraph } from "@langchain/langgraph";

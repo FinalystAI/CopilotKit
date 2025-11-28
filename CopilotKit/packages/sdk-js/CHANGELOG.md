@@ -1,151 +1,158 @@
-# @copilotkit/sdk-js
+# @finalyst/sdk-js
+
+## 1.10.6
+
+### Patch Changes
+
+- Updated dependencies [e0dd5d5]
+  - @finalyst/shared@1.10.6
 
 ## 1.10.6-next.6
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.6-next.6
+- @finalyst/shared@1.10.6-next.6
 
 ## 1.10.6-next.5
 
 ### Patch Changes
 
 - Updated dependencies [e0dd5d5]
-  - @copilotkit/shared@1.10.6-next.5
+  - @finalyst/shared@1.10.6-next.5
 
 ## 1.10.6-next.4
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.6-next.4
+- @finalyst/shared@1.10.6-next.4
 
 ## 1.10.6-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.6-next.3
+- @finalyst/shared@1.10.6-next.3
 
 ## 1.10.6-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.6-next.2
+- @finalyst/shared@1.10.6-next.2
 
 ## 1.10.6-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.6-next.1
+- @finalyst/shared@1.10.6-next.1
 
 ## 1.10.6-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.6-next.0
+- @finalyst/shared@1.10.6-next.0
 
 ## 1.10.5
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.5
+- @finalyst/shared@1.10.5
 
 ## 1.10.5-next.10
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.5-next.10
+- @finalyst/shared@1.10.5-next.10
 
 ## 1.10.5-next.9
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.5-next.9
+- @finalyst/shared@1.10.5-next.9
 
 ## 1.10.5-next.8
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.5-next.8
+- @finalyst/shared@1.10.5-next.8
 
 ## 1.10.5-next.7
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.5-next.7
+- @finalyst/shared@1.10.5-next.7
 
 ## 1.10.5-next.6
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.5-next.6
+- @finalyst/shared@1.10.5-next.6
 
 ## 1.10.5-next.5
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.5-next.5
+- @finalyst/shared@1.10.5-next.5
 
 ## 1.10.5-next.4
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.5-next.4
+- @finalyst/shared@1.10.5-next.4
 
 ## 1.10.5-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.5-next.3
+- @finalyst/shared@1.10.5-next.3
 
 ## 1.10.5-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.5-next.2
+- @finalyst/shared@1.10.5-next.2
 
 ## 1.10.5-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.5-next.1
+- @finalyst/shared@1.10.5-next.1
 
 ## 1.10.5-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.5-next.0
+- @finalyst/shared@1.10.5-next.0
 
 ## 1.10.4
 
 ### Patch Changes
 
 - Updated dependencies [a640d8e]
-  - @copilotkit/shared@1.10.4
+  - @finalyst/shared@1.10.4
 
 ## 1.10.4-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.4-next.3
+- @finalyst/shared@1.10.4-next.3
 
 ## 1.10.4-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.4-next.2
+- @finalyst/shared@1.10.4-next.2
 
 ## 1.10.4-next.1
 
 ### Patch Changes
 
 - Updated dependencies [a640d8e]
-  - @copilotkit/shared@1.10.4-next.1
+  - @finalyst/shared@1.10.4-next.1
 
 ## 1.10.4-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.4-next.0
+- @finalyst/shared@1.10.4-next.0
 
 ## 1.10.3
 
@@ -154,19 +161,19 @@
 - f566562: - fix: allow dependents to decide langgraph version by using peer dependencies
   - fix: adjust sdk to accept two forms of actions from agui
 - Updated dependencies [ea74047]
-  - @copilotkit/shared@1.10.3
+  - @finalyst/shared@1.10.3
 
 ## 1.10.3-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.3-next.3
+- @finalyst/shared@1.10.3-next.3
 
 ## 1.10.3-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.3-next.2
+- @finalyst/shared@1.10.3-next.2
 
 ## 1.10.3-next.1
 
@@ -174,50 +181,50 @@
 
 - f566562: - fix: allow dependents to decide langgraph version by using peer dependencies
   - fix: adjust sdk to accept two forms of actions from agui
-  - @copilotkit/shared@1.10.3-next.1
+  - @finalyst/shared@1.10.3-next.1
 
 ## 1.10.3-next.0
 
 ### Patch Changes
 
 - Updated dependencies [ea74047]
-  - @copilotkit/shared@1.10.3-next.0
+  - @finalyst/shared@1.10.3-next.0
 
 ## 1.10.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.2
+- @finalyst/shared@1.10.2
 
 ## 1.10.2-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.2-next.0
+- @finalyst/shared@1.10.2-next.0
 
 ## 1.10.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.1
+- @finalyst/shared@1.10.1
 
 ## 1.10.1-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.1-next.2
+- @finalyst/shared@1.10.1-next.2
 
 ## 1.10.1-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.1-next.1
+- @finalyst/shared@1.10.1-next.1
 
 ## 1.10.1-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.1-next.0
+- @finalyst/shared@1.10.1-next.0
 
 ## 1.10.0
 
@@ -226,132 +233,132 @@
 - Updated dependencies [a8c0263]
 - Updated dependencies [8674da1]
 - Updated dependencies [6d1de58]
-  - @copilotkit/shared@1.10.0
+  - @finalyst/shared@1.10.0
 
 ## 1.10.0-next.13
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.0-next.13
+- @finalyst/shared@1.10.0-next.13
 
 ## 1.10.0-next.12
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.0-next.12
+- @finalyst/shared@1.10.0-next.12
 
 ## 1.10.0-next.11
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.0-next.11
+- @finalyst/shared@1.10.0-next.11
 
 ## 1.10.0-next.10
 
 ### Patch Changes
 
 - Updated dependencies [6d1de58]
-  - @copilotkit/shared@1.10.0-next.10
+  - @finalyst/shared@1.10.0-next.10
 
 ## 1.10.0-next.9
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.0-next.9
+- @finalyst/shared@1.10.0-next.9
 
 ## 1.10.0-next.8
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.0-next.8
+- @finalyst/shared@1.10.0-next.8
 
 ## 1.10.0-next.7
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.0-next.7
+- @finalyst/shared@1.10.0-next.7
 
 ## 1.10.0-next.6
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.0-next.6
+- @finalyst/shared@1.10.0-next.6
 
 ## 1.10.0-next.5
 
 ### Patch Changes
 
 - Updated dependencies [a8c0263]
-  - @copilotkit/shared@1.10.0-next.5
+  - @finalyst/shared@1.10.0-next.5
 
 ## 1.10.0-next.4
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.0-next.4
+- @finalyst/shared@1.10.0-next.4
 
 ## 1.10.0-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.0-next.3
+- @finalyst/shared@1.10.0-next.3
 
 ## 1.10.0-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.0-next.2
+- @finalyst/shared@1.10.0-next.2
 
 ## 1.10.0-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.10.0-next.1
+- @finalyst/shared@1.10.0-next.1
 
 ## 1.10.0-next.0
 
 ### Patch Changes
 
 - Updated dependencies [8674da1]
-  - @copilotkit/shared@1.10.0-next.0
+  - @finalyst/shared@1.10.0-next.0
 
 ## 1.9.3
 
 ### Patch Changes
 
 - Updated dependencies [1bda332]
-  - @copilotkit/shared@1.9.3
+  - @finalyst/shared@1.9.3
 
 ## 1.9.3-next.4
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.3-next.4
+- @finalyst/shared@1.9.3-next.4
 
 ## 1.9.3-next.3
 
 ### Patch Changes
 
 - Updated dependencies [1bda332]
-  - @copilotkit/shared@1.9.3-next.3
+  - @finalyst/shared@1.9.3-next.3
 
 ## 1.9.3-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.3-next.2
+- @finalyst/shared@1.9.3-next.2
 
 ## 1.9.3-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.3-next.1
+- @finalyst/shared@1.9.3-next.1
 
 ## 1.9.3-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.3-next.0
+- @finalyst/shared@1.9.3-next.0
 
 ## 1.9.2
 
@@ -364,110 +371,110 @@
 - Updated dependencies [1d1c51d]
 - Updated dependencies [10345a5]
 - Updated dependencies [9169ad7]
-  - @copilotkit/shared@1.9.2
+  - @finalyst/shared@1.9.2
 
 ## 1.9.2-next.26
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.26
+- @finalyst/shared@1.9.2-next.26
 
 ## 1.9.2-next.25
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.25
+- @finalyst/shared@1.9.2-next.25
 
 ## 1.9.2-next.24
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.24
+- @finalyst/shared@1.9.2-next.24
 
 ## 1.9.2-next.23
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.23
+- @finalyst/shared@1.9.2-next.23
 
 ## 1.9.2-next.22
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.22
+- @finalyst/shared@1.9.2-next.22
 
 ## 1.9.2-next.21
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.21
+- @finalyst/shared@1.9.2-next.21
 
 ## 1.9.2-next.20
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.20
+- @finalyst/shared@1.9.2-next.20
 
 ## 1.9.2-next.19
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.19
+- @finalyst/shared@1.9.2-next.19
 
 ## 1.9.2-next.18
 
 ### Patch Changes
 
 - Updated dependencies [fac89c2]
-  - @copilotkit/shared@1.9.2-next.18
+  - @finalyst/shared@1.9.2-next.18
 
 ## 1.9.2-next.17
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.17
+- @finalyst/shared@1.9.2-next.17
 
 ## 1.9.2-next.16
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.16
+- @finalyst/shared@1.9.2-next.16
 
 ## 1.9.2-next.15
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.15
+- @finalyst/shared@1.9.2-next.15
 
 ## 1.9.2-next.14
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.14
+- @finalyst/shared@1.9.2-next.14
 
 ## 1.9.2-next.13
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.13
+- @finalyst/shared@1.9.2-next.13
 
 ## 1.9.2-next.12
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.12
+- @finalyst/shared@1.9.2-next.12
 
 ## 1.9.2-next.11
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.11
+- @finalyst/shared@1.9.2-next.11
 
 ## 1.9.2-next.10
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.10
+- @finalyst/shared@1.9.2-next.10
 
 ## 1.9.2-next.9
 
@@ -475,31 +482,31 @@
 
 - 1d1c51d: - feat: surface all errors in structured format
 - Updated dependencies [1d1c51d]
-  - @copilotkit/shared@1.9.2-next.9
+  - @finalyst/shared@1.9.2-next.9
 
 ## 1.9.2-next.8
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.8
+- @finalyst/shared@1.9.2-next.8
 
 ## 1.9.2-next.7
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.7
+- @finalyst/shared@1.9.2-next.7
 
 ## 1.9.2-next.6
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.6
+- @finalyst/shared@1.9.2-next.6
 
 ## 1.9.2-next.5
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.5
+- @finalyst/shared@1.9.2-next.5
 
 ## 1.9.2-next.4
 
@@ -507,25 +514,25 @@
 
 - Updated dependencies [9169ad7]
 - Updated dependencies [9169ad7]
-  - @copilotkit/shared@1.9.2-next.4
+  - @finalyst/shared@1.9.2-next.4
 
 ## 1.9.2-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.3
+- @finalyst/shared@1.9.2-next.3
 
 ## 1.9.2-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.2
+- @finalyst/shared@1.9.2-next.2
 
 ## 1.9.2-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.2-next.1
+- @finalyst/shared@1.9.2-next.1
 
 ## 1.9.2-next.0
 
@@ -533,257 +540,257 @@
 
 - 10345a5: - feat: structured error visibility system for streaming errors
 - Updated dependencies [10345a5]
-  - @copilotkit/shared@1.9.2-next.0
+  - @finalyst/shared@1.9.2-next.0
 
 ## 1.9.1
 
 ### Patch Changes
 
 - Updated dependencies [deaeca0]
-  - @copilotkit/shared@1.9.1
+  - @finalyst/shared@1.9.1
 
 ## 1.9.1-next.0
 
 ### Patch Changes
 
 - Updated dependencies [deaeca0]
-  - @copilotkit/shared@1.9.1-next.0
+  - @finalyst/shared@1.9.1-next.0
 
 ## 1.9.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.0
+- @finalyst/shared@1.9.0
 
 ## 1.9.0-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.9.0-next.2
+- @finalyst/shared@1.9.0-next.2
 
 ## 1.8.15-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.15-next.1
+- @finalyst/shared@1.8.15-next.1
 
 ## 1.8.15-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.15-next.0
+- @finalyst/shared@1.8.15-next.0
 
 ## 1.8.14
 
 ### Patch Changes
 
 - Updated dependencies [34a78d8]
-  - @copilotkit/shared@1.8.14
+  - @finalyst/shared@1.8.14
 
 ## 1.8.14-next.5
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.14-next.5
+- @finalyst/shared@1.8.14-next.5
 
 ## 1.8.14-next.4
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.14-next.4
+- @finalyst/shared@1.8.14-next.4
 
 ## 1.8.14-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.14-next.3
+- @finalyst/shared@1.8.14-next.3
 
 ## 1.8.14-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.14-next.2
+- @finalyst/shared@1.8.14-next.2
 
 ## 1.8.14-next.1
 
 ### Patch Changes
 
 - Updated dependencies [34a78d8]
-  - @copilotkit/shared@1.8.14-next.1
+  - @finalyst/shared@1.8.14-next.1
 
 ## 1.8.14-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.14-next.0
+- @finalyst/shared@1.8.14-next.0
 
 ## 1.8.13
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.13
+- @finalyst/shared@1.8.13
 
 ## 1.8.13-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.13-next.3
+- @finalyst/shared@1.8.13-next.3
 
 ## 1.8.13-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.13-next.2
+- @finalyst/shared@1.8.13-next.2
 
 ## 1.8.13-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.13-next.1
+- @finalyst/shared@1.8.13-next.1
 
 ## 1.8.13-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.13-next.0
+- @finalyst/shared@1.8.13-next.0
 
 ## 1.8.12
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.12
+- @finalyst/shared@1.8.12
 
 ## 1.8.12-next.6
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.12-next.6
+- @finalyst/shared@1.8.12-next.6
 
 ## 1.8.12-next.5
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.12-next.5
+- @finalyst/shared@1.8.12-next.5
 
 ## 1.8.12-next.4
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.12-next.4
+- @finalyst/shared@1.8.12-next.4
 
 ## 1.8.12-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.12-next.3
+- @finalyst/shared@1.8.12-next.3
 
 ## 1.8.12-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.12-next.2
+- @finalyst/shared@1.8.12-next.2
 
 ## 1.8.12-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.12-next.1
+- @finalyst/shared@1.8.12-next.1
 
 ## 1.8.12-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.12-next.0
+- @finalyst/shared@1.8.12-next.0
 
 ## 1.8.11
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.11
+- @finalyst/shared@1.8.11
 
 ## 1.8.11-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.11-next.1
+- @finalyst/shared@1.8.11-next.1
 
 ## 1.8.11-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.11-next.0
+- @finalyst/shared@1.8.11-next.0
 
 ## 1.8.10
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.10
+- @finalyst/shared@1.8.10
 
 ## 1.8.10-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.10-next.3
+- @finalyst/shared@1.8.10-next.3
 
 ## 1.8.10-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.10-next.2
+- @finalyst/shared@1.8.10-next.2
 
 ## 1.8.10-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.10-next.1
+- @finalyst/shared@1.8.10-next.1
 
 ## 1.8.10-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.10-next.0
+- @finalyst/shared@1.8.10-next.0
 
 ## 1.8.9
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.9
+- @finalyst/shared@1.8.9
 
 ## 1.8.9-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.9-next.0
+- @finalyst/shared@1.8.9-next.0
 
 ## 1.8.8
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.8
+- @finalyst/shared@1.8.8
 
 ## 1.8.8-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.8-next.1
+- @finalyst/shared@1.8.8-next.1
 
 ## 1.8.8-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.8-next.0
+- @finalyst/shared@1.8.8-next.0
 
 ## 1.8.7
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.7
+- @finalyst/shared@1.8.7
 
 ## 1.8.7-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.7-next.0
+- @finalyst/shared@1.8.7-next.0
 
 ## 1.8.6
 
@@ -792,7 +799,7 @@
 - 7a04bd1: - fix: fix how results are communicated back on interrupt
   - fix: do not allow followup for interrupt actions
   - chore: improve TS docs for interrupt
-  - @copilotkit/shared@1.8.6
+  - @finalyst/shared@1.8.6
 
 ## 1.8.6-next.0
 
@@ -801,353 +808,353 @@
 - 7a04bd1: - fix: fix how results are communicated back on interrupt
   - fix: do not allow followup for interrupt actions
   - chore: improve TS docs for interrupt
-  - @copilotkit/shared@1.8.6-next.0
+  - @finalyst/shared@1.8.6-next.0
 
 ## 1.8.5
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.5
+- @finalyst/shared@1.8.5
 
 ## 1.8.5-next.5
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.5-next.5
+- @finalyst/shared@1.8.5-next.5
 
 ## 1.8.5-next.4
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.5-next.4
+- @finalyst/shared@1.8.5-next.4
 
 ## 1.8.5-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.5-next.3
+- @finalyst/shared@1.8.5-next.3
 
 ## 1.8.5-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.5-next.2
+- @finalyst/shared@1.8.5-next.2
 
 ## 1.8.5-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.5-next.1
+- @finalyst/shared@1.8.5-next.1
 
 ## 1.8.5-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.5-next.0
+- @finalyst/shared@1.8.5-next.0
 
 ## 1.8.4
 
 ### Patch Changes
 
 - Updated dependencies [f363760]
-  - @copilotkit/shared@1.8.4
+  - @finalyst/shared@1.8.4
 
 ## 1.8.4-next.4
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.4-next.4
+- @finalyst/shared@1.8.4-next.4
 
 ## 1.8.4-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.4-next.3
+- @finalyst/shared@1.8.4-next.3
 
 ## 1.8.4-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.4-next.2
+- @finalyst/shared@1.8.4-next.2
 
 ## 1.8.4-next.1
 
 ### Patch Changes
 
 - Updated dependencies [f363760]
-  - @copilotkit/shared@1.8.4-next.1
+  - @finalyst/shared@1.8.4-next.1
 
 ## 1.8.4-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.4-next.0
+- @finalyst/shared@1.8.4-next.0
 
 ## 1.8.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.3
+- @finalyst/shared@1.8.3
 
 ## 1.8.3-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.3-next.0
+- @finalyst/shared@1.8.3-next.0
 
 ## 1.8.2-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.2-next.3
+- @finalyst/shared@1.8.2-next.3
 
 ## 1.8.2-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.2-next.2
+- @finalyst/shared@1.8.2-next.2
 
 ## 1.8.2-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.2-next.1
+- @finalyst/shared@1.8.2-next.1
 
 ## 1.8.2-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.2-next.0
+- @finalyst/shared@1.8.2-next.0
 
 ## 1.8.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.1
+- @finalyst/shared@1.8.1
 
 ## 1.8.1-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.1-next.1
+- @finalyst/shared@1.8.1-next.1
 
 ## 1.8.1-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.1-next.0
+- @finalyst/shared@1.8.1-next.0
 
 ## 1.8.0
 
 ### Patch Changes
 
 - f31b093: - fix: add types for js sdk export
-  - @copilotkit/shared@1.8.0
+  - @finalyst/shared@1.8.0
 
 ## 1.8.0-next.8
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.0-next.8
+- @finalyst/shared@1.8.0-next.8
 
 ## 1.8.0-next.7
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.0-next.7
+- @finalyst/shared@1.8.0-next.7
 
 ## 1.8.0-next.6
 
 ### Patch Changes
 
 - f31b093: - fix: add types for js sdk export
-  - @copilotkit/shared@1.8.0-next.6
+  - @finalyst/shared@1.8.0-next.6
 
 ## 1.8.0-next.5
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.0-next.5
+- @finalyst/shared@1.8.0-next.5
 
 ## 1.8.0-next.4
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.0-next.4
+- @finalyst/shared@1.8.0-next.4
 
 ## 1.8.0-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.8.0-next.3
+- @finalyst/shared@1.8.0-next.3
 
 ## 1.7.2-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.7.2-next.2
+- @finalyst/shared@1.7.2-next.2
 
 ## 1.7.2-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.7.2-next.1
+- @finalyst/shared@1.7.2-next.1
 
 ## 1.7.2-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.7.2-next.0
+- @finalyst/shared@1.7.2-next.0
 
 ## 1.7.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.7.1
+- @finalyst/shared@1.7.1
 
 ## 1.7.1-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.7.1-next.0
+- @finalyst/shared@1.7.1-next.0
 
 ## 1.7.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.7.0
+- @finalyst/shared@1.7.0
 
 ## 1.7.0-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.7.0-next.1
+- @finalyst/shared@1.7.0-next.1
 
 ## 1.7.0-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.7.0-next.0
+- @finalyst/shared@1.7.0-next.0
 
 ## 1.6.0
 
 ### Patch Changes
 
 - Updated dependencies [090203d]
-  - @copilotkit/shared@1.6.0
+  - @finalyst/shared@1.6.0
 
 ## 1.6.0-next.12
 
 ### Patch Changes
 
-- @copilotkit/shared@1.6.0-next.12
+- @finalyst/shared@1.6.0-next.12
 
 ## 1.6.0-next.11
 
 ### Patch Changes
 
-- @copilotkit/shared@1.6.0-next.11
+- @finalyst/shared@1.6.0-next.11
 
 ## 1.6.0-next.10
 
 ### Patch Changes
 
-- @copilotkit/shared@1.6.0-next.10
+- @finalyst/shared@1.6.0-next.10
 
 ## 1.6.0-next.9
 
 ### Patch Changes
 
-- @copilotkit/shared@1.6.0-next.9
+- @finalyst/shared@1.6.0-next.9
 
 ## 1.6.0-next.8
 
 ### Patch Changes
 
-- @copilotkit/shared@1.6.0-next.8
+- @finalyst/shared@1.6.0-next.8
 
 ## 1.6.0-next.7
 
 ### Patch Changes
 
-- @copilotkit/shared@1.6.0-next.7
+- @finalyst/shared@1.6.0-next.7
 
 ## 1.6.0-next.6
 
 ### Patch Changes
 
-- @copilotkit/shared@1.6.0-next.6
+- @finalyst/shared@1.6.0-next.6
 
 ## 1.6.0-next.5
 
 ### Patch Changes
 
 - Updated dependencies [090203d]
-  - @copilotkit/shared@1.6.0-next.5
+  - @finalyst/shared@1.6.0-next.5
 
 ## 1.6.0-next.4
 
 ### Patch Changes
 
-- @copilotkit/shared@1.6.0-next.4
+- @finalyst/shared@1.6.0-next.4
 
 ## 1.6.0-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.6.0-next.3
+- @finalyst/shared@1.6.0-next.3
 
 ## 1.6.0-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.6.0-next.2
+- @finalyst/shared@1.6.0-next.2
 
 ## 1.6.0-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.6.0-next.1
+- @finalyst/shared@1.6.0-next.1
 
 ## 1.6.0-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.6.0-next.0
+- @finalyst/shared@1.6.0-next.0
 
 ## 1.5.20
 
 ### Patch Changes
 
 - Updated dependencies [51f0d66]
-  - @copilotkit/shared@1.5.20
+  - @finalyst/shared@1.5.20
 
 ## 1.5.20-next.0
 
 ### Patch Changes
 
 - Updated dependencies [51f0d66]
-  - @copilotkit/shared@1.5.20-next.0
+  - @finalyst/shared@1.5.20-next.0
 
 ## 1.5.19
 
 ### Patch Changes
 
 - Updated dependencies [0dd1ab9]
-  - @copilotkit/shared@1.5.19
+  - @finalyst/shared@1.5.19
 
 ## 1.5.19-next.1
 
 ### Patch Changes
 
 - Updated dependencies [0dd1ab9]
-  - @copilotkit/shared@1.5.19-next.1
+  - @finalyst/shared@1.5.19-next.1
 
 ## 1.5.19-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.19-next.0
+- @finalyst/shared@1.5.19-next.0
 
 ## 1.5.18
 
@@ -1156,74 +1163,74 @@
 - Updated dependencies [d47cd26]
 - Updated dependencies [f77a7b9]
 - Updated dependencies [38d3ac2]
-  - @copilotkit/shared@1.5.18
+  - @finalyst/shared@1.5.18
 
 ## 1.5.18-next.3
 
 ### Patch Changes
 
 - Updated dependencies [f77a7b9]
-  - @copilotkit/shared@1.5.18-next.3
+  - @finalyst/shared@1.5.18-next.3
 
 ## 1.5.18-next.2
 
 ### Patch Changes
 
 - Updated dependencies [38d3ac2]
-  - @copilotkit/shared@1.5.18-next.2
+  - @finalyst/shared@1.5.18-next.2
 
 ## 1.5.18-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.18-next.1
+- @finalyst/shared@1.5.18-next.1
 
 ## 1.5.18-next.0
 
 ### Patch Changes
 
 - Updated dependencies [d47cd26]
-  - @copilotkit/shared@1.5.18-next.0
+  - @finalyst/shared@1.5.18-next.0
 
 ## 1.5.17
 
 ### Patch Changes
 
 - Updated dependencies [1fc3902]
-  - @copilotkit/shared@1.5.17
+  - @finalyst/shared@1.5.17
 
 ## 1.5.17-next.0
 
 ### Patch Changes
 
 - Updated dependencies [1fc3902]
-  - @copilotkit/shared@1.5.17-next.0
+  - @finalyst/shared@1.5.17-next.0
 
 ## 1.5.16
 
 ### Patch Changes
 
 - Updated dependencies [48b7c7b]
-  - @copilotkit/shared@1.5.16
+  - @finalyst/shared@1.5.16
 
 ## 1.5.16-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.16-next.2
+- @finalyst/shared@1.5.16-next.2
 
 ## 1.5.16-next.1
 
 ### Patch Changes
 
 - Updated dependencies [48b7c7b]
-  - @copilotkit/shared@1.5.16-next.1
+  - @finalyst/shared@1.5.16-next.1
 
 ## 1.5.16-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.16-next.0
+- @finalyst/shared@1.5.16-next.0
 
 ## 1.5.15
 
@@ -1233,7 +1240,7 @@
   - chore(deps): update dependencies for demos
   - chore(interrupt-as-message): add e2e test for interrupt as message
 - Updated dependencies [7b3141d]
-  - @copilotkit/shared@1.5.15
+  - @finalyst/shared@1.5.15
 
 ## 1.5.15-next.8
 
@@ -1242,216 +1249,216 @@
 - 06f9f35: - feat(interrupt): add copilotkit interrupt as messages with copilotkit interrupt convenience fn
   - chore(deps): update dependencies for demos
   - chore(interrupt-as-message): add e2e test for interrupt as message
-  - @copilotkit/shared@1.5.15-next.8
+  - @finalyst/shared@1.5.15-next.8
 
 ## 1.5.15-next.7
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.15-next.7
+- @finalyst/shared@1.5.15-next.7
 
 ## 1.5.15-next.6
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.15-next.6
+- @finalyst/shared@1.5.15-next.6
 
 ## 1.5.15-next.5
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.15-next.5
+- @finalyst/shared@1.5.15-next.5
 
 ## 1.5.15-next.4
 
 ### Patch Changes
 
 - Updated dependencies [7b3141d]
-  - @copilotkit/shared@1.5.15-next.4
+  - @finalyst/shared@1.5.15-next.4
 
 ## 1.5.15-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.15-next.3
+- @finalyst/shared@1.5.15-next.3
 
 ## 1.5.15-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.15-next.2
+- @finalyst/shared@1.5.15-next.2
 
 ## 1.5.15-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.15-next.1
+- @finalyst/shared@1.5.15-next.1
 
 ## 1.5.15-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.15-next.0
+- @finalyst/shared@1.5.15-next.0
 
 ## 1.5.14
 
 ### Patch Changes
 
 - Updated dependencies [0061f65]
-  - @copilotkit/shared@1.5.14
+  - @finalyst/shared@1.5.14
 
 ## 1.5.14-next.0
 
 ### Patch Changes
 
 - Updated dependencies [0061f65]
-  - @copilotkit/shared@1.5.14-next.0
+  - @finalyst/shared@1.5.14-next.0
 
 ## 1.5.13
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.13
+- @finalyst/shared@1.5.13
 
 ## 1.5.13-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.13-next.0
+- @finalyst/shared@1.5.13-next.0
 
 ## 1.5.12
 
 ### Patch Changes
 
 - Updated dependencies [6136a57]
-  - @copilotkit/shared@1.5.12
+  - @finalyst/shared@1.5.12
 
 ## 1.5.12-next.7
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.12-next.7
+- @finalyst/shared@1.5.12-next.7
 
 ## 1.5.12-next.6
 
 ### Patch Changes
 
 - Updated dependencies [6136a57]
-  - @copilotkit/shared@1.5.12-next.6
+  - @finalyst/shared@1.5.12-next.6
 
 ## 1.5.12-next.5
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.12-next.5
+- @finalyst/shared@1.5.12-next.5
 
 ## 1.5.12-next.4
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.12-next.4
+- @finalyst/shared@1.5.12-next.4
 
 ## 1.5.12-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.12-next.3
+- @finalyst/shared@1.5.12-next.3
 
 ## 1.5.12-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.12-next.2
+- @finalyst/shared@1.5.12-next.2
 
 ## 1.5.12-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.12-next.1
+- @finalyst/shared@1.5.12-next.1
 
 ## 1.5.12-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.12-next.0
+- @finalyst/shared@1.5.12-next.0
 
 ## 1.5.11
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.11
+- @finalyst/shared@1.5.11
 
 ## 1.5.11-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.11-next.0
+- @finalyst/shared@1.5.11-next.0
 
 ## 1.5.10
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.10
+- @finalyst/shared@1.5.10
 
 ## 1.5.10-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.10-next.0
+- @finalyst/shared@1.5.10-next.0
 
 ## 1.5.9
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.9
+- @finalyst/shared@1.5.9
 
 ## 1.5.8
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.8
+- @finalyst/shared@1.5.8
 
 ## 1.5.6-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.6-next.0
+- @finalyst/shared@1.5.6-next.0
 
 ## 1.5.5-next.5
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.5-next.5
+- @finalyst/shared@1.5.5-next.5
 
 ## 1.5.5-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.5-next.3
+- @finalyst/shared@1.5.5-next.3
 
 ## 1.5.5-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.5-next.2
+- @finalyst/shared@1.5.5-next.2
 
 ## 1.5.4
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.4
+- @finalyst/shared@1.5.4
 
 ## 1.5.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.3
+- @finalyst/shared@1.5.3
 
 ## 1.5.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.5.2
+- @finalyst/shared@1.5.2
 
 ## 1.5.1
 
@@ -1469,7 +1476,7 @@
 - Updated dependencies [05240a9]
 - Updated dependencies [33218fe]
 - Updated dependencies [03f3d6f]
-  - @copilotkit/shared@1.5.1
+  - @finalyst/shared@1.5.1
 
 ## 1.5.1-next.3
 
@@ -1477,7 +1484,7 @@
 
 - 33218fe: test prerelease #3
 - Updated dependencies [33218fe]
-  - @copilotkit/shared@1.5.1-next.3
+  - @finalyst/shared@1.5.1-next.3
 
 ## 1.5.1-next.2
 
@@ -1485,7 +1492,7 @@
 
 - da280ed: Test prerelease script
 - Updated dependencies [da280ed]
-  - @copilotkit/shared@1.5.1-next.2
+  - @finalyst/shared@1.5.1-next.2
 
 ## 1.5.1-next.1
 
@@ -1493,7 +1500,7 @@
 
 - 03f3d6f: Test next prerelease
 - Updated dependencies [03f3d6f]
-  - @copilotkit/shared@1.5.1-next.1
+  - @finalyst/shared@1.5.1-next.1
 
 ## 1.5.1-next.0
 
@@ -1501,7 +1508,7 @@
 
 - 27e42d7: testing a prerelease
 - Updated dependencies [27e42d7]
-  - @copilotkit/shared@1.5.1-next.0
+  - @finalyst/shared@1.5.1-next.0
 
 ## 1.5.0
 
@@ -1514,7 +1521,7 @@
 - 1b47092: CoAgents v0.3 prerelease
 - Updated dependencies [1b47092]
 - Updated dependencies [1b47092]
-  - @copilotkit/shared@1.5.0
+  - @finalyst/shared@1.5.0
 
 ## 1.5.0-coagents-v0-3.0
 
@@ -1527,7 +1534,7 @@
 - e66bce4: CoAgents v0.3 prerelease
 - Updated dependencies
 - Updated dependencies [e66bce4]
-  - @copilotkit/shared@1.5.0-coagents-v0-3.0
+  - @finalyst/shared@1.5.0-coagents-v0-3.0
 
 ## 1.4.8
 
@@ -1538,13 +1545,13 @@
   - Improve dev console help options
   - Allow CopilotKit remote endpoint without agents
 - Updated dependencies
-  - @copilotkit/shared@1.4.8
+  - @finalyst/shared@1.4.8
 
 ## 1.4.8-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.4.8-next.0
+- @finalyst/shared@1.4.8-next.0
 
 ## 1.4.7
 
@@ -1552,7 +1559,7 @@
 
 - Fix broken build script before release
 - Updated dependencies
-  - @copilotkit/shared@1.4.7
+  - @finalyst/shared@1.4.7
 
 ## 1.4.6
 
@@ -1566,7 +1573,7 @@
 
 - testing release workflow
 - Updated dependencies
-  - @copilotkit/shared@1.4.5
+  - @finalyst/shared@1.4.5
 
 ## 1.4.5-next.0
 
@@ -1574,43 +1581,43 @@
 
 - testing release workflow
 - Updated dependencies
-  - @copilotkit/shared@1.4.5-next.0
+  - @finalyst/shared@1.4.5-next.0
 
 ## 1.4.4
 
 ### Patch Changes
 
-- @copilotkit/shared@1.4.4
+- @finalyst/shared@1.4.4
 
 ## 1.4.4-next.4
 
 ### Patch Changes
 
-- @copilotkit/shared@1.4.4-next.4
+- @finalyst/shared@1.4.4-next.4
 
 ## 1.4.4-next.3
 
 ### Patch Changes
 
-- @copilotkit/shared@1.4.4-next.3
+- @finalyst/shared@1.4.4-next.3
 
 ## 1.4.4-next.2
 
 ### Patch Changes
 
-- @copilotkit/shared@1.4.4-next.2
+- @finalyst/shared@1.4.4-next.2
 
 ## 1.4.4-next.1
 
 ### Patch Changes
 
-- @copilotkit/shared@1.4.4-next.1
+- @finalyst/shared@1.4.4-next.1
 
 ## 1.4.4-next.0
 
 ### Patch Changes
 
-- @copilotkit/shared@1.4.4-next.0
+- @finalyst/shared@1.4.4-next.0
 
 ## 1.4.3
 
@@ -1622,7 +1629,7 @@
   - Ensure state is immediately set without using flushSync
 - Updated dependencies [c296282]
 - Updated dependencies
-  - @copilotkit/shared@1.4.3
+  - @finalyst/shared@1.4.3
 
 ## 1.4.3-pre.0
 
@@ -1631,7 +1638,7 @@
 - - Better error surfacing when using LangGraph Platform streaming
   - Ensure state is immediately set without using flushSync
 - Updated dependencies
-  - @copilotkit/shared@1.4.3-pre.0
+  - @finalyst/shared@1.4.3-pre.0
 
 ## 1.4.2
 
@@ -1640,7 +1647,7 @@
 - - Make sure agent state is set immediately (#1077)
   - Support running an agent without messages (#1075)
 - Updated dependencies
-  - @copilotkit/shared@1.4.2
+  - @finalyst/shared@1.4.2
 
 ## 1.4.1
 
@@ -1654,7 +1661,6 @@
 - e16d95e: New prerelease
 - 1721cbd: Add convertActionsToDynamicStructuredTools to sdk-js
 - CopilotKit Core:
-
   - Improved error messages and overall logs
   - `useCopilotAction.renderAndAwait` renamed to `.renderAndAwaitForResponse` (backwards compatible, will be deprecated in the future)
   - Improved scrolling behavior. It is now possible to scroll up during LLM response generation
@@ -1662,7 +1668,6 @@
   - Updated interfaces for better developer ergonomics
 
   CoAgents:
-
   - Renamed `remoteActions` to `remoteEndpoints` (backwards compatible, will be deprecated in the future)
   - Support for LangGraph Platform in Remote Endpoints
   - LangGraph JS Support for CoAgents (locally via `langgraph dev`, `langgraph up` or deployed to LangGraph Platform)
@@ -1670,8 +1675,7 @@
   - Enhanced state management and message handling
 
   CopilotKid Back-end SDK:
-
-  - Released a whole-new `@copilotkit/sdk-js` for building agents with LangGraph JS Support
+  - Released a whole-new `@finalyst/sdk-js` for building agents with LangGraph JS Support
 
 - 8d0144f: bump
 - 8d0144f: bump
@@ -1687,7 +1691,7 @@
 - Updated dependencies [8d0144f]
 - Updated dependencies [8d0144f]
 - Updated dependencies [fef1b74]
-  - @copilotkit/shared@1.4.1
+  - @finalyst/shared@1.4.1
 
 ## 1.4.1-pre.6
 
@@ -1701,7 +1705,7 @@
 - Updated dependencies [1721cbd]
 - Updated dependencies [1721cbd]
 - Updated dependencies
-  - @copilotkit/shared@1.4.1-pre.6
+  - @finalyst/shared@1.4.1-pre.6
 
 ## 1.4.1-pre.5
 
@@ -1709,7 +1713,7 @@
 
 - bump
 - Updated dependencies
-  - @copilotkit/shared@1.4.1-pre.5
+  - @finalyst/shared@1.4.1-pre.5
 
 ## 1.4.1-pre.4
 
@@ -1717,7 +1721,7 @@
 
 - bump
 - Updated dependencies
-  - @copilotkit/shared@1.4.1-pre.4
+  - @finalyst/shared@1.4.1-pre.4
 
 ## 1.4.1-pre.3
 
@@ -1725,7 +1729,7 @@
 
 - bump
 - Updated dependencies
-  - @copilotkit/shared@1.4.1-pre.3
+  - @finalyst/shared@1.4.1-pre.3
 
 ## 1.4.1-pre.2
 
@@ -1733,7 +1737,7 @@
 
 - bump
 - Updated dependencies
-  - @copilotkit/shared@1.4.1-pre.2
+  - @finalyst/shared@1.4.1-pre.2
 
 ## 1.4.1-pre.1
 
@@ -1741,7 +1745,7 @@
 
 - bump
 - Updated dependencies
-  - @copilotkit/shared@1.4.1-pre.1
+  - @finalyst/shared@1.4.1-pre.1
 
 ## 1.4.1-pre.0
 
@@ -1749,7 +1753,7 @@
 
 - New prerelease
 - Updated dependencies
-  - @copilotkit/shared@1.4.1-pre.0
+  - @finalyst/shared@1.4.1-pre.0
 
 ## 1.4.0
 
@@ -1773,7 +1777,7 @@ CoAgents:
 
 CopilotKid Back-end SDK:
 
-- Released a whole-new `@copilotkit/sdk-js` for building agents with LangGraph JS Support
+- Released a whole-new `@finalyst/sdk-js` for building agents with LangGraph JS Support
 
 ### Patch Changes
 
@@ -1803,7 +1807,7 @@ CopilotKid Back-end SDK:
 - Updated dependencies [332d744]
 - Updated dependencies [f6fab28]
 - Updated dependencies [f6fab28]
-  - @copilotkit/shared@1.4.0
+  - @finalyst/shared@1.4.0
 
 ## 1.3.16-mme-revert-rxjs-changes.10
 
@@ -1834,7 +1838,7 @@ CopilotKid Back-end SDK:
 - Updated dependencies [332d744]
 - Updated dependencies [f6fab28]
 - Updated dependencies [f6fab28]
-  - @copilotkit/shared@1.3.16-mme-revert-rxjs-changes.10
+  - @finalyst/shared@1.3.16-mme-revert-rxjs-changes.10
 
 ## 1.3.16-mme-lgc-langgraph-package.9
 
@@ -1842,7 +1846,7 @@ CopilotKid Back-end SDK:
 
 - update entry
 - Updated dependencies
-  - @copilotkit/shared@1.3.16-mme-lgc-langgraph-package.9
+  - @finalyst/shared@1.3.16-mme-lgc-langgraph-package.9
 
 ## 1.3.16-mme-lgc-langgraph-package.8
 
@@ -1850,7 +1854,7 @@ CopilotKid Back-end SDK:
 
 - update entry
 - Updated dependencies
-  - @copilotkit/shared@1.3.16-mme-lgc-langgraph-package.8
+  - @finalyst/shared@1.3.16-mme-lgc-langgraph-package.8
 
 ## 1.3.16-mme-lgc-langgraph-package.7
 
@@ -1858,7 +1862,7 @@ CopilotKid Back-end SDK:
 
 - update entry in tsup config
 - Updated dependencies
-  - @copilotkit/shared@1.3.16-mme-lgc-langgraph-package.7
+  - @finalyst/shared@1.3.16-mme-lgc-langgraph-package.7
 
 ## 1.3.16-mme-lgc-langgraph-package.6
 
@@ -1866,7 +1870,7 @@ CopilotKid Back-end SDK:
 
 - Update exports
 - Updated dependencies
-  - @copilotkit/shared@1.3.16-mme-lgc-langgraph-package.6
+  - @finalyst/shared@1.3.16-mme-lgc-langgraph-package.6
 
 ## 1.3.16-mme-lgc-langgraph-package.5
 
@@ -1874,7 +1878,7 @@ CopilotKid Back-end SDK:
 
 - update tsup config
 - Updated dependencies
-  - @copilotkit/shared@1.3.16-mme-lgc-langgraph-package.5
+  - @finalyst/shared@1.3.16-mme-lgc-langgraph-package.5
 
 ## 1.3.16-mme-lgc-langgraph-package.4
 
@@ -1882,7 +1886,7 @@ CopilotKid Back-end SDK:
 
 - Update exports
 - Updated dependencies
-  - @copilotkit/shared@1.3.16-mme-lgc-langgraph-package.4
+  - @finalyst/shared@1.3.16-mme-lgc-langgraph-package.4
 
 ## 1.3.16-mme-lgc-langgraph-package.3
 
@@ -1890,7 +1894,7 @@ CopilotKid Back-end SDK:
 
 - export langchain module
 - Updated dependencies
-  - @copilotkit/shared@1.3.16-mme-lgc-langgraph-package.3
+  - @finalyst/shared@1.3.16-mme-lgc-langgraph-package.3
 
 ## 1.3.16-mme-sdk-js.2
 
@@ -1898,7 +1902,7 @@ CopilotKid Back-end SDK:
 
 - Ensure intermediate state config is sent as snake case
 - Updated dependencies
-  - @copilotkit/shared@1.3.16-mme-sdk-js.2
+  - @finalyst/shared@1.3.16-mme-sdk-js.2
 
 ## 1.3.16-mme-sdk-js.1
 
@@ -1906,7 +1910,7 @@ CopilotKid Back-end SDK:
 
 - Update lockfile
 - Updated dependencies
-  - @copilotkit/shared@1.3.16-mme-sdk-js.1
+  - @finalyst/shared@1.3.16-mme-sdk-js.1
 
 ## 1.3.16-mme-sdk-js.0
 
@@ -1914,4 +1918,4 @@ CopilotKid Back-end SDK:
 
 - Export LangGraph functions
 - Updated dependencies
-  - @copilotkit/shared@1.3.16-mme-sdk-js.0
+  - @finalyst/shared@1.3.16-mme-sdk-js.0

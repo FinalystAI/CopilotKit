@@ -5,7 +5,7 @@ import {
   CopilotRuntime,
   OpenAIAdapter,
   copilotRuntimeNextJSAppRouterEndpoint,
-} from "@copilotkit/runtime";
+} from "@finalyst/runtime";
 import { NextRequest } from "next/server";
 import OpenAI from "openai";
 

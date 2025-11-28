@@ -34,7 +34,7 @@
         "examples/**"
       ],
       "matchPackageNames": [
-        "/^@copilotkit/",
+        "/^@finalyst/",
         "/^copilotkit/"
       ],
       "labels": [
@@ -43,7 +43,7 @@
       "groupName": "CopilotKit Examples"
     },
     {
-      "description": "[@copilotkit/*] Dependencies",
+      "description": "[@finalyst/*] Dependencies",
       "enabled": true,
       "matchFileNames": [
         "CopilotKit/packages/**"

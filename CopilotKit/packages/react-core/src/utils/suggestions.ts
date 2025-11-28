@@ -6,8 +6,8 @@
  */
 
 import { extract } from "./extract";
-import { actionParametersToJsonSchema } from "@copilotkit/shared";
-import { CopilotRequestType } from "@copilotkit/runtime-client-gql";
+import { actionParametersToJsonSchema } from "@finalyst/shared";
+import { CopilotRequestType } from "@finalyst/runtime-client-gql";
 import { CopilotContextParams, CopilotMessagesContextParams } from "../context";
 import { CopilotChatSuggestionConfiguration } from "../types";
 

@@ -1,9 +1,9 @@
 "use client";
-import { CopilotKit, useCoAgent, useCopilotChat } from "@copilotkit/react-core";
-import { CopilotKitCSSProperties, CopilotSidebar, useCopilotChatSuggestions } from "@copilotkit/react-ui";
+import { CopilotKit, useCoAgent, useCopilotChat } from "@finalyst/react-core";
+import { CopilotKitCSSProperties, CopilotSidebar, useCopilotChatSuggestions } from "@finalyst/react-ui";
 import { useState, useEffect, useRef } from "react";
-import { Role, TextMessage } from "@copilotkit/runtime-client-gql";
-import "@copilotkit/react-ui/styles.css";
+import { Role, TextMessage } from "@finalyst/runtime-client-gql";
+import "@finalyst/react-ui/styles.css";
 import "./style.css";
 import { chatSuggestions, initialPrompt } from "@/lib/prompts";
 import { AGENT_TYPE } from "@/config";
@@ -40,7 +40,7 @@ const dietaryOptions = [
 
 export default function SharedState() {
   return (
-    
+
       <CopilotKit
         runtimeUrl={AGENT_TYPE == "general" ? "/api/copilotkit?crewai=true" : "/api/copilotkit"}
         showDevConsole={false}
@@ -55,7 +55,7 @@ export default function SharedState() {
             position: "relative",
           }}
         >
-          <div 
+          <div
             style={{
               position: "absolute",
               top: 0,
@@ -215,7 +215,7 @@ function Recipe() {
     });
   };
 
-  
+
   const addIngredient = () => {
     // Pick a random food emoji from our valid list
     updateRecipe({
@@ -245,7 +245,7 @@ function Recipe() {
     });
     // Set the new instruction as the editing one
     setEditingInstructionIndex(newIndex);
-    
+
     // Focus the new instruction after render
     setTimeout(() => {
       const textareas = document.querySelectorAll('.instructions-container textarea');
@@ -274,7 +274,7 @@ function Recipe() {
     if (!icon) {
       return "🍴";
     }
-    
+
     return icon;
   };
 
@@ -293,7 +293,7 @@ function Recipe() {
           onChange={handleTitleChange}
           className="recipe-title-input"
         />
-        
+
         <div className="recipe-meta">
           <div className="meta-item">
             <span className="meta-icon">🕒</span>
@@ -317,7 +317,7 @@ function Recipe() {
               ))}
             </select>
           </div>
-          
+
           <div className="meta-item">
             <span className="meta-icon">🏆</span>
             <select
@@ -366,8 +366,8 @@ function Recipe() {
         {changedKeysRef.current.includes("ingredients") && <Ping />}
         <div className="section-header">
           <h2 className="section-title">Ingredients</h2>
-          <button 
-            type="button" 
+          <button
+            type="button"
             className="add-button"
             onClick={addIngredient}
           >
@@ -394,9 +394,9 @@ function Recipe() {
                   className="ingredient-amount-input"
                 />
               </div>
-              <button 
-                type="button" 
-                className="remove-button" 
+              <button
+                type="button"
+                className="remove-button"
                 onClick={() => removeIngredient(index)}
                 aria-label="Remove ingredient"
               >
@@ -412,8 +412,8 @@ function Recipe() {
         {changedKeysRef.current.includes("instructions") && <Ping />}
         <div className="section-header">
           <h2 className="section-title">Instructions</h2>
-          <button 
-            type="button" 
+          <button
+            type="button"
             className="add-step-button"
             onClick={addInstruction}
           >
@@ -427,14 +427,14 @@ function Recipe() {
               <div className="instruction-number">
                 {index + 1}
               </div>
-              
+
               {/* Vertical Line */}
               {index < recipe.instructions.length - 1 && (
                 <div className="instruction-line" />
               )}
-              
+
               {/* Instruction Content */}
-              <div 
+              <div
                 className={`instruction-content ${
                   editingInstructionIndex === index 
                     ? 'instruction-content-editing' 
@@ -455,9 +455,9 @@ function Recipe() {
                     }
                   }}
                 />
-                
+
                 {/* Delete Button (only visible on hover) */}
-                <button 
+                <button
                   type="button"
                   className={`instruction-delete-btn ${
                     editingInstructionIndex === index 

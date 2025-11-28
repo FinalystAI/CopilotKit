@@ -1,5 +1,5 @@
-import { CrewsResponseStatus, CrewsStateItem } from "@copilotkit/react-core";
-import { Markdown } from "@copilotkit/react-ui";
+import { CrewsResponseStatus, CrewsStateItem } from "@finalyst/react-core";
+import { Markdown } from "@finalyst/react-ui";
 import { useState } from "react";
 
 /**
@@ -14,10 +14,10 @@ export interface CrewsFeedback extends CrewsStateItem {
 
 /**
  * Component that renders a UI for agent-requested user feedback
- * 
+ *
  * This component presents the task output from the crew and provides
  * buttons for the user to approve or reject the proposed solution.
- * 
+ *
  * @param feedback - The feedback object containing task output
  * @param respond - Callback function to send user response back to the crew
  * @param status - Current status of the feedback request
@@ -62,7 +62,7 @@ function CrewHumanFeedbackRenderer({
             <Markdown content={feedback.task_output || ""} />
           </div>
         )}
-        
+
         <div className="flex justify-end gap-2">
           <button
             className="px-4 py-2 cursor-pointer bg-zinc-200 hover:bg-zinc-300 active:bg-zinc-400 dark:bg-zinc-700 dark:hover:bg-zinc-600 dark:active:bg-zinc-500 text-zinc-800 dark:text-zinc-200 rounded-md text-sm font-medium transition-colors"

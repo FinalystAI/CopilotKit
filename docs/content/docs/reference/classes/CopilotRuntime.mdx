@@ -13,20 +13,20 @@ description: "Copilot Runtime is the back-end component of CopilotKit, enabling 
 <Callout type="info">
   This is the reference for the `CopilotRuntime` class. For more information and example code snippets, please see [Concept: Copilot Runtime](/concepts/copilot-runtime).
 </Callout>
- 
+
 ## Usage
- 
+
 ```tsx
-import { CopilotRuntime } from "@copilotkit/runtime";
- 
+import { CopilotRuntime } from "@finalyst/runtime";
+
 const copilotKit = new CopilotRuntime();
 ```
 
 ## Constructor Parameters
 
-<PropertyReference name="middleware" type="Middleware"  > 
+<PropertyReference name="middleware" type="Middleware"  >
 Middleware to be used by the runtime.
- 
+
   ```ts
   onBeforeRequest: (options: {
     threadId?: string;
@@ -35,7 +35,7 @@ Middleware to be used by the runtime.
     properties: any;
   }) => void | Promise<void>;
   ```
- 
+
   ```ts
   onAfterRequest: (options: {
     threadId?: string;
@@ -47,23 +47,23 @@ Middleware to be used by the runtime.
   ```
 </PropertyReference>
 
-<PropertyReference name="actions" type="ActionsConfiguration<T>"  > 
+<PropertyReference name="actions" type="ActionsConfiguration<T>"  >
 A list of server side actions that can be executed. Will be ignored when remoteActions are set
 </PropertyReference>
 
-<PropertyReference name="remoteActions" type="CopilotKitEndpoint[]"  > 
+<PropertyReference name="remoteActions" type="CopilotKitEndpoint[]"  >
 Deprecated: Use `remoteEndpoints`.
 </PropertyReference>
 
-<PropertyReference name="remoteEndpoints" type="EndpointDefinition[]"  > 
+<PropertyReference name="remoteEndpoints" type="EndpointDefinition[]"  >
 A list of remote actions that can be executed.
 </PropertyReference>
 
-<PropertyReference name="langserve" type="RemoteChainParameters[]"  > 
+<PropertyReference name="langserve" type="RemoteChainParameters[]"  >
 An array of LangServer URLs.
 </PropertyReference>
 
-<PropertyReference name="agents" type="Record<string, AbstractAgent>"  > 
+<PropertyReference name="agents" type="Record<string, AbstractAgent>"  >
 A map of agent names to AGUI agents.
   Example agent config:
   ```ts
@@ -76,21 +76,21 @@ A map of agent names to AGUI agents.
   ```
 </PropertyReference>
 
-<PropertyReference name="delegateAgentProcessingToServiceAdapter" type="boolean"  > 
+<PropertyReference name="delegateAgentProcessingToServiceAdapter" type="boolean"  >
 Delegates agent state processing to the service adapter.
- 
+
   When enabled, individual agent state requests will not be processed by the agent itself.
   Instead, all processing will be handled by the service adapter.
 </PropertyReference>
 
-<PropertyReference name="observability_c" type="CopilotObservabilityConfig"  > 
+<PropertyReference name="observability_c" type="CopilotObservabilityConfig"  >
 Configuration for LLM request/response logging.
   Requires publicApiKey from CopilotKit component to be set:
- 
+
   ```tsx
   <CopilotKit publicApiKey="ck_pub_..." />
   ```
- 
+
   Example logging config:
   ```ts
   logging: {
@@ -105,19 +105,19 @@ Configuration for LLM request/response logging.
   ```
 </PropertyReference>
 
-<PropertyReference name="mcpServers" type="MCPEndpointConfig[]"  > 
+<PropertyReference name="mcpServers" type="MCPEndpointConfig[]"  >
 Configuration for connecting to Model Context Protocol (MCP) servers.
   Allows fetching and using tools defined on external MCP-compliant servers.
   Requires providing the `createMCPClient` function during instantiation.
   @experimental
 </PropertyReference>
 
-<PropertyReference name="createMCPClient" type="CreateMCPClientFunction"  > 
+<PropertyReference name="createMCPClient" type="CreateMCPClientFunction"  >
 A function that creates an MCP client instance for a given endpoint configuration.
   This function is responsible for using the appropriate MCP client library
-  (e.g., `@copilotkit/runtime`, `ai`) to establish a connection.
+  (e.g., `@finalyst/runtime`, `ai`) to establish a connection.
   Required if `mcpServers` is provided.
- 
+
   ```typescript
   import { experimental_createMCPClient } from "ai"; // Import from vercel ai library
   // ...
@@ -138,14 +138,14 @@ A function that creates an MCP client instance for a given endpoint configuratio
   ```
 </PropertyReference>
 
-<PropertyReference name="onError" type="CopilotErrorHandler"  > 
+<PropertyReference name="onError" type="CopilotErrorHandler"  >
 Optional error handler for comprehensive debugging and observability.
- 
+
   Requires publicApiKey: Error handling only works when requests include a valid publicApiKey.
   This is a premium Copilot Cloud feature.
- 
+
   @param errorEvent - Structured error event with rich debugging context
- 
+
   @example
   ```typescript
   const runtime = new CopilotRuntime({
@@ -156,7 +156,7 @@ Optional error handler for comprehensive debugging and observability.
   ```
 </PropertyReference>
 
-<PropertyReference name="onStopGeneration" type="OnStopGenerationHandler"  > 
+<PropertyReference name="onStopGeneration" type="OnStopGenerationHandler"  >
 
 </PropertyReference>
 
@@ -164,7 +164,7 @@ Optional error handler for comprehensive debugging and observability.
 
 
   <PropertyReference name="request" type="CopilotRuntimeRequest" required>
-  
+
   </PropertyReference>
 
 </PropertyReference>
@@ -173,7 +173,7 @@ Optional error handler for comprehensive debugging and observability.
 
 
   <PropertyReference name="graphqlContext" type="GraphQLContext" required>
-  
+
   </PropertyReference>
 
 </PropertyReference>
@@ -182,7 +182,7 @@ Optional error handler for comprehensive debugging and observability.
 
 
   <PropertyReference name="graphqlContext" type="GraphQLContext" required>
-  
+
   </PropertyReference>
 
 </PropertyReference>
@@ -191,15 +191,15 @@ Optional error handler for comprehensive debugging and observability.
 
 
   <PropertyReference name="graphqlContext" type="GraphQLContext" required>
-  
+
   </PropertyReference>
 
   <PropertyReference name="threadId" type="string" required>
-  
+
   </PropertyReference>
 
   <PropertyReference name="agentName" type="string" required>
-  
+
   </PropertyReference>
 
 </PropertyReference>
@@ -212,7 +212,7 @@ Optional error handler for comprehensive debugging and observability.
 Public method to handle GraphQL validation errors
 
   <PropertyReference name="error" type="{ message: string; code: string; type: string }" required>
-  
+
   </PropertyReference>
 
   <PropertyReference name="context" type="{
@@ -220,7 +220,7 @@ Public method to handle GraphQL validation errors
       cloudConfigPresent: boolean;
       guardrailsEnabled: boolean;
     }" required>
-  
+
   </PropertyReference>
 
 </PropertyReference>

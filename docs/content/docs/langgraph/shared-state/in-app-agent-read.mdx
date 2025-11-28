@@ -20,7 +20,7 @@ You can easily use the realtime agent state not only in the chat UI, but also in
 
 ## When should I use this?
 
-You can use this when you want to provide the user with feedback about what your agent's state. As your agent's 
+You can use this when you want to provide the user with feedback about what your agent's state. As your agent's
 state update you can reflect these updates natively in your application.
 
 ## Implementation
@@ -66,7 +66,7 @@ state update you can reflect these updates natively in your application.
       <Tab value="TypeScript">
         ```ts title="agent-js/src/agent.ts"
         import { Annotation } from "@langchain/langgraph";
-        import { CopilotKitStateAnnotation } from "@copilotkit/sdk-js/langgraph";
+        import { CopilotKitStateAnnotation } from "@finalyst/sdk-js/langgraph";
 
         export const AgentStateAnnotation = Annotation.Root({
             language: Annotation<"english" | "spanish">,
@@ -96,7 +96,7 @@ state update you can reflect these updates natively in your application.
     optionally provide an initial state.
 
     ```tsx title="ui/app/page.tsx"
-    import { useCoAgent } from "@copilotkit/react-core"; // [!code highlight]
+    import { useCoAgent } from "@finalyst/react-core"; // [!code highlight]
 
     // Define the agent state type, should match the actual state of your agent
     type AgentState = {
@@ -134,11 +134,11 @@ state update you can reflect these updates natively in your application.
 
 ## Rendering agent state in the chat
 
-You can also render the agent's state in the chat UI. This is useful for informing the user about the agent's state in a 
+You can also render the agent's state in the chat UI. This is useful for informing the user about the agent's state in a
 more in-context way. To do this, you can use the [useCoAgentStateRender](/reference/hooks/useCoAgentStateRender) hook.
 
 ```tsx title="ui/app/page.tsx"
-import { useCoAgentStateRender } from "@copilotkit/react-core"; // [!code highlight]
+import { useCoAgentStateRender } from "@finalyst/react-core"; // [!code highlight]
 
 // Define the agent state type, should match the actual state of your agent
 type AgentState = {

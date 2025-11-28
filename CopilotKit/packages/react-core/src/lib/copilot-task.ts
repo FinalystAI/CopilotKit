@@ -5,7 +5,7 @@
  * In the simplest case, use CopilotTask in the context of your app by giving it instructions on what to do.
  *
  * ```tsx
- * import { CopilotTask, useCopilotContext } from "@copilotkit/react-core";
+ * import { CopilotTask, useCopilotContext } from "@finalyst/react-core";
  *
  * export function MyComponent() {
  *   const context = useCopilotContext();
@@ -57,7 +57,7 @@ import {
   filterAgentStateMessages,
   CopilotRequestType,
   ForwardedParametersInput,
-} from "@copilotkit/runtime-client-gql";
+} from "@finalyst/runtime-client-gql";
 import { FrontendAction, processActionsForRuntimeRequest } from "../types/frontend-action";
 import { CopilotContextParams } from "../context";
 import { defaultCopilotContextCategories } from "../components";

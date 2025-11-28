@@ -2,7 +2,7 @@ import {
   CopilotRuntime,
   OpenAIAdapter,
   copilotRuntimeNextJSAppRouterEndpoint,
-} from '@copilotkit/runtime';
+} from '@finalyst/runtime';
 import { tavily } from '@tavily/core';
 import { NextRequest } from 'next/server';
 

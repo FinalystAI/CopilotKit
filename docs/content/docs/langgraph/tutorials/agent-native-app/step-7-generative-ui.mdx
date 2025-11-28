@@ -13,7 +13,7 @@ We call UI that is rendered from the state of the agent or its tool calls "Gener
 </Callout>
 
 For this guide, we're going to start using the CopilotKit SDK to emit the state of the agent manually. This is because
-in LangGraph, state is only updated when a node change occurs (i.e, an edge is traversed). 
+in LangGraph, state is only updated when a node change occurs (i.e, an edge is traversed).
 
 As such, in-progress work is not emitted to the user by default. However, we can manually emit the state using the `copilotkit_emit_state`
 function. With that emitted state, we'll be using the `useCoAgentStateRender` hook to render updates in the chat to give the user
@@ -85,7 +85,7 @@ you want to emit state to the frontend, you can do so by calling `copilotkit_emi
 Now, our state is being emitted to the frontend. However, we need to render it in the chat. To do this, we'll be using the `useCoAgentStateRender` hook.
 
 ```tsx title="frontend/src/app/layout.tsx"
-import { useCoAgentStateRender, useLangGraphInterrupt } from "@copilotkit/react-core"; // [!code ++]
+import { useCoAgentStateRender, useLangGraphInterrupt } from "@finalyst/react-core"; // [!code ++]
 
 export default function HomePage() {
     //...
@@ -111,7 +111,7 @@ export default function HomePage() {
 
 
 ## Recap
-Try running the agent again and going through the same steps. You'll now notice that the state is streaming intermediately and 
+Try running the agent again and going through the same steps. You'll now notice that the state is streaming intermediately and
 the user can see the progress of the agent's research.
 
 ```

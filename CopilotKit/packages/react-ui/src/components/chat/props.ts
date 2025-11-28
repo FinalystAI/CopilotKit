@@ -1,7 +1,7 @@
-import { AIMessage, Message, UserMessage, CopilotErrorEvent } from "@copilotkit/shared";
+import { AIMessage, Message, UserMessage, CopilotErrorEvent } from "@finalyst/shared";
 import { CopilotChatSuggestion } from "../../types/suggestions";
 import { ReactNode } from "react";
-import { ImageData } from "@copilotkit/shared";
+import { ImageData } from "@finalyst/shared";
 
 /**
  * Event hooks for CopilotKit chat events.

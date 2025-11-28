@@ -5,7 +5,7 @@
   ],
   "packageRules": [
     {
-      "matchPackagePatterns": ["^@copilotkit/"],
+      "matchPackagePatterns": ["^@finalyst/"],
       "enabled": true
     },
     {

@@ -5,7 +5,7 @@ import {
   copilotRuntimeNextJSAppRouterEndpoint,
   langGraphPlatformEndpoint,
   copilotKitEndpoint,
-} from "@copilotkit/runtime";
+} from "@finalyst/runtime";
 import OpenAI from "openai";
 
 const openai = new OpenAI();

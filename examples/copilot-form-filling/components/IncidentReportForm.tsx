@@ -27,7 +27,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 import { CalendarIcon } from "lucide-react";
 import { format } from "date-fns";
 import { cn } from "@/lib/utils";
-import { useCopilotAction, useCopilotReadable } from "@copilotkit/react-core";
+import { useCopilotAction, useCopilotReadable } from "@finalyst/react-core";
 
 // Define the form schema with Zod
 const formSchema = z.object({
@@ -132,13 +132,13 @@ export function IncidentReportForm() {
         "required": true,
         "description": "The severity of the incident, must be one of the following: low, medium, high, critical"
       },
-      { 
+      {
         "name": "incidentDescription",
         "type": "string",
         "required": true,
         "description": "The description of the incident, be as detailed as possible. At least 30 words."
       },
-      { 
+      {
         "name": "suggestedActions",
         "type": "string",
         "required": true,
@@ -331,4 +331,4 @@ export function IncidentReportForm() {
       </CardContent>
     </Card>
   );
-} 
+}

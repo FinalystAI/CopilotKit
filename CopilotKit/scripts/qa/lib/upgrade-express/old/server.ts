@@ -1,5 +1,5 @@
 import express from "express";
-import { CopilotRuntime, OpenAIAdapter } from "@copilotkit/backend";
+import { CopilotRuntime, OpenAIAdapter } from "@finalyst/backend";
 
 const port = 4000;
 var HEADERS = {

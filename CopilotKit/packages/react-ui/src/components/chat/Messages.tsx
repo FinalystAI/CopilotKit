@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useRef } from "react";
 import { MessagesProps } from "./props";
 import { useChatContext } from "./ChatContext";
-import { Message } from "@copilotkit/shared";
-import { useCopilotChatInternal as useCopilotChat } from "@copilotkit/react-core";
+import { Message } from "@finalyst/shared";
+import { useCopilotChatInternal as useCopilotChat } from "@finalyst/react-core";
 import { LegacyRenderMessage, LegacyRenderProps } from "./messages/LegacyRenderMessage";
 
 export const Messages = ({

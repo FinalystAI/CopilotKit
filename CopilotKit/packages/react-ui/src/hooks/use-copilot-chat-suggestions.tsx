@@ -15,16 +15,16 @@
  *
  * ### Install Dependencies
  *
- * This component is part of the [@copilotkit/react-ui](https://npmjs.com/package/@copilotkit/react-ui) package.
+ * This component is part of the [@finalyst/react-ui](https://npmjs.com/package/@finalyst/react-ui) package.
  *
- * ```shell npm2yarn \"@copilotkit/react-ui"\
- * npm install @copilotkit/react-core @copilotkit/react-ui
+ * ```shell npm2yarn \"@finalyst/react-ui"\
+ * npm install @finalyst/react-core @finalyst/react-ui
  * ```
  *
  * ### Simple Usage
  *
  * ```tsx
- * import { useCopilotChatSuggestions } from "@copilotkit/react-ui";
+ * import { useCopilotChatSuggestions } from "@finalyst/react-ui";
  *
  * export function MyComponent() {
  *   const [employees, setEmployees] = useState([]);
@@ -38,7 +38,7 @@
  * ### Dependency Management
  *
  * ```tsx
- * import { useCopilotChatSuggestions } from "@copilotkit/react-ui";
+ * import { useCopilotChatSuggestions } from "@finalyst/react-ui";
  *
  * export function MyComponent() {
  *   useCopilotChatSuggestions(
@@ -60,8 +60,8 @@
  */
 
 import { useEffect } from "react";
-import { useCopilotContext } from "@copilotkit/react-core";
-import { randomId } from "@copilotkit/shared";
+import { useCopilotContext } from "@finalyst/react-core";
+import { randomId } from "@finalyst/shared";
 
 interface UseCopilotChatSuggestionsConfiguration {
   /**

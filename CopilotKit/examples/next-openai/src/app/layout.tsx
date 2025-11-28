@@ -1,6 +1,6 @@
 import "../styles/globals.css";
-import "@copilotkit/react-ui/styles.css";
-import "@copilotkit/react-textarea/styles.css";
+import "@finalyst/react-ui/styles.css";
+import "@finalyst/react-textarea/styles.css";
 import { ServiceAdapterSelector } from "./components/ServiceAdapterSelector";
 import { Suspense } from "react";
 

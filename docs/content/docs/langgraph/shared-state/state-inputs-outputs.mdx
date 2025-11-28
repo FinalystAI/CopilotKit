@@ -38,7 +38,7 @@ In addition, some state properties contain a lot of information. Syncing them ba
         <Tab value="TypeScript">
         ```typescript title="agent-js/sample_agent/agent.ts"
         import { Annotation } from "@langchain/langgraph";
-        import { CopilotKitStateAnnotation } from "@copilotkit/sdk-js/langgraph";
+        import { CopilotKitStateAnnotation } from "@finalyst/sdk-js/langgraph";
 
         const AgentState = Annotation.Root({
           ...CopilotKitStateAnnotation.spec,
@@ -124,7 +124,7 @@ In addition, some state properties contain a lot of information. Syncing them ba
             </Callout>
             ```typescript title="agent-js/sample_agent/agent.ts"
               import { Annotation } from "@langchain/langgraph";
-              import { CopilotKitStateAnnotation } from "@copilotkit/sdk-js/langgraph";
+              import { CopilotKitStateAnnotation } from "@finalyst/sdk-js/langgraph";
 
               // Divide the state to 3 parts
 
@@ -197,7 +197,7 @@ In addition, some state properties contain a lot of information. Syncing them ba
     - The UI has no access to resources.
 
     ```tsx
-    import { useCoAgent } from "@copilotkit/react-core";
+    import { useCoAgent } from "@finalyst/react-core";
 
     type AgentState = {
       question: string;
