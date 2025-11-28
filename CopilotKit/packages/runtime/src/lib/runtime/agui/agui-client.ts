@@ -1,10 +1,4 @@
-import { randomUUID } from "@finalyst/shared";
-
-type AgUiMessage = {
-  id: string;
-  content: string;
-  role: string;
-};
+import { randomUUID, type Message } from "@finalyst/shared";
 
 type SSEPayload = {
   type: string;
@@ -17,6 +11,7 @@ export class AguiClient {
   constructor(url: string) {
     this.url = url;
   }
+
 
   /**
    * Parse ALL SSE events and return them as a list of parsed JSON payloads.
@@ -74,7 +69,7 @@ export class AguiClient {
   /**
    * Extract the MESSAGES_SNAPSHOT event and return its messages.
    */
-  async fetchMessagesByThreadId(threadId: string): Promise<AgUiMessage[]> {
+  async fetchMessagesByThreadId(threadId: string): Promise<Message[]> {
     const events = await this.fetchSSE({
       threadId,
       runId: randomUUID(),
@@ -88,7 +83,7 @@ export class AguiClient {
     const snapshot = events.find((e) => e.type === "MESSAGES_SNAPSHOT");
 
     if (snapshot && Array.isArray(snapshot.messages)) {
-      return snapshot.messages as AgUiMessage[];
+      return snapshot.messages as Message[];
     }
 
     return [];

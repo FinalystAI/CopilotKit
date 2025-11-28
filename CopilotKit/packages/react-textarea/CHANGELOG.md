@@ -1,5 +1,15 @@
 # ui
 
+## 1.11.4
+
+### Patch Changes
+
+- Message shape fix
+- Updated dependencies
+  - @finalyst/runtime-client-gql@1.11.4
+  - @finalyst/react-core@1.11.4
+  - @finalyst/shared@1.11.4
+
 ## 1.11.3
 
 ### Patch Changes

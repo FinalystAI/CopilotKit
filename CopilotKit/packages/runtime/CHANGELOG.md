@@ -1,5 +1,13 @@
 # @finalyst/runtime
 
+## 1.11.4
+
+### Patch Changes
+
+- Message shape fix
+- Updated dependencies
+  - @finalyst/shared@1.11.4
+
 ## 1.11.3
 
 ### Patch Changes

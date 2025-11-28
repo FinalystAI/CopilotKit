@@ -17,6 +17,7 @@ import {
   loadMessagesFromJsonRepresentation,
   Message,
   GraphQLError,
+    aguiToGQL,
 } from "@finalyst/runtime-client-gql";
 import { useCopilotContext } from "../../context/copilot-context";
 import { useToast } from "../toast/toast-provider";
@@ -283,11 +284,16 @@ export function CopilotMessages({ children }: { children: ReactNode }) {
       if (newMessages === lastLoadedMessages.current) return;
 
       if (result.data?.loadAgentState) {
+        //TODO tmp workaround
+        const messagesAgUi = JSON.parse(newMessages || "[]");
+        const messagesGQL = aguiToGQL(messagesAgUi);
+        const parsedNewMessages = JSON.stringify(messagesGQL);
+
         lastLoadedMessages.current = newMessages;
         lastLoadedThreadId.current = threadId;
         lastLoadedAgentName.current = agentSession?.agentName;
 
-        const messages = loadMessagesFromJsonRepresentation(JSON.parse(newMessages || "[]"));
+        const messages = loadMessagesFromJsonRepresentation(JSON.parse(parsedNewMessages));
         setMessages(messages);
       }
     };
