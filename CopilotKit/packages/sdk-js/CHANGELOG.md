@@ -1,5 +1,24 @@
 # @finalyst/sdk-js
 
+## 1.11.1
+
+### Patch Changes
+
+- Peers fix, export enpdoint type enum
+- Updated dependencies
+  - @finalyst/shared@1.11.1
+
+## 1.11.0
+
+### Minor Changes
+
+- peers fix
+
+### Patch Changes
+
+- Updated dependencies
+  - @finalyst/shared@1.11.0
+
 ## 1.10.6
 
 ### Patch Changes

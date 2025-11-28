@@ -15,19 +15,19 @@
 import {
   Action,
   actionParametersToJsonSchema,
-  Parameter,
-  ResolvedCopilotKitError,
-  CopilotKitApiDiscoveryError,
-  randomId,
-  CopilotKitError,
+  CopilotErrorEvent,
+  CopilotErrorHandler,
   CopilotKitAgentDiscoveryError,
-  CopilotKitMisuseError,
+  CopilotKitApiDiscoveryError,
+  CopilotKitError,
   CopilotKitErrorCode,
   CopilotKitLowLevelError,
-  CopilotErrorHandler,
-  CopilotErrorEvent,
+  CopilotKitMisuseError,
   CopilotRequestContext,
   ensureStructuredError,
+  Parameter,
+  randomId,
+  ResolvedCopilotKitError,
 } from "@finalyst/shared";
 import {
   CopilotServiceAdapter,
@@ -42,22 +42,22 @@ import { RuntimeEventSource, RuntimeEventTypes } from "../../service-adapters/ev
 import { convertGqlInputToMessages } from "../../service-adapters/conversion";
 import { Message } from "../../graphql/types/converted";
 import { ForwardedParametersInput } from "../../graphql/inputs/forwarded-parameters.input";
-import { AguiClient } from './agui/agui-client';
+import { AguiClient } from "./agui/agui-client";
 
 import {
-  isRemoteAgentAction,
-  EndpointType,
-  setupRemoteActions,
-  EndpointDefinition,
   CopilotKitEndpoint,
+  EndpointDefinition,
+  EndpointType,
+  isRemoteAgentAction,
   LangGraphPlatformEndpoint,
+  setupRemoteActions,
 } from "./remote-actions";
 
 import { GraphQLContext } from "../integrations/shared";
 import { AgentSessionInput } from "../../graphql/inputs/agent-session.input";
 import { from } from "rxjs";
 import { AgentStateInput } from "../../graphql/inputs/agent-state.input";
-import { ActionInputAvailability } from "../../graphql/types/enums";
+import { ActionInputAvailability, MessageRole } from "../../graphql/types/enums";
 import { createHeaders } from "./remote-action-constructors";
 import { fetchWithRetry } from "./retry-utils";
 import { Agent } from "../../graphql/types/agents-response.type";
@@ -69,29 +69,27 @@ import { langchainMessagesToCopilotKit } from "./remote-lg-action";
 import { MetaEventInput } from "../../graphql/inputs/meta-event.input";
 import {
   CopilotObservabilityConfig,
+  LLMErrorData,
   LLMRequestData,
   LLMResponseData,
-  LLMErrorData,
 } from "../observability";
 import { AbstractAgent } from "@ag-ui/client";
-import { MessageRole } from "../../graphql/types/enums";
 
 // +++ MCP Imports +++
 import {
+  convertMCPToolsToActions,
+  generateMcpToolInstructions,
   MCPClient,
   MCPEndpointConfig,
   MCPTool,
-  convertMCPToolsToActions,
-  generateMcpToolInstructions,
 } from "./mcp-tools-utils";
 import { LangGraphAgent } from "./langgraph/langgraph-agent";
-// Define the function type alias here or import if defined elsewhere
-type CreateMCPClientFunction = (config: MCPEndpointConfig) => Promise<MCPClient>;
-// --- MCP Imports ---
-
 import { generateHelpfulErrorMessage } from "../streaming";
 import { CopilotContextInput } from "../../graphql/inputs/copilot-context.input";
 import { RemoteAgentAction } from "./agui-action";
+// Define the function type alias here or import if defined elsewhere
+type CreateMCPClientFunction = (config: MCPEndpointConfig) => Promise<MCPClient>;
+// --- MCP Imports ---
 
 export interface CopilotRuntimeRequest {
   serviceAdapter: CopilotServiceAdapter;
@@ -953,7 +951,7 @@ please use an LLM adapter instead.`,
         const messages = await client.fetchMessagesByThreadId(threadId);
         return {
           threadId: threadId,
-          threadExists: true,
+          threadExists: !!messages.length,
           state: JSON.stringify({}),
           messages: JSON.stringify(messages),
         };
@@ -1470,7 +1468,7 @@ please use an LLM adapter instead.`,
 
     const remoteEndpointDefinitions = this.remoteEndpointDefinitions.map(
       (endpoint) => ({ ...endpoint, type: resolveEndpointType(endpoint) }) as EndpointDefinition,
-    );
+    ).filter(endpoint => endpoint.type !== EndpointType.AGUI);
 
     const remoteActions = await setupRemoteActions({
       remoteEndpointDefinitions,
@@ -1711,3 +1709,5 @@ export function resolveEndpointType(endpoint: EndpointDefinition) {
 
   return endpoint.type;
 }
+
+export { EndpointType };

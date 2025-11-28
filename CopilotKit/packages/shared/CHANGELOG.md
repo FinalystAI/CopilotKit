@@ -1,5 +1,17 @@
 # @finalyst/shared
 
+## 1.11.1
+
+### Patch Changes
+
+- Peers fix, export enpdoint type enum
+
+## 1.11.0
+
+### Minor Changes
+
+- peers fix
+
 ## 1.10.6
 
 ### Patch Changes

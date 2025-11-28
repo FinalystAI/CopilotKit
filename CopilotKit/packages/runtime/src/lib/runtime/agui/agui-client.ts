@@ -6,8 +6,9 @@ type AgUiMessage = {
   role: string;
 };
 
-type AgUiSnapshotResponse = {
-  MESSAGES_SNAPSHOT: AgUiMessage[];
+type SSEPayload = {
+  type: string;
+  [key: string]: any;
 };
 
 export class AguiClient {
@@ -17,7 +18,10 @@ export class AguiClient {
     this.url = url;
   }
 
-  private async fetchBlocking(body?: object): Promise<string> {
+  /**
+   * Parse ALL SSE events and return them as a list of parsed JSON payloads.
+   */
+  private async fetchSSE(body?: object): Promise<SSEPayload[]> {
     const response = await fetch(this.url, {
       method: "POST",
       headers: {
@@ -28,39 +32,51 @@ export class AguiClient {
     });
 
     if (!response.body) {
-      throw new Error("No response body.");
+      throw new Error("No response body");
     }
 
     const reader = response.body.getReader();
     const decoder = new TextDecoder();
-    let result = "";
-    let done = false;
 
-    while (!done) {
-      const { value, done: readerDone } = await reader.read();
-      done = readerDone;
-      if (value) {
-        result += decoder.decode(value, { stream: true });
+    let buffer = "";
+    const allEvents: SSEPayload[] = [];
+
+    while (true) {
+      const { value, done } = await reader.read();
+      if (done) break;
+
+      buffer += decoder.decode(value, { stream: true });
+
+      // Split into complete SSE events
+      const rawEvents = buffer.split("\n\n");
+
+      // Keep last partial event
+      buffer = rawEvents.pop() ?? "";
+
+      for (const raw of rawEvents) {
+        const line = raw.trim();
+        if (!line.startsWith("data:")) continue;
+
+        const jsonStr = line.slice(5).trim();
+
+        try {
+          const parsed: SSEPayload = JSON.parse(jsonStr);
+          allEvents.push(parsed);
+        } catch (error) {
+          console.error("Failed to parse SSE payload:", error, jsonStr);
+        }
       }
     }
 
-    return result;
+    return allEvents;
   }
 
-
-  private mapResponseToMessages(response: string): AgUiMessage[] {
-    try {
-      const parsed: AgUiSnapshotResponse = JSON.parse(response);
-      return parsed.MESSAGES_SNAPSHOT || [];
-    } catch (err) {
-      console.error("Failed to parse response:", err);
-      return [];
-    }
-  }
-
+  /**
+   * Extract the MESSAGES_SNAPSHOT event and return its messages.
+   */
   async fetchMessagesByThreadId(threadId: string): Promise<AgUiMessage[]> {
-    const initialState = await this.fetchBlocking({
-      threadId: threadId,
+    const events = await this.fetchSSE({
+      threadId,
       runId: randomUUID(),
       messages: [],
       tools: [],
@@ -68,7 +84,12 @@ export class AguiClient {
       forwardedProps: {},
     });
 
-    return this.mapResponseToMessages(initialState);
-  }
+    const snapshot = events.find((e) => e.type === "MESSAGES_SNAPSHOT");
 
+    if (snapshot && Array.isArray(snapshot.messages)) {
+      return snapshot.messages as AgUiMessage[];
+    }
+
+    return [];
+  }
 }
