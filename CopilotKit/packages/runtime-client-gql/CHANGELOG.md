@@ -1,5 +1,11 @@
 # @finalyst/runtime-client-gql
 
+## 1.11.2
+
+### Patch Changes
+
+- @finalyst/shared@1.11.2
+
 ## 1.11.1
 
 ### Patch Changes

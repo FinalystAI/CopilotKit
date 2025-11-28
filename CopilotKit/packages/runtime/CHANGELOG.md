@@ -1,5 +1,12 @@
 # @finalyst/runtime
 
+## 1.11.2
+
+### Patch Changes
+
+- Agent actions fetch ignored, fix message snapshot parsing
+  - @finalyst/shared@1.11.2
+
 ## 1.11.1
 
 ### Patch Changes

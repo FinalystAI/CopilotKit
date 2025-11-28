@@ -1,5 +1,12 @@
 # ui
 
+## 1.11.2
+
+### Patch Changes
+
+- @finalyst/runtime-client-gql@1.11.2
+- @finalyst/shared@1.11.2
+
 ## 1.11.1
 
 ### Patch Changes
