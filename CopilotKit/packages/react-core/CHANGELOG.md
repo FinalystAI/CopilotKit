@@ -1,5 +1,14 @@
 # ui
 
+## 1.11.3
+
+### Patch Changes
+
+- Fix initial state
+- Updated dependencies
+  - @finalyst/runtime-client-gql@1.11.3
+  - @finalyst/shared@1.11.3
+
 ## 1.11.2
 
 ### Patch Changes

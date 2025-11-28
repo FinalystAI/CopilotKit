@@ -1,5 +1,13 @@
 # @finalyst/sdk-js
 
+## 1.11.3
+
+### Patch Changes
+
+- Fix initial state
+- Updated dependencies
+  - @finalyst/shared@1.11.3
+
 ## 1.11.2
 
 ### Patch Changes

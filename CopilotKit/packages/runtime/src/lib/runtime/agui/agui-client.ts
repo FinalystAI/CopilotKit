@@ -79,6 +79,7 @@ export class AguiClient {
       threadId,
       runId: randomUUID(),
       messages: [],
+      state: {},
       tools: [],
       context: [],
       forwardedProps: {},

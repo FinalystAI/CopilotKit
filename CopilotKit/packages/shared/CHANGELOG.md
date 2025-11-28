@@ -1,5 +1,11 @@
 # @finalyst/shared
 
+## 1.11.3
+
+### Patch Changes
+
+- Fix initial state
+
 ## 1.11.2
 
 ## 1.11.1
