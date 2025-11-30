@@ -1,5 +1,11 @@
 # @finalyst/runtime
 
+## 1.11.5
+
+### Patch Changes
+
+- @finalyst/shared@1.11.5
+
 ## 1.11.4
 
 ### Patch Changes

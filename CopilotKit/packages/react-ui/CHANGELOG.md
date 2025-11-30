@@ -1,5 +1,14 @@
 # ui
 
+## 1.11.5
+
+### Patch Changes
+
+- Updated dependencies
+  - @finalyst/react-core@1.11.5
+  - @finalyst/runtime-client-gql@1.11.5
+  - @finalyst/shared@1.11.5
+
 ## 1.11.4
 
 ### Patch Changes
