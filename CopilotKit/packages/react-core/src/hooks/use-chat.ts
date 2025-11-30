@@ -400,7 +400,7 @@ export function useChat(options: UseChatOptions): UseChatHelpers {
                             },
                           },
                         }
-                      : {}),
+                      : null),
                   },
                 }
               : {}),
