@@ -111,6 +111,7 @@ export function constructAGUIRemoteAction({
       ).pipe(
         mergeMap((event) => {
           if (event.type === RuntimeEventTypes.RunError) {
+            logger.debug({ actionName: agent.agentId }, `RunError event occurred: ${JSON.stringify(event)}`);
             const { message } = event as RuntimeErrorEvent;
             return throwError(
               () => new CopilotKitError({ message, code: CopilotKitErrorCode.UNKNOWN }),
@@ -120,6 +121,7 @@ export function constructAGUIRemoteAction({
           return of(event);
         }),
         catchError((err) => {
+          logger.debug({ actionName: agent.agentId }, `CatchError: ${err.message}`);
           throw new CopilotKitError({
             message: err.message,
             code: CopilotKitErrorCode.UNKNOWN,

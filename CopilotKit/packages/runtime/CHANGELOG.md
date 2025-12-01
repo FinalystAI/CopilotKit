@@ -1,5 +1,21 @@
 # @finalyst/runtime
 
+## 1.11.7
+
+### Patch Changes
+
+- Logging
+- Updated dependencies
+  - @finalyst/shared@1.11.7
+
+## 1.11.6
+
+### Patch Changes
+
+- Logging
+- Updated dependencies
+  - @finalyst/shared@1.11.6
+
 ## 1.11.5
 
 ### Patch Changes

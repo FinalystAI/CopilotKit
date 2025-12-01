@@ -1,5 +1,17 @@
 # @finalyst/shared
 
+## 1.11.7
+
+### Patch Changes
+
+- Logging
+
+## 1.11.6
+
+### Patch Changes
+
+- Logging
+
 ## 1.11.5
 
 ## 1.11.4

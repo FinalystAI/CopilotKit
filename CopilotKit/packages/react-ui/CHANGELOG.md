@@ -1,5 +1,25 @@
 # ui
 
+## 1.11.7
+
+### Patch Changes
+
+- Logging
+- Updated dependencies
+  - @finalyst/runtime-client-gql@1.11.7
+  - @finalyst/react-core@1.11.7
+  - @finalyst/shared@1.11.7
+
+## 1.11.6
+
+### Patch Changes
+
+- Logging
+- Updated dependencies
+  - @finalyst/runtime-client-gql@1.11.6
+  - @finalyst/react-core@1.11.6
+  - @finalyst/shared@1.11.6
+
 ## 1.11.5
 
 ### Patch Changes
