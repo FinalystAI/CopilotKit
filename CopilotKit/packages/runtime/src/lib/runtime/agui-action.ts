@@ -103,31 +103,46 @@ export function constructAGUIRemoteAction({
       };
 
       return (
-        agent.legacy_to_be_removed_runAgentBridged({
-          tools,
-          forwardedProps,
-          context,
-        }) as Observable<RuntimeEvent>
+          agent.legacy_to_be_removed_runAgentBridged({
+            tools,
+            forwardedProps,
+            context,
+          }) as Observable<RuntimeEvent>
       ).pipe(
-        mergeMap((event) => {
-          if (event.type === RuntimeEventTypes.RunError) {
-            logger.debug({ actionName: agent.agentId }, `RunError event occurred: ${JSON.stringify(event)}`);
-            const { message } = event as RuntimeErrorEvent;
-            return throwError(
-              () => new CopilotKitError({ message, code: CopilotKitErrorCode.UNKNOWN }),
+          mergeMap((event) => {
+            if (event.type === RuntimeEventTypes.RunError) {
+              logger.debug(
+                  { actionName: agent.agentId },
+                  `RunError event occurred: ${JSON.stringify(event)}`
+              );
+
+              const errorEvent = {
+                type: RuntimeEventTypes.RunError,
+                message: event?.message ?? 'Unknown error [run-error]',
+                code: event?.code,
+              } as RuntimeErrorEvent;
+
+              return of(errorEvent);
+            }
+
+            return of(event);
+          }),
+          catchError((err) => {
+            logger.debug(
+                { actionName: agent.agentId },
+                `CatchError: ${err.message}`
             );
-          }
-          // pass through non-error events
-          return of(event);
-        }),
-        catchError((err) => {
-          logger.debug({ actionName: agent.agentId }, `CatchError: ${err.message}`);
-          throw new CopilotKitError({
-            message: err.message,
-            code: CopilotKitErrorCode.UNKNOWN,
-          });
-        }),
+
+            const errorEvent = {
+              type: RuntimeEventTypes.RunError,
+              message: err?.message ?? 'Unknown error [catch]',
+              code: err?.code,
+            } as RuntimeErrorEvent;
+
+            return of(errorEvent);
+          }),
       );
+
     },
   };
   return [action];

@@ -1,5 +1,17 @@
 # ui
 
+## 1.12.0
+
+### Minor Changes
+
+- Fix run error handling
+
+### Patch Changes
+
+- Updated dependencies
+  - @finalyst/runtime-client-gql@1.12.0
+  - @finalyst/shared@1.12.0
+
 ## 1.11.7
 
 ### Patch Changes
