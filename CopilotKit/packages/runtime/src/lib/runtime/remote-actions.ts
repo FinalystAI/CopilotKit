@@ -47,6 +47,7 @@ export interface LangGraphPlatformAgent {
 export interface AGUIEndpoint extends BaseEndpointDefinition<EndpointType.AGUI> {
   agentName: string;
   url: string;
+  getRequestHeaders?: () => Record<string, string>;
   onBeforeRequest?: ({ ctx }: { ctx: GraphQLContext }) => {
     headers?: Record<string, string> | undefined;
   };

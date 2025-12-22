@@ -947,7 +947,7 @@ please use an LLM adapter instead.`,
 
     if ("endpoint" in agent && (agent.endpoint.type === EndpointType.AGUI)) {
       try {
-        const client = new AguiClient(agent.endpoint.url);
+        const client = new AguiClient(agent.endpoint);
         const messages = await client.fetchMessagesByThreadId(threadId);
         return {
           threadId: threadId,

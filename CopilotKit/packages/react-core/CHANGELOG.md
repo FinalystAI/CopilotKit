@@ -1,5 +1,17 @@
 # ui
 
+## 1.13.0
+
+### Minor Changes
+
+- request headers
+
+### Patch Changes
+
+- Updated dependencies
+  - @finalyst/runtime-client-gql@1.13.0
+  - @finalyst/shared@1.13.0
+
 ## 1.12.0
 
 ### Minor Changes

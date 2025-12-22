@@ -1,4 +1,5 @@
 import { randomUUID, type Message } from "@finalyst/shared";
+import { AGUIEndpoint } from "../remote-actions";
 
 type SSEPayload = {
   type: string;
@@ -6,22 +7,22 @@ type SSEPayload = {
 };
 
 export class AguiClient {
-  private url: string;
+  private endpoint: AGUIEndpoint;
 
-  constructor(url: string) {
-    this.url = url;
+  constructor(endpoint: AGUIEndpoint) {
+    this.endpoint = endpoint;
   }
-
 
   /**
    * Parse ALL SSE events and return them as a list of parsed JSON payloads.
    */
   private async fetchSSE(body?: object): Promise<SSEPayload[]> {
-    const response = await fetch(this.url, {
+    const response = await fetch(this.endpoint.url, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
         Accept: "text/event-stream",
+        ...(this.endpoint.getRequestHeaders?.() ?? {})
       },
       body: JSON.stringify(body || {}),
     });
