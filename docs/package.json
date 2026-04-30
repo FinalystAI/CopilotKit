@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.18.2",
-    "@clerk/nextjs": "^6.7.1",
+    "@clerk/nextjs": "^6.39.3",
     "@copilotkit/react-core": "1.9.2",
     "@copilotkit/react-ui": "1.9.2",
     "@icons-pack/react-simple-icons": "^11.2.0",
